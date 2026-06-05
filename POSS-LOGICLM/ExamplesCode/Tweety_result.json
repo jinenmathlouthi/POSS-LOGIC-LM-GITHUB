@@ -1,0 +1,44 @@
+{
+  "id": "tweety_penguin",
+  "context": "Tweety is a bird. Birds normally fly. \nPenguins are birds. Penguins do not fly. \nTweety is a penguin.",
+  "conclusion": "Tweety flies.",
+  "label": "False",
+  "log_scores": [
+    -0.023510107770562172,
+    -0.08757835626602173,
+    -0.20255114138126373,
+    -0.20935475826263428,
+    -0.22378164529800415
+  ],
+  "formalisations": [
+    "PREDICATES:\nbird(x) ::: x is a bird\nfly(x) ::: x flies\npenguin(x) ::: x is a penguin\n\nPREMISES:\nbird(tweety)\nforall x (bird(x) -> fly(x))\nforall x (penguin(x) -> NOT fly(x))\npenguin(tweety)\n\nCONCLUSION:\nNOT fly(tweety)",
+    "PREDICATES:\nbird(x) ::: x is a bird\nfly(x) ::: x flies\npenguin(x) ::: x is a penguin\n\nPREMISES:\nbird(tweety)\nforall x (bird(x) -> fly(x))\npenguin(x) -> NOT fly(x)\npenguin(tweety)\n\nCONCLUSION:\nNOT fly(tweety)",
+    "PREDICATES:\nbird(x) ::: x is a bird\nflies(x) ::: x flies\npenguin(x) ::: x is a penguin\n\nPREMISES:\nbird(tweety)\nforall x (bird(x) -> flies(x))\npenguin(x) -> NOT flies(x)\npenguin(tweety)\n\nCONCLUSION:\nNOT flies(tweety)",
+    "PREDICATES:\nbird(x) ::: x is a bird\nfly(x) ::: x flies\npenguin(x) ::: x is a penguin\n\nPREMISES:\nforall x (bird(x) -> fly(x))\nforall x (penguin(x) -> NOT fly(x))\nbird(tweety)\npenguin(tweety)\n\nCONCLUSION:\nNOT fly(tweety)",
+    "PREDICATES:\nbird(x) ::: x is a bird\nfly(x) ::: x can fly\npenguin(x) ::: x is a penguin\n\nPREMISES:\nbird(tweety)\nforall x (bird(x) -> fly(x))\npenguin(x) -> NOT fly(x)\npenguin(tweety)\n\nCONCLUSION:\nNOT fly(tweety)"
+  ],
+  "solver_results": [
+    "False",
+    "True",
+    "True",
+    "False",
+    "True"
+  ],
+  "pi": {
+    "True": 0.9379409842852748,
+    "False": 1.0,
+    "Unknown": 0.0
+  },
+  "necessity": {
+    "True": 0.0,
+    "False": 0.06205901571472516,
+    "Unknown": 0.0
+  },
+  "weighted": {
+    "True": 2.592521043076723,
+    "False": 1.8304025875955687,
+    "Unknown": 0.0
+  },
+  "decision": "False",
+  "correct": true
+}

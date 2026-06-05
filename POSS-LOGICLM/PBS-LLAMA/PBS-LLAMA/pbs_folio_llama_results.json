@@ -1,0 +1,7120 @@
+{
+  "dataset": "folio",
+  "model": "llama3.1-8b",
+  "method": "PBS",
+  "solver": "Prover9",
+  "transform": "T1_Klir",
+  "stats": {
+    "total": 203,
+    "correct": 101,
+    "accuracy": 49.75,
+    "exe_rate": 34.98
+  },
+  "results": [
+    {
+      "id": "folio_000",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9659817633851
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.993934282378125,
+        0.9910815042302307,
+        0.990905245891339,
+        0.9900607308854051
+      ]
+    },
+    {
+      "id": "folio_001",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.971529079645612
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.995425956987368,
+        0.9942819224262328,
+        0.9922642022278206,
+        0.9895569980041905
+      ]
+    },
+    {
+      "id": "folio_002",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.932251030352196
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9976697636270597,
+        0.9964568055815162,
+        0.9905700487694199,
+        0.9475544123742003
+      ]
+    },
+    {
+      "id": "folio_003",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.958944337051849
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9922388447524997,
+        0.9915885989250316,
+        0.9897815539436354,
+        0.9853353394306823
+      ]
+    },
+    {
+      "id": "folio_004",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.971800827667754
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9932848052137332,
+        0.9932712623023099,
+        0.9930397292866217,
+        0.9922050308650892
+      ]
+    },
+    {
+      "id": "folio_005",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.920829393431154
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9888470776797798,
+        0.9857738900134967,
+        0.9768147195743555,
+        0.9693937061635218
+      ]
+    },
+    {
+      "id": "folio_006",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.951259100516593
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9983378991428075,
+        0.9889480763196444,
+        0.9844852730920887,
+        0.9794878519620526
+      ]
+    },
+    {
+      "id": "folio_007",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9197143026147225
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9916879269720384,
+        0.9773754922462214,
+        0.9761749016840982,
+        0.9744759817123648
+      ]
+    },
+    {
+      "id": "folio_008",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.936288557792725
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9991470415297155,
+        0.9830231254254201,
+        0.98269851663694,
+        0.9714198742006497
+      ]
+    },
+    {
+      "id": "folio_009",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.915351137501871
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9988661117651647,
+        0.9949689254840077,
+        0.9923356261860032,
+        0.9291804740666947
+      ]
+    },
+    {
+      "id": "folio_010",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.969797900846897
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9953947080495547,
+        0.9935405511345146,
+        0.9935040632583959,
+        0.9873585784044318
+      ]
+    },
+    {
+      "id": "folio_011",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9762485668008924
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9974013973402258,
+        0.9959750870948234,
+        0.9920367972926981,
+        0.9908352850731456
+      ]
+    },
+    {
+      "id": "folio_012",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "Unknown",
+        "False",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9751271386551352,
+        "False": 0.9816420767190339,
+        "Unknown": 1.9611785419597783
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.9816420767190339,
+        "Unknown": 0.9865333924903782
+      },
+      "N": {
+        "True": 0.013466607509621809,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9865333924903782,
+        0.9816420767190339,
+        0.9751271386551352,
+        0.9746451494694001
+      ]
+    },
+    {
+      "id": "folio_013",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9869032380030534,
+        "Unknown": 3.9660321437907173
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9869032380030534,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.013096761996946649
+      },
+      "poss": [
+        1.0,
+        0.9937082808395908,
+        0.9909503854772516,
+        0.9869032380030534,
+        0.9813734774738748
+      ]
+    },
+    {
+      "id": "folio_014",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.916314409575916
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9948892805133435,
+        0.9946269718010625,
+        0.9921173005117134,
+        0.9346808567497968
+      ]
+    },
+    {
+      "id": "folio_015",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 2.813980527690334,
+        "False": 0.0,
+        "Unknown": 1.9865660906040348
+      },
+      "pi": {
+        "True": 0.9684078752361401,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.03159212476385986
+      },
+      "poss": [
+        1.0,
+        0.9865660906040348,
+        0.9684078752361401,
+        0.9245475543756052,
+        0.9210250980785887
+      ]
+    },
+    {
+      "id": "folio_016",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9898557657882106,
+        "Unknown": 3.984313496553621
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9898557657882106,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.010144234211789449
+      },
+      "poss": [
+        1.0,
+        0.9988942155132604,
+        0.9949614141926653,
+        0.9904578668476953,
+        0.9898557657882106
+      ]
+    },
+    {
+      "id": "folio_017",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 1.9843174550179694,
+        "False": 0.0,
+        "Unknown": 2.993721353608423
+      },
+      "pi": {
+        "True": 0.9927043870305481,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.0072956129694519145
+      },
+      "poss": [
+        1.0,
+        0.9998523031479202,
+        0.9938690504605027,
+        0.9927043870305481,
+        0.9916130679874213
+      ]
+    },
+    {
+      "id": "folio_018",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 4.976025156072636,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9999000405564092,
+        0.996999237674294,
+        0.9950178735087217,
+        0.9841080043332103
+      ]
+    },
+    {
+      "id": "folio_019",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "Unknown",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 3.9676319447830006,
+        "False": 0.0,
+        "Unknown": 0.994923386023153
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.994923386023153
+      },
+      "N": {
+        "True": 0.005076613976847,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.994923386023153,
+        0.9935000882945618,
+        0.992891817643592,
+        0.9812400388448469
+      ]
+    },
+    {
+      "id": "folio_020",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9928955090630892,
+        "Unknown": 3.971420745100394
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9928955090630892,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.00710449093691079
+      },
+      "poss": [
+        1.0,
+        0.9968293166943774,
+        0.9928955090630892,
+        0.9888703739412905,
+        0.9857210544647262
+      ]
+    },
+    {
+      "id": "folio_021",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.855683479533878
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9972643341994565,
+        0.9849724880853215,
+        0.9821327068274985,
+        0.8913139504216021
+      ]
+    },
+    {
+      "id": "folio_022",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9885580713882227,
+        "Unknown": 3.932607299612733
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9885580713882227,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.011441928611777286
+      },
+      "poss": [
+        1.0,
+        0.99226158512895,
+        0.9885580713882227,
+        0.9761804365058929,
+        0.9641652779778901
+      ]
+    },
+    {
+      "id": "folio_023",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.891202130604624
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9913256832663856,
+        0.9837360840128582,
+        0.9829041673807046,
+        0.933236195944675
+      ]
+    },
+    {
+      "id": "folio_024",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.98990683765464
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9993623293911497,
+        0.9984314834850504,
+        0.9966962642102285,
+        0.9954167605682119
+      ]
+    },
+    {
+      "id": "folio_025",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.897607927426397
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9989740154900617,
+        0.9787871972735636,
+        0.9769313465929826,
+        0.9429153680697888
+      ]
+    },
+    {
+      "id": "folio_026",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9834789507725405
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9983667969563057,
+        0.9971646259231305,
+        0.9954958228815317,
+        0.992451705011573
+      ]
+    },
+    {
+      "id": "folio_027",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9832119601476355,
+        "False": 0.0,
+        "Unknown": 2.982085939465229
+      },
+      "pi": {
+        "True": 0.9939441538086539,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.006055846191346137
+      },
+      "poss": [
+        1.0,
+        0.9939441538086539,
+        0.9935084749687206,
+        0.9892678063389817,
+        0.988577464496508
+      ]
+    },
+    {
+      "id": "folio_028",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.958307417749983
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9941288927945937,
+        0.9935182533428117,
+        0.9875825582062454,
+        0.9830777134063314
+      ]
+    },
+    {
+      "id": "folio_029",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.97522127195021,
+        "False": 0.0,
+        "Unknown": 3.940355938743756
+      },
+      "pi": {
+        "True": 0.97522127195021,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.024778728049789978
+      },
+      "poss": [
+        1.0,
+        0.9998993775212391,
+        0.97522127195021,
+        0.9725793772852434,
+        0.9678771839372735
+      ]
+    },
+    {
+      "id": "folio_030",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 0.9764150006938686,
+        "False": 0.0,
+        "Unknown": 3.9759287372046623
+      },
+      "pi": {
+        "True": 0.9764150006938686,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.02358499930613145
+      },
+      "poss": [
+        1.0,
+        0.9965960855398376,
+        0.9923859123425421,
+        0.9869467393222828,
+        0.9764150006938686
+      ]
+    },
+    {
+      "id": "folio_031",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "Unknown",
+        "Unknown",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 2.9497827691930847,
+        "False": 0.0,
+        "Unknown": 1.9945983654420472
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9988772992134521
+      },
+      "N": {
+        "True": 0.0011227007865478589,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9988772992134521,
+        0.9957210662285951,
+        0.9774048756179313,
+        0.9723778935751533
+      ]
+    },
+    {
+      "id": "folio_032",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.962483009839499
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9978226617901312,
+        0.9977136800513615,
+        0.9868868409445517,
+        0.9800598270534543
+      ]
+    },
+    {
+      "id": "folio_033",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.889588679729332
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9895221991219986,
+        0.9740859723714566,
+        0.9663640421583589,
+        0.9596164660775182
+      ]
+    },
+    {
+      "id": "folio_034",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.909904719007471
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9830682941447951,
+        0.9827220853897861,
+        0.9756641894518269,
+        0.9684501500210634
+      ]
+    },
+    {
+      "id": "folio_035",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9791089091739691,
+        "Unknown": 3.964109285304925
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9791089091739691,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.02089109082603091
+      },
+      "poss": [
+        1.0,
+        0.998769772424926,
+        0.9835662323879982,
+        0.9817732804920006,
+        0.9791089091739691
+      ]
+    },
+    {
+      "id": "folio_036",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.815463873276135
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9951890502155039,
+        0.9901717390905842,
+        0.9166097451456249,
+        0.9134933388244219
+      ]
+    },
+    {
+      "id": "folio_037",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.94029640472011
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9994132154859834,
+        0.9881336984434459,
+        0.981753172365082,
+        0.9709963184255991
+      ]
+    },
+    {
+      "id": "folio_038",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9473417023796382,
+        "Unknown": 3.973658090473784
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9473417023796382,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.05265829762036178
+      },
+      "poss": [
+        1.0,
+        0.9958440907123295,
+        0.9924616356617793,
+        0.9853523640996752,
+        0.9473417023796382
+      ]
+    },
+    {
+      "id": "folio_039",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.983671228611839
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9977690317716218,
+        0.9965417121410837,
+        0.9958961703634218,
+        0.9934643143357116
+      ]
+    },
+    {
+      "id": "folio_040",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.973274521676799
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.998370478977177,
+        0.997962028565733,
+        0.9974012301378011,
+        0.9795407839960873
+      ]
+    },
+    {
+      "id": "folio_041",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.982630014058064
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.996251317997293,
+        0.9960674313754219,
+        0.9955579943000875,
+        0.9947532703852622
+      ]
+    },
+    {
+      "id": "folio_042",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.978235455859434
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9973874973410117,
+        0.9947695980304411,
+        0.9932227091523709,
+        0.9928556513356108
+      ]
+    },
+    {
+      "id": "folio_043",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.965382589207204
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9987015183809901,
+        0.9960721847170375,
+        0.9871300122563289,
+        0.9834788738528477
+      ]
+    },
+    {
+      "id": "folio_044",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 3.9883505096099032
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9976697301775749
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.002330269822425124,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9976697301775749,
+        0.9974603806733645,
+        0.9971304027240588,
+        0.9960899960349048
+      ]
+    },
+    {
+      "id": "folio_045",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.941957371575302
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9927405330355055,
+        0.9919579006830377,
+        0.9845031266120229,
+        0.9727558112447353
+      ]
+    },
+    {
+      "id": "folio_046",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 4.928452386488249,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9938832013279392,
+        0.9933699225687604,
+        0.9755560287891099,
+        0.9656432338024394
+      ]
+    },
+    {
+      "id": "folio_047",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.8989631365099395
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9918292967151596,
+        0.9751259035611498,
+        0.9747904082609719,
+        0.9572175279726582
+      ]
+    },
+    {
+      "id": "folio_048",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "False",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 3.870681351942955
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9922114993267811
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.007788500673218901,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9922114993267811,
+        0.9873506519209956,
+        0.9849923172278018,
+        0.9061268834673768
+      ]
+    },
+    {
+      "id": "folio_049",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "False",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 1.9755789255466032,
+        "False": 0.9976296696495278,
+        "Unknown": 1.980113695496497
+      },
+      "pi": {
+        "True": 0.9977944116290255,
+        "False": 0.9976296696495278,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.0022055883709745094
+      },
+      "poss": [
+        1.0,
+        0.9977944116290255,
+        0.9976296696495278,
+        0.9801136954964971,
+        0.9777845139175777
+      ]
+    },
+    {
+      "id": "folio_050",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.968393067739087
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9972201403592332,
+        0.9929293908690784,
+        0.9928841833285744,
+        0.985359353182201
+      ]
+    },
+    {
+      "id": "folio_051",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.969796519522909
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9933257754951451,
+        0.9928663627577129,
+        0.9919674199017391,
+        0.9916369613683115
+      ]
+    },
+    {
+      "id": "folio_052",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.963907699950251
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9968495850665358,
+        0.9908237872104897,
+        0.9898105433202615,
+        0.9864237843529643
+      ]
+    },
+    {
+      "id": "folio_053",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.983824695916502
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9978342594562648,
+        0.9974080668820249,
+        0.9946515825368314,
+        0.9939307870413809
+      ]
+    },
+    {
+      "id": "folio_054",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 3.9611035121407476,
+        "False": 0.0,
+        "Unknown": 0.9851860136080652
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9851860136080652
+      },
+      "N": {
+        "True": 0.014813986391934764,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9946696797084743,
+        0.9851860136080652,
+        0.9840549134789067,
+        0.9823789189533666
+      ]
+    },
+    {
+      "id": "folio_055",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9703804673158878,
+        "False": 0.0,
+        "Unknown": 2.9531844345091525
+      },
+      "pi": {
+        "True": 0.9877819377005487,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.012218062299451327
+      },
+      "poss": [
+        1.0,
+        0.9877819377005487,
+        0.9845234891154213,
+        0.9825985296153391,
+        0.9686609453937313
+      ]
+    },
+    {
+      "id": "folio_056",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.975585923575638,
+        "False": 0.0,
+        "Unknown": 2.9555952425059426
+      },
+      "pi": {
+        "True": 0.9972083715161383,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.002791628483861719
+      },
+      "poss": [
+        1.0,
+        0.9972083715161383,
+        0.9790420315413157,
+        0.9783775520594995,
+        0.976553210964627
+      ]
+    },
+    {
+      "id": "folio_057",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.939648410607368
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9869656375516151,
+        0.9868779881168009,
+        0.9846271126150471,
+        0.9811776723239044
+      ]
+    },
+    {
+      "id": "folio_058",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.990711249084576
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9998480644026885,
+        0.9993763872162713,
+        0.9964338354279646,
+        0.9950529620376516
+      ]
+    },
+    {
+      "id": "folio_059",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.94878808606745
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9909894283737841,
+        0.9901378185963208,
+        0.9900397227586256,
+        0.9776211163387192
+      ]
+    },
+    {
+      "id": "folio_060",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.939462795309529
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9982665842574195,
+        0.9961488461515396,
+        0.9882948473919918,
+        0.956752517508578
+      ]
+    },
+    {
+      "id": "folio_061",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.93710884229247
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9993741757762251,
+        0.9891995346462428,
+        0.9802449871256605,
+        0.9682901447443413
+      ]
+    },
+    {
+      "id": "folio_062",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.949837765244492
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9903556514800222,
+        0.9880917460096604,
+        0.9880279281306646,
+        0.9833624396241445
+      ]
+    },
+    {
+      "id": "folio_063",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "False",
+        "False",
+        "False",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 4.982422409811826,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9984054848881881,
+        0.99819422583092,
+        0.9950888895844653,
+        0.9907338095082528
+      ]
+    },
+    {
+      "id": "folio_064",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "False",
+        "True",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9840844756616924,
+        "False": 1.9673753792738418,
+        "Unknown": 0.9787229959195715
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.9884577901200611,
+        "Unknown": 0.9787229959195715
+      },
+      "N": {
+        "True": 0.011542209879938925,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9884577901200611,
+        0.9840844756616923,
+        0.9789175891537807,
+        0.9787229959195715
+      ]
+    },
+    {
+      "id": "folio_065",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 1.908339385109958,
+        "False": 0.0,
+        "Unknown": 2.923542558303497
+      },
+      "pi": {
+        "True": 0.9720091897101649,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.027990810289835077
+      },
+      "poss": [
+        1.0,
+        0.9720091897101649,
+        0.9677854972750868,
+        0.9557570610284102,
+        0.9363301953997931
+      ]
+    },
+    {
+      "id": "folio_066",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.950881234492046
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9992046987202169,
+        0.9885521570446517,
+        0.9817603773031898,
+        0.9813640014239874
+      ]
+    },
+    {
+      "id": "folio_067",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9590376834066445
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9959060761189381,
+        0.9948242305157509,
+        0.9873264572296219,
+        0.9809809195423335
+      ]
+    },
+    {
+      "id": "folio_068",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.994259585347778
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9995927150183379,
+        0.9987877510446229,
+        0.9984575348325362,
+        0.997421584452281
+      ]
+    },
+    {
+      "id": "folio_069",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.94107613123557
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9958894775416867,
+        0.9877949862670024,
+        0.9864077994724323,
+        0.9709838679544486
+      ]
+    },
+    {
+      "id": "folio_070",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.960873789940699
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9991822533370698,
+        0.9885371835285253,
+        0.9885122748172567,
+        0.9846420782578469
+      ]
+    },
+    {
+      "id": "folio_071",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "False"
+      ],
+      "W": {
+        "True": 3.9786747324931184,
+        "False": 0.9823302688154041,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.9823302688154041,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 0.017669731184595916,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9974814385013007,
+        0.9909571927702014,
+        0.9902361012216165,
+        0.9823302688154041
+      ]
+    },
+    {
+      "id": "folio_072",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 3.914790733811684,
+        "False": 1.0,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 0.9826927984257918,
+        "False": 1.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.017307201574208175,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9826927984257918,
+        0.9818195987775747,
+        0.9760119985150661,
+        0.9742663380932512
+      ]
+    },
+    {
+      "id": "folio_073",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "False"
+      ],
+      "W": {
+        "True": 3.961411122498962,
+        "False": 0.9759314805743523,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.9759314805743523,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 0.024068519425647694,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9911573495584175,
+        0.9904317290525887,
+        0.979822043887956,
+        0.9759314805743523
+      ]
+    },
+    {
+      "id": "folio_074",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 4.92084047742436,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9894594978694216,
+        0.9841219355662206,
+        0.9784304095125996,
+        0.9688286344761181
+      ]
+    },
+    {
+      "id": "folio_075",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9951292669930266,
+        "False": 0.0,
+        "Unknown": 3.967784654147555
+      },
+      "pi": {
+        "True": 0.9951292669930266,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.004870733006973382
+      },
+      "poss": [
+        1.0,
+        0.9998433042163718,
+        0.998508345098662,
+        0.9951292669930266,
+        0.9694330048325213
+      ]
+    },
+    {
+      "id": "folio_076",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.978698155040245
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9978644734964328,
+        0.9966285417025769,
+        0.9954295020813121,
+        0.9887756377599233
+      ]
+    },
+    {
+      "id": "folio_077",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.989807234011165
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9977955416201132,
+        0.9974036675803662,
+        0.9973919040024961,
+        0.9972161208081897
+      ]
+    },
+    {
+      "id": "folio_078",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 1.9947352865893127,
+        "False": 0.0,
+        "Unknown": 2.9983529131990156
+      },
+      "pi": {
+        "True": 0.9999851809049966,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.4819095003448801e-05
+      },
+      "poss": [
+        1.0,
+        0.9999851809049966,
+        0.9996218725865167,
+        0.9987310406124991,
+        0.994750105684316
+      ]
+    },
+    {
+      "id": "folio_079",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.997088127755189,
+        "Unknown": 3.987239498676544
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.997088127755189,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.0029118722448110423
+      },
+      "poss": [
+        1.0,
+        0.997088127755189,
+        0.9963103001259914,
+        0.9958892326832077,
+        0.9950399658673448
+      ]
+    },
+    {
+      "id": "folio_080",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9222176740261245
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9994048608747295,
+        0.999002611661057,
+        0.9961091027380805,
+        0.9277010987522576
+      ]
+    },
+    {
+      "id": "folio_081",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9035090134543236
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.996984938447224,
+        0.9942683362881393,
+        0.9828109180899716,
+        0.9294448206289885
+      ]
+    },
+    {
+      "id": "folio_082",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.929613692382373
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9855575936016175,
+        0.9834126465769669,
+        0.9831009909420759,
+        0.9775424612617121
+      ]
+    },
+    {
+      "id": "folio_083",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.961712296197872
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9972112839946782,
+        0.995919157803227,
+        0.985531739321247,
+        0.9830501150787199
+      ]
+    },
+    {
+      "id": "folio_084",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "Unknown",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 3.980693599577482,
+        "False": 0.0,
+        "Unknown": 0.9973209241952425
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9973209241952425
+      },
+      "N": {
+        "True": 0.002679075804757458,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9973209241952425,
+        0.9943391136580585,
+        0.9943135846266108,
+        0.9920409012928125
+      ]
+    },
+    {
+      "id": "folio_085",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.916963246276915
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9993966403628408,
+        0.9981903882810067,
+        0.9909231715389755,
+        0.9284530460940921
+      ]
+    },
+    {
+      "id": "folio_086",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.947042156750708
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9937029723982628,
+        0.9931588780630627,
+        0.9826055723747952,
+        0.9775747339145879
+      ]
+    },
+    {
+      "id": "folio_087",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 2.964574229539675,
+        "False": 0.0,
+        "Unknown": 1.9410424988193193
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9712858640269054
+      },
+      "N": {
+        "True": 0.02871413597309458,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9907866110858699,
+        0.9737876184538055,
+        0.9712858640269054,
+        0.9697566347924139
+      ]
+    },
+    {
+      "id": "folio_088",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9837103141624866,
+        "False": 0.0,
+        "Unknown": 2.9274787480865903
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9830404763549206
+      },
+      "N": {
+        "True": 0.016959523645079355,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9837103141624864,
+        0.9830404763549206,
+        0.9760607648000537,
+        0.968377506931616
+      ]
+    },
+    {
+      "id": "folio_089",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 2.9847636960584913,
+        "False": 0.0,
+        "Unknown": 1.921312829631049
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9649821610831153
+      },
+      "N": {
+        "True": 0.0350178389168847,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9949638975642339,
+        0.9897997984942576,
+        0.9649821610831153,
+        0.9563306685479337
+      ]
+    },
+    {
+      "id": "folio_090",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9426209904764686,
+        "False": 0.0,
+        "Unknown": 2.946854659849447
+      },
+      "pi": {
+        "True": 0.9820408404278982,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.017959159572101813
+      },
+      "poss": [
+        1.0,
+        0.9992728196367247,
+        0.9820408404278982,
+        0.9605801500485706,
+        0.9475818402127225
+      ]
+    },
+    {
+      "id": "folio_091",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.856778741324041
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9999972879923402,
+        0.9659706509172892,
+        0.9478898984180185,
+        0.9429209039963931
+      ]
+    },
+    {
+      "id": "folio_092",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.940995921754033
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9925139821088707,
+        0.991611368727468,
+        0.9870121125574296,
+        0.9698584583602647
+      ]
+    },
+    {
+      "id": "folio_093",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.985943385507477
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9977570334346018,
+        0.996847572322252,
+        0.9962539381964498,
+        0.9950848415541739
+      ]
+    },
+    {
+      "id": "folio_094",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.900694179604439
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9876824784042286,
+        0.9809980882455959,
+        0.9670386990390706,
+        0.9649749139155445
+      ]
+    },
+    {
+      "id": "folio_095",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.997950303014296,
+        "False": 0.0,
+        "Unknown": 3.928138550692125
+      },
+      "pi": {
+        "True": 0.997950303014296,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.002049696985704008
+      },
+      "poss": [
+        1.0,
+        0.997950303014296,
+        0.9974680427431789,
+        0.993751604555805,
+        0.9369189033931409
+      ]
+    },
+    {
+      "id": "folio_096",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9921068041403676,
+        "False": 0.0,
+        "Unknown": 3.97418233573908
+      },
+      "pi": {
+        "True": 0.9921068041403676,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.00789319585963244
+      },
+      "poss": [
+        1.0,
+        0.9951232243643641,
+        0.9921068041403676,
+        0.9912371001173396,
+        0.9878220112573765
+      ]
+    },
+    {
+      "id": "folio_097",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.944541568136404
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.990553291890087,
+        0.9899546657932836,
+        0.9895731187062191,
+        0.9744604917468142
+      ]
+    },
+    {
+      "id": "folio_098",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.986975987758733
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9990313351878044,
+        0.9988764061479525,
+        0.9953177931926128,
+        0.9937504532303632
+      ]
+    },
+    {
+      "id": "folio_099",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.915745259142311
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9939612087317182,
+        0.9938464953865843,
+        0.9901547860754254,
+        0.9377827689485836
+      ]
+    },
+    {
+      "id": "folio_100",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.952946418762236
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9955478991540835,
+        0.9908476246613391,
+        0.9848859842679675,
+        0.9816649106788458
+      ]
+    },
+    {
+      "id": "folio_101",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.884652442923091
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9950284599871495,
+        0.9947207863575563,
+        0.9794038876129401,
+        0.9154993089654452
+      ]
+    },
+    {
+      "id": "folio_102",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9877519185565834,
+        "Unknown": 3.8988790216759557
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9877519185565834,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.012248081443416603
+      },
+      "poss": [
+        1.0,
+        0.9886649260281537,
+        0.9877519185565834,
+        0.9850502291220069,
+        0.9251638665257951
+      ]
+    },
+    {
+      "id": "folio_103",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 3.9902623579725027,
+        "False": 0.0,
+        "Unknown": 0.9796509265328186
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9796509265328186
+      },
+      "N": {
+        "True": 0.0203490734671814,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9976503185157004,
+        0.9970976293449615,
+        0.9955144101118406,
+        0.9796509265328186
+      ]
+    },
+    {
+      "id": "folio_104",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 4.990446624904291,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9996167708816556,
+        0.9982638546378603,
+        0.997542054233083,
+        0.9950239451516922
+      ]
+    },
+    {
+      "id": "folio_105",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.885717822940023
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9985493374027079,
+        0.9849944968433134,
+        0.9640518054668966,
+        0.9381221832271056
+      ]
+    },
+    {
+      "id": "folio_106",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "False",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.9975239791223456,
+        "Unknown": 2.985364186494703
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9974889149360663
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0025110850639337157,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9975239791223457,
+        0.9974889149360663,
+        0.9948195313073683,
+        0.9930557402512685
+      ]
+    },
+    {
+      "id": "folio_107",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "False",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.9805974921216905,
+        "Unknown": 2.961699568005753
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9939347415122547,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.006065258487745306
+      },
+      "poss": [
+        1.0,
+        0.9939347415122547,
+        0.9866627506094358,
+        0.9841998221241695,
+        0.9774997458815834
+      ]
+    },
+    {
+      "id": "folio_108",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "False",
+        "False",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 3.9919033240353103,
+        "Unknown": 0.9960982821169511
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9960982821169511
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0039017178830489385,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9978469724374683,
+        0.9978229442957814,
+        0.9962334073020606,
+        0.9960982821169511
+      ]
+    },
+    {
+      "id": "folio_109",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 2.9976080199908943,
+        "False": 0.0,
+        "Unknown": 1.9978482449675834
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9990039960878185
+      },
+      "N": {
+        "True": 0.0009960039121814646,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.999333648467173,
+        0.9990039960878185,
+        0.998844248879765,
+        0.9982743715237212
+      ]
+    },
+    {
+      "id": "folio_110",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9789328217562246,
+        "False": 0.0,
+        "Unknown": 3.961517487137812
+      },
+      "pi": {
+        "True": 0.9789328217562246,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.021067178243775353
+      },
+      "poss": [
+        1.0,
+        0.9963966826595665,
+        0.9873236545384134,
+        0.9789328217562246,
+        0.9777971499398322
+      ]
+    },
+    {
+      "id": "folio_111",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.963468167278665
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9948545906051821,
+        0.9939488710985221,
+        0.990476249318315,
+        0.9841884562566462
+      ]
+    },
+    {
+      "id": "folio_112",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.958673875059856
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9945832949877038,
+        0.9905454283212507,
+        0.9872532147076487,
+        0.9862919370432525
+      ]
+    },
+    {
+      "id": "folio_113",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.9887537949867844,
+        "Unknown": 2.976222802390465
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.995546096725119
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.004453903274881044,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.995546096725119,
+        0.9941984972825975,
+        0.9887537949867844,
+        0.9864782083827486
+      ]
+    },
+    {
+      "id": "folio_114",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9765122849499469,
+        "Unknown": 3.9519868048920865
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9765122849499469,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.023487715050053093
+      },
+      "poss": [
+        1.0,
+        0.9997364331983146,
+        0.9856449274878236,
+        0.9765122849499469,
+        0.9666054442059483
+      ]
+    },
+    {
+      "id": "folio_115",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9288747485377105
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9954053541599153,
+        0.9810235531506427,
+        0.9806467853499001,
+        0.9717990558772521
+      ]
+    },
+    {
+      "id": "folio_116",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.984408984849575,
+        "False": 0.0,
+        "Unknown": 2.924507306215135
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9837905356694004
+      },
+      "N": {
+        "True": 0.016209464330599554,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.984408984849575,
+        0.9837905356694004,
+        0.9809782298791356,
+        0.9597385406665991
+      ]
+    },
+    {
+      "id": "folio_117",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9232172890324915
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9911819039824713,
+        0.9907844924726464,
+        0.9796796191969305,
+        0.961571273380443
+      ]
+    },
+    {
+      "id": "folio_118",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.962293297928971
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9944835583872452,
+        0.9906254765382135,
+        0.9896323653716914,
+        0.987551897631821
+      ]
+    },
+    {
+      "id": "folio_119",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.924473678378863
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9956080635833638,
+        0.9943917517596195,
+        0.9939466346411939,
+        0.9405272283946855
+      ]
+    },
+    {
+      "id": "folio_120",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.865628878157985
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9914616014841696,
+        0.9814117701290016,
+        0.9492781604742979,
+        0.9434773460705153
+      ]
+    },
+    {
+      "id": "folio_121",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.992992171436978,
+        "False": 0.0,
+        "Unknown": 2.9507149935348997
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9928824818903971
+      },
+      "N": {
+        "True": 0.007117518109602927,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9929921714369782,
+        0.9928824818903971,
+        0.9847717680128032,
+        0.9730607436316995
+      ]
+    },
+    {
+      "id": "folio_122",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.981267359562557
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9978895360826731,
+        0.9958256605550927,
+        0.9954694408843532,
+        0.9920827220404382
+      ]
+    },
+    {
+      "id": "folio_123",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.955968656562327
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9970850967745288,
+        0.9919344282173277,
+        0.9851916435635322,
+        0.9817574880069382
+      ]
+    },
+    {
+      "id": "folio_124",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.960604401299399
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9966809445604218,
+        0.9926234756370638,
+        0.9875137553517498,
+        0.9837862257501634
+      ]
+    },
+    {
+      "id": "folio_125",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.981748157141705
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9985019099805283,
+        0.9972929631644253,
+        0.9948659610529302,
+        0.9910873229438204
+      ]
+    },
+    {
+      "id": "folio_126",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.979555240474343
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9978023587645468,
+        0.9959983416485438,
+        0.9947449399060413,
+        0.9910096001552114
+      ]
+    },
+    {
+      "id": "folio_127",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9929594637898239,
+        "Unknown": 3.9947324695041635
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9929594637898239,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.007040536210176085
+      },
+      "poss": [
+        1.0,
+        0.9997707272185712,
+        0.9978178294690264,
+        0.997143912816566,
+        0.9929594637898239
+      ]
+    },
+    {
+      "id": "folio_128",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.937833950089902
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9943542491420243,
+        0.993399668367264,
+        0.9905392216441766,
+        0.9595408109364371
+      ]
+    },
+    {
+      "id": "folio_129",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 2.9823724962675664,
+        "False": 0.0,
+        "Unknown": 1.9652884234882464
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9837156864902704
+      },
+      "N": {
+        "True": 0.016284313509729587,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9917505034301256,
+        0.9906219928374406,
+        0.9837156864902704,
+        0.981572736997976
+      ]
+    },
+    {
+      "id": "folio_130",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "False",
+        "False",
+        "True"
+      ],
+      "W": {
+        "True": 2.9236684763629732,
+        "False": 1.9744584456428766,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.9899487394063236,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 0.010051260593676448,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9955868264820696,
+        0.9899487394063236,
+        0.984509706236553,
+        0.9280816498809035
+      ]
+    },
+    {
+      "id": "folio_131",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9594857570183892,
+        "Unknown": 3.8992395887602798
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9594857570183892,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.04051424298161077
+      },
+      "poss": [
+        1.0,
+        0.988601564627986,
+        0.9594857570183892,
+        0.9554536358892727,
+        0.9551843882430212
+      ]
+    },
+    {
+      "id": "folio_132",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.774253100719381
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9855837349438745,
+        0.9831856238585762,
+        0.9712175452773893,
+        0.8342661966395409
+      ]
+    },
+    {
+      "id": "folio_133",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.937969967160253
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9999110142248193,
+        0.9891252835661838,
+        0.9862395807440126,
+        0.9626940886252374
+      ]
+    },
+    {
+      "id": "folio_134",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9961442297483578,
+        "False": 0.0,
+        "Unknown": 2.9529757284184353
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9882731109615672
+      },
+      "N": {
+        "True": 0.011726889038432775,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9961442297483577,
+        0.9882731109615672,
+        0.9855749966090603,
+        0.9791276208478075
+      ]
+    },
+    {
+      "id": "folio_135",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.89782557150821
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9796168044508183,
+        0.9758151328692588,
+        0.9735632456548207,
+        0.9688303885333116
+      ]
+    },
+    {
+      "id": "folio_136",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.909237579500826
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.999173386991308,
+        0.9970226442802743,
+        0.9659328240042047,
+        0.9471087242250393
+      ]
+    },
+    {
+      "id": "folio_137",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9947356904877128,
+        "False": 0.0,
+        "Unknown": 3.9594419400929706
+      },
+      "pi": {
+        "True": 0.9947356904877128,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.00526430951228718
+      },
+      "poss": [
+        1.0,
+        0.9947356904877128,
+        0.9882846270867034,
+        0.9865291146561596,
+        0.9846281983501075
+      ]
+    },
+    {
+      "id": "folio_138",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.8931485128538705
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9951161882699869,
+        0.9886432256540622,
+        0.9791538177919464,
+        0.9302352811378749
+      ]
+    },
+    {
+      "id": "folio_139",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.932441254863644
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9989690733925057,
+        0.9924714850719735,
+        0.9902333492934025,
+        0.9507673471057617
+      ]
+    },
+    {
+      "id": "folio_140",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.956919595920159
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9965652639304858,
+        0.995084811898335,
+        0.9893623906500364,
+        0.9759071294413015
+      ]
+    },
+    {
+      "id": "folio_141",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9758248243463152,
+        "Unknown": 3.972041421375904
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9758248243463152,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.024175175653684766
+      },
+      "poss": [
+        1.0,
+        0.9984929752783361,
+        0.997438141681851,
+        0.976110304415717,
+        0.9758248243463152
+      ]
+    },
+    {
+      "id": "folio_142",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.903543859295929
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.988954707755492,
+        0.9858100848067315,
+        0.9745333551756366,
+        0.9542457115580688
+      ]
+    },
+    {
+      "id": "folio_143",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.895821996575781
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9868935320879879,
+        0.9866845251347448,
+        0.9700351792733303,
+        0.9522087600797176
+      ]
+    },
+    {
+      "id": "folio_144",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9424286560838215
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9965100680847686,
+        0.9931718052663294,
+        0.9892657646794806,
+        0.9634810180532434
+      ]
+    },
+    {
+      "id": "folio_145",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.875606001294924
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9928856702399778,
+        0.990309476497949,
+        0.9501594354069368,
+        0.94225141915006
+      ]
+    },
+    {
+      "id": "folio_146",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9981908121956793,
+        "False": 0.0,
+        "Unknown": 2.9640863519591525
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9955344885673801
+      },
+      "N": {
+        "True": 0.004465511432619862,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9981908121956793,
+        0.9955344885673801,
+        0.987598797585786,
+        0.9809530658059863
+      ]
+    },
+    {
+      "id": "folio_147",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9947898838167628,
+        "False": 0.0,
+        "Unknown": 2.959057669549705
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9929822872662493
+      },
+      "N": {
+        "True": 0.007017712733750736,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9947898838167629,
+        0.9929822872662493,
+        0.9842627767414817,
+        0.9818126055419742
+      ]
+    },
+    {
+      "id": "folio_148",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9956455689804342,
+        "Unknown": 3.947843561172184
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9956455689804342,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.004354431019565785
+      },
+      "poss": [
+        1.0,
+        0.9973708592112104,
+        0.9956455689804342,
+        0.9951274134220508,
+        0.9553452885389229
+      ]
+    },
+    {
+      "id": "folio_149",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9720908977583518,
+        "False": 0.0,
+        "Unknown": 2.8914972876905085
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9888643177446137
+      },
+      "N": {
+        "True": 0.011135682255386303,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9888643177446137,
+        0.9768976758805076,
+        0.9720908977583518,
+        0.9257352940653872
+      ]
+    },
+    {
+      "id": "folio_150",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.932017160698507
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9955888515161996,
+        0.9832846229971013,
+        0.9813784933829953,
+        0.9717651928022113
+      ]
+    },
+    {
+      "id": "folio_151",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.950954986026462
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9957253171528012,
+        0.9946055703674844,
+        0.991185625969313,
+        0.9694384725368634
+      ]
+    },
+    {
+      "id": "folio_152",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.978893671192321
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9957240930628185,
+        0.9953906402345953,
+        0.9943655842368376,
+        0.9934133536580687
+      ]
+    },
+    {
+      "id": "folio_153",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.979932845837835
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9993416972103639,
+        0.9976954085621449,
+        0.9972698177008763,
+        0.9856259223644496
+      ]
+    },
+    {
+      "id": "folio_154",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.942005380522628
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.998265728926237,
+        0.9885344731474881,
+        0.982013790685368,
+        0.9731913877635349
+      ]
+    },
+    {
+      "id": "folio_155",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.9276602446911415
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9997769842909516,
+        0.9893744465242692,
+        0.9820257496965827,
+        0.9564830641793379
+      ]
+    },
+    {
+      "id": "folio_156",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.978781346356226,
+        "False": 0.0,
+        "Unknown": 2.9115255506691464
+      },
+      "pi": {
+        "True": 0.9908211148531744,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.009178885146825633
+      },
+      "poss": [
+        1.0,
+        0.9983159938930227,
+        0.9908211148531744,
+        0.9879602315030517,
+        0.9132095567761238
+      ]
+    },
+    {
+      "id": "folio_157",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9741630402159687,
+        "False": 0.0,
+        "Unknown": 2.9063992775346863
+      },
+      "pi": {
+        "True": 0.9878805605793943,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.012119439420605671
+      },
+      "poss": [
+        1.0,
+        0.9985573054306515,
+        0.9878805605793943,
+        0.9862824796365742,
+        0.9078419721040348
+      ]
+    },
+    {
+      "id": "folio_158",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.972762909222199
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.998462243786557,
+        0.9922553603056985,
+        0.9916121592523884,
+        0.9904331458775553
+      ]
+    },
+    {
+      "id": "folio_159",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.82408637503142
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9992914178261718,
+        0.9948953587841819,
+        0.9172614007139095,
+        0.9126381977071563
+      ]
+    },
+    {
+      "id": "folio_160",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "True"
+      ],
+      "W": {
+        "True": 4.990785497912238,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "N": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9998182670523518,
+        0.9980124938778896,
+        0.9965785621759774,
+        0.9963761748060191
+      ]
+    },
+    {
+      "id": "folio_161",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.959370749319151
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9914550862028256,
+        0.9905278932672674,
+        0.988929213811919,
+        0.9884585560371387
+      ]
+    },
+    {
+      "id": "folio_162",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.895317770000404
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9920474352064601,
+        0.9905513472100504,
+        0.9667934719452717,
+        0.9459255156386219
+      ]
+    },
+    {
+      "id": "folio_163",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.874895341434818
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9914626061118602,
+        0.9913155645639237,
+        0.9828578711581768,
+        0.9092592996008568
+      ]
+    },
+    {
+      "id": "folio_164",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "False",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 2.944568981517503,
+        "Unknown": 1.9479791734391845
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9808808295727327
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.019119170427267296,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9944536912222587,
+        0.9808808295727327,
+        0.9670983438664517,
+        0.9501152902952443
+      ]
+    },
+    {
+      "id": "folio_165",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "False",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 3.9568344263379718
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9932459826950267
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.00675401730497327,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9932459826950267,
+        0.9920728395307827,
+        0.9915904680682194,
+        0.9799251360439427
+      ]
+    },
+    {
+      "id": "folio_166",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9702347245638241,
+        "False": 0.0,
+        "Unknown": 3.9074044520917965
+      },
+      "pi": {
+        "True": 0.9702347245638241,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.02976527543617591
+      },
+      "poss": [
+        1.0,
+        0.9794581724495195,
+        0.9702347245638241,
+        0.9669419407331541,
+        0.9610043389091232
+      ]
+    },
+    {
+      "id": "folio_167",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 2.974712654408001,
+        "False": 0.0,
+        "Unknown": 1.982147618179949
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9915325410427
+      },
+      "N": {
+        "True": 0.008467458957299945,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9932039797116916,
+        0.9915325410427,
+        0.9906150771372487,
+        0.9815086746963092
+      ]
+    },
+    {
+      "id": "folio_168",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.866718210304361
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9746587071057661,
+        0.9726926432527863,
+        0.9698637405869444,
+        0.9495031193588649
+      ]
+    },
+    {
+      "id": "folio_169",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "False",
+        "False",
+        "False",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 3.9788779601956796,
+        "Unknown": 0.972498410711325
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.972498410711325
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.027501589288674966,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9938357511764762,
+        0.9937898433859491,
+        0.9912523656332543,
+        0.972498410711325
+      ]
+    },
+    {
+      "id": "folio_170",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.975023447826512
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9979785575890932,
+        0.9956866663106689,
+        0.99527014848981,
+        0.98608807543694
+      ]
+    },
+    {
+      "id": "folio_171",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.98124882423762
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9989990836144358,
+        0.9984470532120884,
+        0.9953692001208935,
+        0.9884334872902028
+      ]
+    },
+    {
+      "id": "folio_172",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.98279687596556
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9974153644150658,
+        0.9966989598394762,
+        0.9944138079895951,
+        0.9942687437214233
+      ]
+    },
+    {
+      "id": "folio_173",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.991137296150497
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9993402676416214,
+        0.9990153767439605,
+        0.9985065224309346,
+        0.9942751293339803
+      ]
+    },
+    {
+      "id": "folio_174",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "solver_out": [
+        "False",
+        "False",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 2.999067853329009,
+        "Unknown": 1.9710571950765803
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.987621416903776
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.012378583096223972,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.999731181937212,
+        0.9993366713917969,
+        0.987621416903776,
+        0.9834357781728044
+      ]
+    },
+    {
+      "id": "folio_175",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.885121398580438
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.991828188260162,
+        0.9849870847025068,
+        0.9751397367031436,
+        0.9331663889146259
+      ]
+    },
+    {
+      "id": "folio_176",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.920048763869639
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9908534198545044,
+        0.988433877603658,
+        0.9762482315277526,
+        0.9645132348837244
+      ]
+    },
+    {
+      "id": "folio_177",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.855520081256214
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.988053063888241,
+        0.9685157845776786,
+        0.9664737759795006,
+        0.9324774568107932
+      ]
+    },
+    {
+      "id": "folio_178",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 3.883548034941156
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9953753925656609
+      },
+      "N": {
+        "True": 0.004624607434339123,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9953753925656609,
+        0.9942872561844104,
+        0.9661703390959442,
+        0.9277150470951406
+      ]
+    },
+    {
+      "id": "folio_179",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 3.945062491774144
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9928610366217812
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.007138963378218843,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9928610366217812,
+        0.9917836441738401,
+        0.9867291930855756,
+        0.973688617892947
+      ]
+    },
+    {
+      "id": "folio_180",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.870069805567233
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9767996836792574,
+        0.9713858216915868,
+        0.9651993856820953,
+        0.9566849145142934
+      ]
+    },
+    {
+      "id": "folio_181",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.899929471189622
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9968490800233077,
+        0.9964014746912516,
+        0.9863632857012676,
+        0.9203156307737946
+      ]
+    },
+    {
+      "id": "folio_182",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9942521353945006,
+        "False": 0.0,
+        "Unknown": 3.8931114819793997
+      },
+      "pi": {
+        "True": 0.9942521353945006,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.005747864605499364
+      },
+      "poss": [
+        1.0,
+        0.9954277443657911,
+        0.9942521353945006,
+        0.9818305276367223,
+        0.9158532099768864
+      ]
+    },
+    {
+      "id": "folio_183",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.9811728694400933,
+        "False": 0.9890488863125775,
+        "Unknown": 2.9677471314420343
+      },
+      "pi": {
+        "True": 0.9811728694400933,
+        "False": 0.9890488863125775,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.01095111368742252
+      },
+      "poss": [
+        1.0,
+        0.9997392636767325,
+        0.9890488863125775,
+        0.9811728694400933,
+        0.9680078677653019
+      ]
+    },
+    {
+      "id": "folio_184",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.90516014511665
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9946937430834462,
+        0.9937958705136438,
+        0.9810498958432777,
+        0.9356206356762823
+      ]
+    },
+    {
+      "id": "folio_185",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 2.9808582368409353,
+        "False": 0.0,
+        "Unknown": 1.963193734904926
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9823687378691263
+      },
+      "N": {
+        "True": 0.017631262130873737,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9963892032758442,
+        0.984469033565091,
+        0.9823687378691263,
+        0.9808249970357997
+      ]
+    },
+    {
+      "id": "folio_186",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.951756105699529
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.992744401409066,
+        0.9889694297020092,
+        0.9850460898240898,
+        0.9849961847643635
+      ]
+    },
+    {
+      "id": "folio_187",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.959405305049248
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9948021948299646,
+        0.9910318028797974,
+        0.9884921980573785,
+        0.9850791092821078
+      ]
+    },
+    {
+      "id": "folio_188",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.942367560760128
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9904457793231158,
+        0.9864068440624895,
+        0.9832589675350536,
+        0.9822559698394695
+      ]
+    },
+    {
+      "id": "folio_189",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 1.9983076782058977,
+        "False": 0.0,
+        "Unknown": 2.9684103238658843
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9925289640977214
+      },
+      "N": {
+        "True": 0.0074710359022786,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9983076782058976,
+        0.9925289640977214,
+        0.9886523152979336,
+        0.9872290444702292
+      ]
+    },
+    {
+      "id": "folio_190",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9979579688474871,
+        "Unknown": 3.9888625017947734
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9979579688474871,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.002042031152512891
+      },
+      "poss": [
+        1.0,
+        0.9994429784253712,
+        0.9992981260651127,
+        0.9979579688474871,
+        0.9901213973042896
+      ]
+    },
+    {
+      "id": "folio_191",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False",
+        "True"
+      ],
+      "W": {
+        "True": 0.9243100240884077,
+        "False": 0.9911464941122199,
+        "Unknown": 2.992591632683824
+      },
+      "pi": {
+        "True": 0.9243100240884077,
+        "False": 0.9911464941122199,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.008853505887780111
+      },
+      "poss": [
+        1.0,
+        0.9971098946271678,
+        0.9954817380566561,
+        0.9911464941122199,
+        0.9243100240884077
+      ]
+    },
+    {
+      "id": "folio_192",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.747354260226818
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9934855431714102,
+        0.9643658287786422,
+        0.9034338274053779,
+        0.8860690608713879
+      ]
+    },
+    {
+      "id": "folio_193",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "False",
+        "False",
+        "False",
+        "False",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 3.990764836277113,
+        "Unknown": 0.9824615572504597
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 1.0,
+        "Unknown": 0.9824615572504597
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.017538442749540306,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9972894114340046,
+        0.9972737408748661,
+        0.9962016839682422,
+        0.9824615572504597
+      ]
+    },
+    {
+      "id": "folio_194",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "solver_out": [
+        "True",
+        "True",
+        "True",
+        "True",
+        "Unknown"
+      ],
+      "W": {
+        "True": 3.9854983934445056,
+        "False": 0.0,
+        "Unknown": 0.9920204424388255
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9920204424388255
+      },
+      "N": {
+        "True": 0.007979557561174522,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9995936385144794,
+        0.993856528851008,
+        0.9920482260790182,
+        0.9920204424388255
+      ]
+    },
+    {
+      "id": "folio_195",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "False"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9606328833865495,
+        "Unknown": 3.9826831340929276
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9606328833865495,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.03936711661345049
+      },
+      "poss": [
+        1.0,
+        0.9972657236475062,
+        0.9939435317501223,
+        0.9914738786952993,
+        0.9606328833865495
+      ]
+    },
+    {
+      "id": "folio_196",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "False",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.9952011066496398,
+        "Unknown": 3.9460542010306825
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.9952011066496398,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.004798893350360212
+      },
+      "poss": [
+        1.0,
+        0.997710780972561,
+        0.9952011066496398,
+        0.9745310897964058,
+        0.9738123302617157
+      ]
+    },
+    {
+      "id": "folio_197",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "solver_out": [
+        "True",
+        "True",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 2.966362341431849,
+        "False": 0.0,
+        "Unknown": 1.9853110982831867
+      },
+      "pi": {
+        "True": 1.0,
+        "False": 0.0,
+        "Unknown": 0.9947199637094362
+      },
+      "N": {
+        "True": 0.005280036290563839,
+        "False": 0.0,
+        "Unknown": 0.0
+      },
+      "poss": [
+        1.0,
+        0.9976294317961079,
+        0.9947199637094362,
+        0.9905911345737505,
+        0.9687329096357412
+      ]
+    },
+    {
+      "id": "folio_198",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.921609208625996
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9914901525133178,
+        0.989659706078131,
+        0.9721040649699223,
+        0.9683552850646243
+      ]
+    },
+    {
+      "id": "folio_199",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.948777817239762
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9951493154373227,
+        0.9948257573926531,
+        0.9875624267498455,
+        0.9712403176599408
+      ]
+    },
+    {
+      "id": "folio_200",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.953027918698463
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9914003063469656,
+        0.9909264126606232,
+        0.9879712139930721,
+        0.9827299856978017
+      ]
+    },
+    {
+      "id": "folio_201",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "True"
+      ],
+      "W": {
+        "True": 0.986513106018476,
+        "False": 0.0,
+        "Unknown": 3.981744992855862
+      },
+      "pi": {
+        "True": 0.986513106018476,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 0.013486893981524029
+      },
+      "poss": [
+        1.0,
+        0.9968921730145269,
+        0.9957221122658525,
+        0.9891307075754826,
+        0.986513106018476
+      ]
+    },
+    {
+      "id": "folio_202",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "solver_out": [
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ],
+      "W": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 4.960279940469423
+      },
+      "pi": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "N": {
+        "True": 0.0,
+        "False": 0.0,
+        "Unknown": 1.0
+      },
+      "poss": [
+        1.0,
+        0.9978159708902175,
+        0.9966214281360624,
+        0.9865694461085047,
+        0.9792730953346386
+      ]
+    }
+  ]
+}

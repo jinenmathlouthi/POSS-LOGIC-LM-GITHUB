@@ -1,0 +1,1430 @@
+{
+  "dataset": "folio",
+  "model": "llama",
+  "method": "LogicLM-greedy-noSR",
+  "decoding": "greedy",
+  "num_formalizations": 1,
+  "max_refinements": 0,
+  "stats": {
+    "total": 101,
+    "correct": 44,
+    "accuracy": 43.56,
+    "exe_rate": 15.84
+  },
+  "results": [
+    {
+      "id": "000",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "perform_in_talent_show(bonnie)",
+          "formalization": "PREDICATES:\nin_club(x) ::: x is in this club\nperform_in_talent_show(x) ::: x performs in school talent shows\nattend_school(x) ::: x attends the school\nengage_with_school(x) ::: x is very engaged with school events\nchaperone_dance(x) ::: x chaperone high school dances\ninactive_community_member(x) ::: x is an inactive and disinterested community member\nyoung_child_or_teenager(x) ::: x is a young child or teenager\nfurther_academic_career(x) ::: x wishes to further their academic careers and educational opportunities\n\nPREMISES:\nforall x (in_club(x) & perform_in_talent_show(x) -> attend_school(x) & engage_with_school(x))\nforall x (in_club(x) -> (perform_in_talent_show(x) | inactive_community_member(x)))\nforall x (in_club(x) & chaperone_dance(x) -> not attend_school(x))\nforall x (in_club(x) & inactive_community_member(x) -> chaperone_dance(x))\nforall x (in_club(x) & young_child_or_teenager(x) & further_academic_career(x) -> attend_school(x))\nin_club(bonnie)\nin_club(bonnie) & (perform_in_talent_show(bonnie) | not (perform_in_talent_show(bonnie) & not attend_school(bonnie)))\n\nCONCLUSION:\nperform_in_talent_show(bonnie)"
+        }
+      ]
+    },
+    {
+      "id": "001",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "attend_school(bonnie) | inactive_community_member(bonnie)",
+          "formalization": "PREDICATES:\nclub_member(x) ::: x is a member of this club\nperform_in_talent_show(x) ::: x performs in school talent shows\nattend_school(x) ::: x attends the school\nengage_with_school(x) ::: x is very engaged with school events\nchaperone_dance(x) ::: x chaperones high school dances\ninactive_community_member(x) ::: x is an inactive and disinterested member of the community\nyoung_child_or_teenager(x) ::: x is a young child or teenager who wishes to further her academic career and educational opportunities\n\nPREMISES:\nforall x (club_member(x) -> (perform_in_talent_show(x) | inactive_community_member(x)))\nforall x (club_member(x) -> (perform_in_talent_show(x) | inactive_community_member(x)))\nforall x (club_member(x) & engage_with_school(x) -> ~attend_school(x))\nforall x (club_member(x) & inactive_community_member(x) -> chaperone_dance(x))\nforall x (club_member(x) & young_child_or_teenager(x) -> attend_school(x))\nclub_member(bonnie)\nbonnie -> (young_child_or_teenager(bonnie) & chaperone_dance(bonnie) | ~(young_child_or_teenager(bonnie) & chaperone_dance(bonnie)))\nyoung_child_or_teenager(bonnie) -> (attend_school(bonnie) | inactive_community_member(bonnie))\n\nCONCLUSION:\nattend_school(bonnie) | inactive_community_member(bonnie)"
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (club_member(x) -> (chaperone_dance(x) | perform_in_talent_show(x)) -> (young_child_or_teenager(x) & inactive_community_member(x)))",
+          "formalization": "PREDICATES:\nclub_member(x) ::: x is a member of this club\nperform_in_talent_show(x) ::: x performs in school talent shows often\nattend_school(x) ::: x is a student who attends the school\nengage_with_school(x) ::: x is very engaged with school events\nchaperone_dance(x) ::: x chaperones high school dances\ninactive_community_member(x) ::: x is an inactive and disinterested member of the community\nyoung_child_or_teenager(x) ::: x is a young child or teenager who wishes to further her academic career and educational opportunities\n\nPREMISES:\nforall x (club_member(x) -> (perform_in_talent_show(x) | inactive_community_member(x)))\nforall x (club_member(x) -> (chaperone_dance(x) -> not attend_school(x)))\nforall x (inactive_community_member(x) -> chaperone_dance(x))\nforall x (young_child_or_teenager(x) -> attend_school(x))\nclub_member(bonnie)\nforall x (club_member(x) -> (engage_with_school(x) -> attend_school(x))) \nforall x (club_member(x) -> (not (engage_with_school(x) & attend_school(x)) -> not attend_school(x)))\n\nCONCLUSION:\nforall x (club_member(x) -> (chaperone_dance(x) | perform_in_talent_show(x)) -> (young_child_or_teenager(x) & inactive_community_member(x)))"
+        }
+      ]
+    },
+    {
+      "id": "003",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "appears(james)",
+          "formalization": "PREDICATES:\nemployee(x) ::: x is an employee\ncustomer(x) ::: x is a customer\nmeeting(x) ::: x schedules a meeting with their customer\ncompany_building(x) ::: x is in the company building\nhome(x) ::: x is at home\nremote(x) ::: x works remotely from home\ncountry(x) ::: x is in another country\nmanager(x) ::: x is a manager\nappears(x) ::: x will appear in the company today\nlunch(x) ::: x has lunch\n\nPREMISES:\nforall x (meeting(x) -> company_building(x))\nforall x (company_building(x) -> lunch(x))\nforall x (lunch(x) -> (home(x) or company_building(x)))\nforall x (home(x) -> remote(x))\nforall x (country(x) -> remote(x))\nforall x (not manager(x) -> not remote(x))\nforall x (manager(x) -> appears(x))\nlunch(james)\n\nCONCLUSION:\nappears(james)"
+        }
+      ]
+    },
+    {
+      "id": "004",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-appears(james)",
+          "formalization": "PREDICATES:\nemployee(x) ::: x is an employee\ncustomer(x) ::: x is a customer\nmeeting(x) ::: x schedules a meeting with their customer\ncompany_building(x) ::: x is in the company building\nhome(x) ::: x is at home\nremote(x) ::: x is working remotely from home\ncountry(x) ::: x is in another country\nmanager(x) ::: x is a manager\nappears(x) ::: x will appear in the company today\nlunch(x) ::: x has lunch\n\nPREMISES:\nforall x (meeting(x) -> company_building(x))\nforall x (company_building(x) -> lunch(x))\nforall x (lunch(x) -> (home(x) | company_building(x)))\nforall x (home(x) -> remote(x))\nforall x (country(x) -> remote(x))\nforall x (not manager(x) -> remote(x))\nforall x (manager(x) -> appears(x))\nlunch(james) ::: james has lunch\nnot company_building(james)\n\nCONCLUSION:\nnot appears(james)"
+        }
+      ]
+    },
+    {
+      "id": "005",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~(has_lunch_at_home(james) | works_remotely_from_home(james))",
+          "formalization": "PREDICATES:\nemployee(x) ::: x is an employee\nmanager(x) ::: x is a manager\nin_other_countries(x) ::: x is in other countries\nhas_lunch_at_home(x) ::: x has lunch at home\nworks_remotely_from_home(x) ::: x works remotely from home\nschedules_meeting_with_customer(x) ::: x schedules meetings with their customers\nin_company_building(x) ::: x is in the company building\nappears_in_company_today(x) ::: x will appear in the company today\n\nPREMISES:\nforall x (schedules_meeting_with_customer(x) -> in_company_building(x))\nforall x (in_company_building(x) -> schedules_meeting_with_customer(x))\nforall x (employee(x) -> (has_lunch_at_home(x) | in_company_building(x)))\nforall x (has_lunch_at_home(x) -> works_remotely_from_home(x))\nforall x (in_other_countries(x) -> works_remotely_from_home(x))\nforall x (~manager(x) | ~works_remotely_from_home(x))\nforall x (~works_remotely_from_home(x) | ~in_other_countries(x))\nmanager(james)\nin_other_countries(james)\n\nCONCLUSION:\n~(has_lunch_at_home(james) | works_remotely_from_home(james))"
+        }
+      ]
+    },
+    {
+      "id": "006",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "exists x (animal(x))",
+          "formalization": "PREDICATES:\nmonkeypox_virus(x) ::: x is the Monkeypox virus\nmonkeypox(x) ::: x has Monkeypox\nanimal(x) ::: x is an animal\nmammal(x) ::: x is a mammal\nfever(x) ::: x has fever\nheadache(x) ::: x has headache\nmuscle_pains(x) ::: x has muscle pains\ntiredness(x) ::: x is tired\nflu(x) ::: x has the flu\nhuman(x) ::: x is a human\n\nPREMISES:\nforall x (monkeypox_virus(x) -> monkeypox(x))\nforall x (monkeypox(x) -> (fever(x) | headache(x) | muscle_pains(x) | tiredness(x)))\nforall x (mammal(x) -> animal(x))\nhuman(x) -> mammal(x)\nforall x (monkeypox_virus(x) -> animal(x))\n\nCONCLUSION:\nexists x (animal(x))"
+        }
+      ]
+    },
+    {
+      "id": "007",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (mammal(x) -> -gets_flu(x))",
+          "formalization": "PREDICATES:\nmonkeypox_virus(x) ::: x is the Monkeypox virus\nmonkeypox(x) ::: x has Monkeypox\nanimal(x) ::: x is an animal\nmammal(x) ::: x is a mammal\nfever(x) ::: x has fever\nheadache(x) ::: x has headache\nmuscle_pains(x) ::: x has muscle pains\ntiredness(x) ::: x is tired\nflu(x) ::: x has the flu\nmonkeypox_virus_occurs_in(x) ::: the Monkeypox virus occurs in x\ngets_monkeypox(x) ::: x gets Monkeypox\ngets_flu(x) ::: x gets the flu\n\nPREMISES:\nforall x (monkeypox_virus_occurs_in(x) -> gets_monkeypox(x))\nmonkeypox_virus_occurs_in(animal(x))\nmammal(human)\nanimal(mammal(x))\nsymptoms_of_monkeypox(x) ::: symptoms_of_monkeypox(x)\nsymptoms_of_monkeypox(x) ::: (fever(x) or headache(x) or muscle_pains(x) or tiredness(x))\ngets_flu(x) -> tiredness(x)\n\nCONCLUSION:\nforall x (mammal(x) -> not gets_flu(x))"
+        }
+      ]
+    },
+    {
+      "id": "008",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "symptom_of_monkeypox(coughing)",
+          "formalization": "PREDICATES:\nmonkeypox_virus(x) ::: x is the Monkeypox virus\nmonkeypox(x) ::: x has Monkeypox\nanimal(x) ::: x is an animal\nmammal(x) ::: x is a mammal\nsymptom_of_monkeypox(x) ::: x is a symptom of Monkeypox\nfever(x) ::: x is fever\nheadache(x) ::: x is headache\nmuscle_pains(x) ::: x is muscle pains\ntiredness(x) ::: x is tiredness\ncoughing(x) ::: x is coughing\nflu(x) ::: x is the flu\nfeel_tired(x) ::: x feels tired\n\nPREMISES:\nforall x (monkeypox_virus(x) -> exists y (monkeypox(y) & symptom_of_monkeypox(y)))\nforall x (monkeypox_virus(x) -> exists y (animal(y) & occurs_in(x, y)))\nmammal(human)\nanimal(x) -> mammal(x)\nsymptom_of_monkeypox(fever)\nsymptom_of_monkeypox(headache)\nsymptom_of_monkeypox(muscle_pains)\nsymptom_of_monkeypox(tiredness)\nforall x (flu(x) -> feel_tired(x))\n\nCONCLUSION:\nsymptom_of_monkeypox(coughing)"
+        }
+      ]
+    },
+    {
+      "id": "009",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "oceanated_wild_turkey(tom)",
+          "formalization": "PREDICATES:\neastern_wild_turkey(x) ::: x is an Eastern wild turkey\nosceola_wild_turkey(x) ::: x is an Osceola wild turkey\ngoulds_wild_turkey(x) ::: x is a Gould's wild turkey\nmerriams_wild_turkey(x) ::: x is a Merriam's wild turkey\nrio_grande_wild_turkey(x) ::: x is a Rio Grande wild turkey\noceanated_wild_turkey(x) ::: x is an Ocellated wild turkey\nwild_turkey(x) ::: x is a wild turkey\n\nPREMISES:\n~eastern_wild_turkey(tom)\n~osceola_wild_turkey(tom)\n~goulds_wild_turkey(tom)\n~merriams_wild_turkey(tom)\n~rio_grande_wild_turkey(tom)\nwild_turkey(tom)\n\nCONCLUSION:\noceanated_wild_turkey(tom)"
+        }
+      ]
+    },
+    {
+      "id": "010",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~eastern_wild_turkey(tom)",
+          "formalization": "PREDICATES:\neastern_wild_turkey(x) ::: x is an Eastern wild turkey\nosceola_wild_turkey(x) ::: x is an Osceola wild turkey\ngoulds_wild_turkey(x) ::: x is a Gould's wild turkey\nmerriams_wild_turkey(x) ::: x is a Merriam's wild turkey\nrio_grande_wild_turkey(x) ::: x is a Rio Grande wild turkey\nocellated_wild_turkey(x) ::: x is an Ocellated wild turkey\nwild_turkey(x) ::: x is a wild turkey\n\nPREMISES:\n~eastern_wild_turkey(tom)\n~osceola_wild_turkey(tom)\n~goulds_wild_turkey(tom)\n~merriams_wild_turkey(tom) & ~rio_grande_wild_turkey(tom)\nwild_turkey(tom)\n\nCONCLUSION:\n~eastern_wild_turkey(tom)"
+        }
+      ]
+    },
+    {
+      "id": "011",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "wild_turkey(joey)",
+          "formalization": "PREDICATES:\neastern_wild_turkey(x) ::: x is an Eastern wild turkey\nosceola_wild_turkey(x) ::: x is an Osceola wild turkey\ngoulds_wild_turkey(x) ::: x is a Gould's wild turkey\nmerriams_wild_turkey(x) ::: x is a Merriam's wild turkey\nrio_grande_wild_turkey(x) ::: x is a Rio Grande wild turkey\noceanated_wild_turkey(x) ::: x is an Ocellated wild turkey\nwild_turkey(x) ::: x is a wild turkey\n\nPREMISES:\n~eastern_wild_turkey(tom)\n~osceola_wild_turkey(tom)\n~goulds_wild_turkey(tom)\n~merriams_wild_turkey(tom)\n~rio_grande_wild_turkey(tom)\nwild_turkey(tom)\n\nCONCLUSION:\nwild_turkey(joey)"
+        }
+      ]
+    },
+    {
+      "id": "012",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "top_10_list(zelda)",
+          "formalization": "PREDICATES:\ngame_company(x) ::: x is a game company\ngame(x) ::: x is a game\ntop_10_list(x) ::: x is on the Top 10 list\nsell(x, y) ::: x sells y copies\njapanese_game_company(x) ::: x is a Japanese game company\n\nPREMISES:\nforall x (japanese_game_company(x) -> game_company(x))\nforall x (game_company(x) -> game(x))\nforall x (game(x) -> (sell(x, 1,000,000) -> top_10_list(x)))\njapanese_game_company(zelda)\nsell(zelda, 1,000,000)\n\nCONCLUSION:\ntop_10_list(zelda)"
+        }
+      ]
+    },
+    {
+      "id": "013",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "top_10_list(legend_of_zelda)",
+          "formalization": "PREDICATES:\ngame_company(x) ::: x is a game company\njapanese_game_company(x) ::: x is a Japanese game company\ngame(x) ::: x is a game\ntop_10_list(x) ::: x is in the Top 10 list\nsell(x, y) ::: x sells y copies\nlegend_of_zelda(x) ::: x is the Legend of Zelda\nfifa_22(x) ::: x is FIFA 22\n\nPREMISES:\nforall x (japanese_game_company(x) -> game_company(x))\nforall x (game_company(x) -> game(x))\nforall x (game(x) -> (sell(x, 1000000) -> top_10_list(x)))\njapanese_game_company(legend_of_zelda)\nsell(legend_of_zelda, 1000000)\n\nCONCLUSION:\ntop_10_list(legend_of_zelda)\n\nPREDICATES:\nmade_by(x, y) ::: x is made by y\nfifa_22(x) ::: x is FIFA 22\n\nPREMISES:\nforall x (game_company(x) -> (sell(x, 1000000) -> top_10_list(x)))\nforall x (top_10_list(x) -> made_by(x, japanese_game_company(x)))\njapanese_game_company(fifa_22)\n\nCONCLUSION:\nmade_by(fifa_22, japanese_game_company(fifa_22))"
+        }
+      ]
+    },
+    {
+      "id": "014",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~top_10_list(legend_of_zelda)",
+          "formalization": "PREDICATES:\ngame_company(x) ::: x is a game company\ngame(x) ::: x is a game\njapanese_game_company(x) ::: x is a Japanese game company\ntop_10_list(x) ::: x is on the Top 10 list\nsell(x, y) ::: x sells y copies\nlegend_of_zelda(x) ::: x is the Legend of Zelda\n\nPREMISES:\nforall x (japanese_game_company(x) -> game_company(x))\nforall x (game_company(x) -> game(x))\nforall x (game(x) -> (sell(x, 1000000) -> top_10_list(x)))\njapanese_game_company(legend_of_zelda)\nsell(legend_of_zelda, 1000000)\n\nCONCLUSION:\n~top_10_list(legend_of_zelda)"
+        }
+      ]
+    },
+    {
+      "id": "015",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (square(x) -> shape(x))",
+          "formalization": "PREDICATES:\nsquare(x) ::: x is a square\nfour-sided(x) ::: x is four-sided\nshape(x) ::: x is a shape\n\nPREMISES:\nforall x (square(x) -> four-sided(x))\nforall x (four-sided(x) -> shape(x))\nsquare(some_x)\n\nCONCLUSION:\nforall x (square(x) -> shape(x))"
+        }
+      ]
+    },
+    {
+      "id": "016",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "turtle(rockie)",
+          "formalization": "PREDICATES:\ncute(x) ::: x is cute\nskittish(x) ::: x is skittish\ncalm(x) ::: x is calm\nrabbit(x) ::: x is a rabbit\nturtle(x) ::: x is a turtle\nsquirrel(x) ::: x is a squirrel\nspotted_near_campus(x) ::: x can be spotted near the campus\n\nPREMISES:\nforall x (spotted_near_campus(x) & rabbit(x) -> cute(x))\nexists x (turtle(x) & spotted_near_campus(x))\nforall x (spotted_near_campus(x) -> (rabbit(x) | squirrel(x)))\nforall x (skittish(x) -> not calm(x))\nforall x (spotted_near_campus(x) & squirrel(x) -> skittish(x))\nspotted_near_campus(rockie)\ncalm(rockie)\n\nCONCLUSION:\nturtle(rockie)"
+        }
+      ]
+    },
+    {
+      "id": "017",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-turtle(rockie)",
+          "formalization": "PREDICATES:\ncute(x) ::: x is cute\nskittish(x) ::: x is skittish\ncalm(x) ::: x is calm\nrabbit(x) ::: x is a rabbit\nturtle(x) ::: x is a turtle\nsquirrel(x) ::: x is a squirrel\nspotted_near_campus(x) ::: x can be spotted near the campus\n\nPREMISES:\nforall x (rabbit(x) & spotted_near_campus(x) -> cute(x))\nexists x (turtle(x) & spotted_near_campus(x))\nforall x (spotted_near_campus(x) -> (rabbit(x) | squirrel(x)))\nforall x (skittish(x) -> not calm(x))\nforall x (squirrel(x) & spotted_near_campus(x) -> skittish(x))\nspotted_near_campus(rockie)\ncalm(rockie)\n\nCONCLUSION:\nnot turtle(rockie)"
+        }
+      ]
+    },
+    {
+      "id": "018",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "turtle(rockie) | cute(rockie)",
+          "formalization": "PREDICATES:\ncute(x) ::: x is cute\nskittish(x) ::: x is skittish\ncalm(x) ::: x is calm\nrabbit(x) ::: x is a rabbit\nturtle(x) ::: x is a turtle\nsquirrel(x) ::: x is a squirrel\nspotted_near_campus(x) ::: x can be spotted near the campus\n\nPREMISES:\nforall x (rabbit(x) & spotted_near_campus(x) -> cute(x))\nexists x (turtle(x) & spotted_near_campus(x))\nforall x (spotted_near_campus(x) -> (rabbit(x) | squirrel(x)))\nforall x (skittish(x) -> not calm(x))\nforall x (squirrel(x) & spotted_near_campus(x) -> skittish(x))\nspotted_near_campus(rockie)\ncalm(rockie)\n\nCONCLUSION:\nturtle(rockie) | cute(rockie)"
+        }
+      ]
+    },
+    {
+      "id": "019",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-(turtle(rockie) & squirrel(rockie)) -> (cute(rockie) | skittish(rockie))",
+          "formalization": "PREDICATES:\ncute(x) ::: x is cute\nskittish(x) ::: x is skittish\ncalm(x) ::: x is calm\nturtle(x) ::: x is a turtle\nsquirrel(x) ::: x is a squirrel\nrabbit(x) ::: x is a rabbit\ncampus(x) ::: x can be spotted near the campus\n\nPREMISES:\nforall x (rabbit(x) & campus(x) -> cute(x))\nexists x (turtle(x) & campus(x))\nforall x (turtle(x) | squirrel(x) | rabbit(x) | squirrel(x) -> campus(x))\nforall x (skittish(x) -> not calm(x))\nforall x (squirrel(x) & campus(x) -> skittish(x))\nsquirrel(rockie) & campus(rockie) & calm(rockie)\n\nCONCLUSION:\nnot (turtle(rockie) & squirrel(rockie)) -> (cute(rockie) | skittish(rockie))"
+        }
+      ]
+    },
+    {
+      "id": "020",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-(cute(rockie) & calm(rockie) -> turtle(rockie))",
+          "formalization": "PREDICATES:\ncute(x) ::: x is cute\nskittish(x) ::: x is skittish\ncalm(x) ::: x is calm\nturtle(x) ::: x is a turtle\nsquirrel(x) ::: x is a squirrel\nrabbit(x) ::: x is a rabbit\ncampus_spotted(x) ::: x can be spotted near the campus\n\nPREMISES:\nforall x (rabbit(x) & campus_spotted(x) -> cute(x))\nexists x (turtle(x) & campus_spotted(x))\nforall x (campus_spotted(x) -> (rabbit(x) | squirrel(x)))\nforall x (skittish(x) -> not calm(x))\nforall x (squirrel(x) & campus_spotted(x) -> skittish(x))\ncampus_spotted(rockie)\ncalm(rockie)\n\nCONCLUSION:\nnot (cute(rockie) & calm(rockie) -> turtle(rockie))"
+        }
+      ]
+    },
+    {
+      "id": "021",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "shares(karen, stranger_things)",
+          "formalization": "PREDICATES:\nnetflix_show(x) ::: x is a Netflix show\npopular(x) ::: x is popular\nbinge_watches(x, y) ::: x binge-watches y\ndownloads(x, y) ::: x downloads y\nshares(x, y) ::: x shares y\n\nPREMISES:\nforall x (popular(x) -> binge_watches(karen, x))\nforall x (binge_watches(karen, x) -> downloads(karen, x))\nnot downloads(karen, black_mirror)\nnetflix_show(black_mirror)\nnetflix_show(stranger_things)\npopular(stranger_things)\n\nCONCLUSION:\nshares(karen, stranger_things)"
+        }
+      ]
+    },
+    {
+      "id": "022",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "False",
+          "query": "download(karen, black_mirror)",
+          "formalization": "PREDICATES:\nnetflix_show(x) ::: x is a Netflix show\npopular(x) ::: x is popular\nbinge_watches(x, y) ::: x binge-watches y\ndownload(x, y) ::: x downloads y\nshare(x, y) ::: x shares y\n\nPREMISES:\nforall x (popular(x) -> (forall y (netflix_show(y) -> (binge_watches(karen, y) -> download(karen, y))))\nforall x (binge_watches(karen, x) -> share(karen, x))\nnot download(karen, black_mirror)\nnetflix_show(black_mirror)\npopular(black_mirror)\n\nCONCLUSION:\ndownload(karen, black_mirror)"
+        }
+      ]
+    },
+    {
+      "id": "023",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "share(karen, black_mirror, lisa)",
+          "formalization": "PREDICATES:\npopular(x) ::: x is popular\nnetflix_show(x) ::: x is a Netflix show\nbinge_watches(x, y) ::: x binge-watches y\ndownload(x, y) ::: x downloads y\nshare(x, y) ::: x shares y\n\nPREMISES:\nforall x (popular(x) -> binge_watches(karen, x))\nforall x (binge_watches(karen, x) -> download(karen, x))\nnot download(karen, black_mirror)\nnetflix_show(black_mirror)\nforall x (binge_watches(karen, x) -> share(karen, x, lisa))\n\nCONCLUSION:\nshare(karen, black_mirror, lisa)"
+        }
+      ]
+    },
+    {
+      "id": "024",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "hosted(beijing, 2008_winter_olympics)",
+          "formalization": "PREDICATES:\ncapital_of(x, y) ::: x is the capital of y\ncity(x) ::: x is a city\nnation(x) ::: x is a nation\nlocated_in(x, y) ::: x is located in y\nhosted(x, y) ::: x hosted y\nuniversity(x) ::: x is a university\nranked_among_best(x) ::: x consistently ranks among the best\n\nPREMISES:\ncapital_of(beijing, people's_republic_of_china)\ncapital_of(beijing, world's_most_populous_nation)\nlocated_in(beijing, northern_china)\nhosted(beijing, 2008_summer_olympics)\nhosted(beijing, 2008_summer_paralympics_games)\nhosted(beijing, 2008_winter_olympics)\nhosted(beijing, 2008_winter_paralympics)\nhosted(beijing, summer_olympics)\nhosted(beijing, winter_olympics)\nhosted(beijing, summer_paralympics)\nhosted(beijing, winter_paralympics)\nforall x (university(x) -> ranked_among_best(x))\nnumber_of_universities(beijing) = 91\n\nCONCLUSION:\nhosted(beijing, 2008_winter_olympics)"
+        }
+      ]
+    },
+    {
+      "id": "025",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "located_in(beijing, southern_china)",
+          "formalization": "PREDICATES:\ncapital_of(x, y) ::: x is the capital of y\ncity(x) ::: x is a city\nnation(x) ::: x is a nation\nlocated_in(x, y) ::: x is located in y\nhosted(x, y) ::: x hosted y\nuniversity(x) ::: x is a university\nranked_among_best(x) ::: x consistently ranks among the best\n\nPREMISES:\ncapital_of(beijing, people's_republic_of_china)\ncapital_of(beijing, world's_most_populous_nation)\nlocated_in(beijing, northern_china)\nhosted(beijing, 2008_summer_olympics)\nhosted(beijing, 2008_summer_paralympics_games)\nhosted(beijing, summer_olympics)\nhosted(beijing, summer_paralympics)\nhosted(beijing, winter_olympics)\nhosted(beijing, winter_paralympics)\nforall x (university(x) -> ranked_among_best(x))\nuniversity(x) ::: x = beijing's_91_universities\n\nCONCLUSION:\nlocated_in(beijing, southern_china)"
+        }
+      ]
+    },
+    {
+      "id": "026",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "second_largest_city(beijing)",
+          "formalization": "PREDICATES:\ncapital_of(x, y) ::: x is the capital of y\ncity(x) ::: x is a city\nnation(x) ::: x is a nation\nlocated_in(x, y) ::: x is located in y\nhosted(x, y) ::: x hosted y\nuniversity(x) ::: x is a university\nranked_among_best(x) ::: x consistently ranks among the best\npopulous_nation(x) ::: x is the world's most populous nation\nsummer_olympics(x) ::: x is the Summer Olympics\nsummer_paralympics(x) ::: x is the Summer Paralympics\nwinter_olympics(x) ::: x is the Winter Olympics\nwinter_paralympics(x) ::: x is the Winter Paralympics\nchinese_city(x) ::: x is a Chinese city\nlargest_city(x) ::: x is the largest city\nsecond_largest_city(x) ::: x is the second largest city\n\nPREMISES:\ncapital_of(beijing, people's_republic_of_china)\ncapital_of(beijing, world's_most_populous_nation)\nlocated_in(beijing, northern_china)\nhosted(beijing, 2008_summer_olympics)\nhosted(beijing, 2008_summer_paralympics)\nhosted(beijing, summer_olympics)\nhosted(beijing, summer_paralympics)\nhosted(beijing, winter_olympics)\nhosted(beijing, winter_paralympics)\nforall x (university(x) -> ranked_among_best(x))\nchinese_city(beijing)\nforall x (chinese_city(x) -> populous_nation(x) -> largest_city(x) -> second_largest_city(x))\n\nCONCLUSION:\nsecond_largest_city(beijing)"
+        }
+      ]
+    },
+    {
+      "id": "027",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "alien(marvin)",
+          "formalization": "PREDICATES:\nalien(x) ::: x is an alien\nextraterrestrial(x) ::: x is an extraterrestrial\nhuman(x) ::: x is a human\nfrom_mars(x) ::: x is from Mars\nfrom_earth(x) ::: x is from Earth\nhighly_intelligent_being(x) ::: x is a highly intelligent being\n\nPREMISES:\nforall x (alien(x) -> extraterrestrial(x))\nforall x (from_mars(x) -> alien(x))\nforall x (not extraterrestrial(x) -> not human(x))\nforall x (from_earth(x) -> human(x))\nhighly_intelligent_being(marvin)\nfrom_mars(marvin) or from_earth(marvin)\nnot from_earth(marvin) -> extraterrestrial(marvin)\n\nCONCLUSION:\nalien(marvin)"
+        }
+      ]
+    },
+    {
+      "id": "028",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-(human(marvin) or from_mars(marvin))",
+          "formalization": "PREDICATES:\nalien(x) ::: x is an alien\nextraterrestrial(x) ::: x is an extraterrestrial\nhuman(x) ::: x is a human\nfrom_mars(x) ::: x is from Mars\nfrom_earth(x) ::: x is from Earth\nhighly_intelligent_being(x) ::: x is a highly intelligent being\n\nPREMISES:\nforall x (alien(x) -> extraterrestrial(x))\nforall x (from_mars(x) -> alien(x))\nforall x (not extraterrestrial(x) -> not human(x))\nforall x (from_earth(x) -> human(x))\nhighly_intelligent_being(marvin)\nforall x (from_mars(x) or not from_mars(x))\nforall x (not from_earth(x) -> extraterrestrial(x))\n\nCONCLUSION:\nnot (human(marvin) or from_mars(marvin))"
+        }
+      ]
+    },
+    {
+      "id": "029",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~from_mars(marvin) -> human(marvin)",
+          "formalization": "PREDICATES:\nalien(x) ::: x is an alien\nextraterrestrial(x) ::: x is an extraterrestrial\nhuman(x) ::: x is a human\nfrom_mars(x) ::: x is from Mars\nfrom_earth(x) ::: x is from Earth\nhighly_intelligent_being(x) ::: x is a highly intelligent being\n\nPREMISES:\nforall x (alien(x) -> extraterrestrial(x))\nforall x (from_mars(x) -> alien(x))\nforall x (extraterrestrial(x) -> ~human(x))\nforall x (from_earth(x) -> human(x))\nhighly_intelligent_being(marvin)\nforall x (from_mars(x) v ~from_mars(x))\nforall x (~from_earth(x) -> extraterrestrial(x))\n\nCONCLUSION:\n~from_mars(marvin) -> human(marvin)"
+        }
+      ]
+    },
+    {
+      "id": "030",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": null,
+          "formalization": "PREDICATES:\ngrand_slam_champion(x) ::: x is a Grand Slam champion\noscar_nominated_actor(x) ::: x is an Oscar-nominated actor\ncelebrity(x) ::: x is a celebrity\nprofessional_tennis_player(x) ::: x is a professional tennis player\nathlete(x) ::: x is an athlete\nwell_paid(x) ::: x is well paid\ntax_haven(x) ::: x lives in a tax haven\nfamous(x) ::: x is famous\nperson(x) ::: x is a person\n\nPREMISES:\nforall x (person(x) -> (grand_slam_champion(x) or oscar_nominated_actor(x)))\nforall x (grand_slam_champion(x) -> professional_tennis_player(x))\nforall x (oscar_nominated_actor(x) -> celebrity(x))\nforall x (professional_tennis_player(x) -> athlete(x))\nforall x (celebrity(x) -> well_paid(x))\nforall x (athlete(x) -> famous(x))\nforall x (well_paid(x) -> tax_haven(x))\nforall x (person(x) -> (famous(x) -> well_paid(x)))\nperson(djokovic)\nforall x (athlete(x) -> famous(x)) -> (famous(x) -> well_paid(x)) -> (well_paid(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) -> well_paid(x)) -> (famous(x) -> tax_haven(x)) -> (famous(x) ->"
+        }
+      ]
+    },
+    {
+      "id": "031",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "tax_haven(djokovic)",
+          "formalization": "PREDICATES:\ngrand_slam_champion(x) ::: x is a Grand Slam champion\noscar_nominated_actor(x) ::: x is an Oscar-nominated actor\ncelebrity(x) ::: x is a celebrity\nprofessional_tennis_player(x) ::: x is a professional tennis player\nathlete(x) ::: x is an athlete\nwell_paid(x) ::: x is well paid\ntax_haven(x) ::: x lives in a tax haven\nfamous(x) ::: x is famous\n\nPREMISES:\nforall x (grand_slam_champion(x) -> professional_tennis_player(x))\nforall x (oscar_nominated_actor(x) -> celebrity(x))\nforall x (celebrity(x) -> well_paid(x))\nforall x (athlete(x) -> famous(x))\nforall x (athlete(x) -> well_paid(x))\nforall x (well_paid(x) -> tax_haven(x))\nforall x (famous(x) & athlete(x) -> well_paid(x))\ngrand_slam_champion(djokovic)\nfamous(x) & athlete(x) :- djokovic(x)\n\nCONCLUSION:\ntax_haven(djokovic)"
+        }
+      ]
+    },
+    {
+      "id": "032",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-tax_haven(djokovic)",
+          "formalization": "PREDICATES:\ngrand_slam_champion(x) ::: x is a Grand Slam champion\noscar_nominated_actor(x) ::: x is an Oscar-nominated actor\ncelebrity(x) ::: x is a celebrity\nprofessional_tennis_player(x) ::: x is a professional tennis player\nathlete(x) ::: x is an athlete\nwell_paid(x) ::: x is well paid\ntax_haven(x) ::: x lives in a tax haven\nfamous(x) ::: x is famous\nperson(x) ::: x is a person\n\nPREMISES:\nforall x (person(x) -> (grand_slam_champion(x) or oscar_nominated_actor(x)))\nforall x (grand_slam_champion(x) -> professional_tennis_player(x))\nforall x (oscar_nominated_actor(x) -> celebrity(x))\nforall x (professional_tennis_player(x) -> athlete(x))\nforall x (celebrity(x) -> well_paid(x))\nforall x (athlete(x) -> famous(x))\nforall x (well_paid(x) -> tax_haven(x))\nforall x (person(x) -> (famous(x) -> well_paid(x)))\nperson(djokovic)\nforall x (person(x) & famous(x) & athlete(x) -> well_paid(x)) (Djokovic)\n\nCONCLUSION:\nnot tax_haven(djokovic)"
+        }
+      ]
+    },
+    {
+      "id": "033",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "leads_stable(roderick_strong)",
+          "formalization": "PREDICATES:\nleads(x, y) ::: x leads y\nprofessional_wrestling_stable(x) ::: x is a professional wrestling stable\nleads_stable(x) ::: x leads a professional wrestling stable\nis_member_of(x, y) ::: x is a member of y\nhas_feud(x, y) ::: x has a feud with y\n\nPREMISES:\nleads(diamond_mine, roderick_strong)\nis_member_of(creed_brothers, diamond_mine)\nis_member_of(ivy_nile, diamond_mine)\nleads_stable(roderick_strong)\nprofessional_wrestling_stable(diamond_mine)\nhas_feud(imperium, diamond_mine)\n\nCONCLUSION:\nleads_stable(roderick_strong)"
+        }
+      ]
+    },
+    {
+      "id": "034",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "leads(roderick_strong, creed_brothers)",
+          "formalization": "PREDICATES:\nleads(x, y) ::: x leads y\nis_part_of(x, y) ::: x is part of y\nis_professional_wrestling_stable(x) ::: x is a professional wrestling stable\nhas_feud(x, y) ::: x has a feud with y\n\nPREMISES:\nleads(roderick_strong, diamond_mine)\nis_part_of(creed_brothers, diamond_mine)\nis_part_of(ivy_nile, diamond_mine)\nis_professional_wrestling_stable(diamond_mine)\nhas_feud(imperium, diamond_mine)\n\nCONCLUSION:\nleads(roderick_strong, creed_brothers)"
+        }
+      ]
+    },
+    {
+      "id": "035",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all y (wrestling_stable(y) & includes(y, ivy_nile) -> feud(imperium, y))",
+          "formalization": "PREDICATES:\nwrestling_stable(x) ::: x is a professional wrestling stable\nleads(x, y) ::: x leads y\nincludes(x, y) ::: x includes y\nfeud(x, y) ::: x has a feud with y\npro_wrestler(x) ::: x is a professional wrestler\nleads_diamond_mine(x) ::: x leads Diamond Mine\nincludes_diamond_mine(x) ::: x includes Diamond Mine\ndiamond_mine(x) ::: x is Diamond Mine\nimperium(x) ::: x is Imperium\ncreed_brothers(x) ::: x is the Creed Brothers\nivy_nile(x) ::: x is Ivy Nile\nroderick_strong(x) ::: x is Roderick Strong\n\nPREMISES:\nleads_diamond_mine(roderick_strong)\nincludes_diamond_mine(creed_brothers)\nincludes_diamond_mine(ivy_nile)\ndiamond_mine(x) -> leads_diamond_mine(x)\ndiamond_mine(x) -> includes_diamond_mine(x)\ndiamond_mine(x) -> includes(x, creed_brothers)\ndiamond_mine(x) -> includes(x, ivy_nile)\nfeud(imperium, diamond_mine)\n\nCONCLUSION:\nforall y (wrestling_stable(y) & includes(y, ivy_nile) -> feud(imperium, y))"
+        }
+      ]
+    },
+    {
+      "id": "036",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "composer(beethoven)",
+          "formalization": "PREDICATES:\nmusic_piece(x) ::: x is a music piece\ncomposer(x) ::: x is a composer\npremiered(x) ::: x premiered a music piece\norchestra(x) ::: x is an orchestra\nleads(x) ::: x leads an orchestra\nconductor(x) ::: x is a conductor\n\nPREMISES:\nmusic_piece(symphony_no_9)\ncomposer(x) -> music_piece(x)\ncomposer(beethoven)\npremiered(symphony_no_9)\norchestra(vienna_music_society)\nleads(beethoven, vienna_music_society)\norchestra(x) -> leads(x, conductor(x))\n\nCONCLUSION:\ncomposer(beethoven)"
+        }
+      ]
+    },
+    {
+      "id": "037",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "exists x (orchestra(x) & premiered_by(x, music_piece))",
+          "formalization": "PREDICATES:\nmusic_piece(x) ::: x is a music piece\ncomposer(x) ::: x is a composer\npremiered(x) ::: x premiered a music piece\norchestra(x) ::: x is an orchestra\nled_by(x) ::: x is led by a conductor\nconductor(x) ::: x is a conductor\npremiered_by(x, y) ::: y premiered x\nleads(x, y) ::: x leads y\nwrote(x, y) ::: x wrote y\nsymphony_no_9(x) ::: x is Symphony No. 9\nbeethoven(x) ::: x is Beethoven\nvienna_music_society(x) ::: x is Vienna Music Society\n\nPREMISES:\nmusic_piece(symphony_no_9)\ncomposer(x) -> music_piece(x)\nwrote(beethoven, symphony_no_9)\npremiered_by(vienna_music_society, symphony_no_9)\norchestra(vienna_music_society)\nled_by(x) -> orchestra(x)\nbeethoven(x) -> leads(x, vienna_music_society)\nconductor(x) -> led_by(x)\n\nCONCLUSION:\nexists x (orchestra(x) & premiered_by(x, music_piece))"
+        }
+      ]
+    },
+    {
+      "id": "038",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "conductor(beethoven)",
+          "formalization": "PREDICATES:\nmusic_piece(x) ::: x is a music piece\ncomposer(x) ::: x is a composer\npremiered_by(x) ::: x premiered a music piece\norchestra(x) ::: x is an orchestra\nleads(x) ::: x leads an orchestra\nconductor(x) ::: x is a conductor\n\nPREMISES:\nforall x (composer(x) -> music_piece(x))\nmusic_piece(symphony_no_9)\ncomposer(beethoven)\npremiered_by(vienna_music_society, symphony_no_9)\norchestra(vienna_music_society)\nleads(beethoven, vienna_music_society)\nforall x (orchestra(x) -> leads(x, conductor(x)))\n\nCONCLUSION:\nconductor(beethoven)"
+        }
+      ]
+    },
+    {
+      "id": "039",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "brutalist_building(x)",
+          "formalization": "PREDICATES:\nzaha_hadid_style(x) ::: x is Zaha Hadid's design style\nbrutalist_building(x) ::: x is a brutalist building\nkelly_wearstler_style(x) ::: x is Kelly Wearstler's design style\ninteresting_geometry(x) ::: x has interesting geometries\nevocative(x) ::: x is evocative\ndreamy(x) ::: x is dreamy\nmax_style(x) ::: x is a design by Max\nmax_adores(x) ::: Max adores x\n\nPREMISES:\nforall x (zaha_hadid_style(x) & max_adores(x) -> interesting_geometry(x))\nforall x (brutalist_building(x) -> ~interesting_geometry(x))\nforall x (max_style(x) -> (zaha_hadid_style(x) | kelly_wearstler_style(x)))\nforall x (kelly_wearstler_style(x) & max_adores(x) -> evocative(x))\nforall x (kelly_wearstler_style(x) & max_adores(x) -> dreamy(x))\nforall x (interesting_geometry(x) -> (brutalist_building(x) & evocative(x)))\n\nCONCLUSION:\nbrutalist_building(x)"
+        }
+      ]
+    },
+    {
+      "id": "040",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "evocative(max_style(x)) & dreamy(max_style(x))",
+          "formalization": "PREDICATES:\nzaha_hadid_style(x) ::: x is Zaha Hadid's design style\nbrutalist_building(x) ::: x is a brutalist building\nkelly_wearstler_style(x) ::: x is Kelly Wearstler's design style\ninteresting_geometry(x) ::: x has interesting geometries\nmax_style(x) ::: x is a design by Max\nadorable(x) ::: Max adores x\nevocative(x) ::: x is evocative\ndreamy(x) ::: x is dreamy\n\nPREMISES:\nforall x (adorable(x) & zaha_hadid_style(x) -> interesting_geometry(x))\nforall x (adorable(x) & brutalist_building(x) -> ~interesting_geometry(x))\nforall x (adorable(x) -> (zaha_hadid_style(x) | kelly_wearstler_style(x)))\nforall x (adorable(x) & kelly_wearstler_style(x) -> evocative(x))\nforall x (adorable(x) & kelly_wearstler_style(x) -> dreamy(x))\nforall x (adorable(x) & interesting_geometry(x) -> (brutalist_building(x) & evocative(x)))\n\nCONCLUSION:\nevocative(max_style(x)) & dreamy(max_style(x))"
+        }
+      ]
+    },
+    {
+      "id": "041",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (max_style(x) -> (evocative(x) | dreamy(x)))",
+          "formalization": "PREDICATES:\nzaha_hadid_style(x) ::: x is Zaha Hadid's design style\nbrutalist(x) ::: x is a brutalist building\nkelly_wearstler_style(x) ::: x is Kelly Wearstler's design style\ninteresting_geometry(x) ::: x has interesting geometries\nmax_style(x) ::: x is a design by Max\nevocative(x) ::: x is evocative\ndreamy(x) ::: x is dreamy\n\nPREMISES:\nforall x (zaha_hadid_style(x) & max_style(x) -> interesting_geometry(x))\nforall x (brutalist(x) & max_style(x) -> ~interesting_geometry(x))\nforall x (max_style(x) -> (zaha_hadid_style(x) | kelly_wearstler_style(x)))\nforall x (kelly_wearstler_style(x) & max_style(x) -> evocative(x))\nforall x (kelly_wearstler_style(x) & max_style(x) -> dreamy(x))\nforall x (max_style(x) & interesting_geometry(x) -> (brutalist(x) & evocative(x)))\n\nCONCLUSION:\nforall x (max_style(x) -> (evocative(x) | dreamy(x)))"
+        }
+      ]
+    },
+    {
+      "id": "042",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "active_player(coco_gauff)",
+          "formalization": "PREDICATES:\nhighly_ranked_wta(x) ::: x is ranked highly by the Women's Tennis Association\nactive_player(x) ::: x is one of the most active players in major tennis\nlost_to_iga_swiatek(x) ::: x lost to Iga Świątek\nfemale_tennis_player(x) ::: x is a female tennis player at Roland Garros 2022\nmale_tennis_player(x) ::: x is a male tennis player at Roland Garros 2022\nlost_to_rafael_nadal(x) ::: x lost to Rafael Nadal\nat_roland_garros_2022(x) ::: x is at Roland Garros 2022\ngrand_slam_active(x) ::: x is among the most active Grand-Slam players\n\nPREMISES:\nforall x (highly_ranked_wta(x) -> active_player(x))\nforall x (lost_to_iga_swiatek(x) -> highly_ranked_wta(x))\nforall x (at_roland_garros_2022(x) -> (female_tennis_player(x) | male_tennis_player(x)))\nforall x (at_roland_garros_2022(x) -> (lost_to_iga_swiatek(x) | lost_to_rafael_nadal(x)))\nforall x ((highly_ranked_wta(x) | lost_to_rafael_nadal(x)) -> ~male_tennis_player(x))\nat_roland_garros_2022(coco_gauff)\n\nCONCLUSION:\nactive_player(coco_gauff)"
+        }
+      ]
+    },
+    {
+      "id": "043",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "lost_to_rafael_nadal(coco_gauff)",
+          "formalization": "PREDICATES:\nhighly_ranked_wta(x) ::: x is ranked highly by the Women's Tennis Association\nactive_player(x) ::: x is one of the most active players in major tennis\nlost_to_iga_swiatek(x) ::: x lost to Iga Świątek\nfemale_tennis_player(x) ::: x is a female tennis player\nmale_tennis_player(x) ::: x is a male tennis player\nlost_to_rafael_nadal(x) ::: x lost to Rafael Nadal\nat_roland_garros_2022(x) ::: x is at Roland Garros 2022\n\nPREMISES:\nforall x (highly_ranked_wta(x) -> active_player(x))\nforall x (lost_to_iga_swiatek(x) -> highly_ranked_wta(x))\nforall x (at_roland_garros_2022(x) -> (female_tennis_player(x) or male_tennis_player(x)))\nforall x (at_roland_garros_2022(x) -> lost_to_iga_swiatek(x) -> lost_to_iga_swiatek(x))\nforall x (at_roland_garros_2022(x) and male_tennis_player(x) -> lost_to_rafael_nadal(x))\nforall x ((highly_ranked_wta(x) or lost_to_rafael_nadal(x)) -> not male_tennis_player(x))\nat_roland_garros_2022(coco_gauff)\n\nCONCLUSION:\nlost_to_rafael_nadal(coco_gauff)"
+        }
+      ]
+    },
+    {
+      "id": "044",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-(lost_to_iga_swiatek(gauff) and active_major_tennis(gauff))",
+          "formalization": "PREDICATES:\nhighly_ranked_wta(x) ::: x is ranked highly by the Women's Tennis Association\nactive_major_tennis(x) ::: x is one of the most active players in major tennis\nlost_to_iga_swiatek(x) ::: x lost to Iga Świątek at Roland Garros 2022\nfemale_tennis_player(x) ::: x is a female tennis player at Roland Garros 2022\nmale_tennis_player(x) ::: x is a male tennis player at Roland Garros 2022\nlost_to_rafael_nadal(x) ::: x lost to Rafael Nadal\ngauff(x) ::: x is Coco Gauff\n\nPREMISES:\nforall x (highly_ranked_wta(x) -> active_major_tennis(x))\nforall x (lost_to_iga_swiatek(x) -> highly_ranked_wta(x))\nforall x (female_tennis_player(x) -> lost_to_iga_swiatek(x))\nforall x (female_tennis_player(x) -> male_tennis_player(x))\nforall x (male_tennis_player(x) -> lost_to_rafael_nadal(x))\nforall x (highly_ranked_wta(x) or lost_to_rafael_nadal(x) -> not male_tennis_player(x))\ngauff(fauff)\nfemale_tennis_player(gauff)\nmale_tennis_player(gauff)\n\nCONCLUSION:\nnot (lost_to_iga_swiatek(gauff) and active_major_tennis(gauff))"
+        }
+      ]
+    },
+    {
+      "id": "045",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~all x (pet(x) -> cat(x))",
+          "formalization": "PREDICATES:\ncat(x) ::: x is a cat\nmammal(x) ::: x is a mammal\npet(x) ::: x is a pet\n\nPREMISES:\nforall x (cat(x) -> mammal(x))\nexists x (pet(x) & ~mammal(x))\n~cat(pet1)\n\nCONCLUSION:\n~forall x (pet(x) -> cat(x))"
+        }
+      ]
+    },
+    {
+      "id": "046",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "favorite_season(james, summer)",
+          "formalization": "PREDICATES:\nstudent(x) ::: x is a student\nseason(x) ::: x is a season\nlong_vacation(x) ::: x wants to have a long vacation\nfavorite_season(x, y) ::: x's favorite season is y\n\nPREMISES:\nforall x (long_vacation(x) -> favorite_season(x, summer))\nfavorite_season(emma, summer)\nfavorite_season(mia, s) & s!= summer\nlong_vacation(james)\n\nCONCLUSION:\nfavorite_season(james, summer)"
+        }
+      ]
+    },
+    {
+      "id": "047",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "favorite_season(mia, spring)",
+          "formalization": "PREDICATES:\nstudent(x) ::: x is a student\nseason(x) ::: x is a season\nfavorite_season(x, y) ::: x's favorite season is y\nlong_vacation(x) ::: x wants to have a long vacation\n\nPREMISES:\nforall x (long_vacation(x) -> favorite_season(x, summer))\nfavorite_season(emma, summer)\nfavorite_season(mia, y) & y!= summer\nlong_vacation(james)\n\nCONCLUSION:\nfavorite_season(mia, spring)"
+        }
+      ]
+    },
+    {
+      "id": "048",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "printed_text(1984)",
+          "formalization": "PREDICATES:\nanalog(x) ::: x is analog\ndigital(x) ::: x is digital\nprinted_text(x) ::: x is printed text\nstreaming_service(x) ::: x is a streaming service\nhardcover_book(x) ::: x is a hardcover book\n\nPREMISES:\nforall x (digital(x) -> analog(x))\nforall x (analog(x) -> digital(x))\nforall x (printed_text(x) -> analog(x))\nstreaming_service(1984) -> hardcover_book(1984)\nhardcover_book(x) -> printed_text(x)\n\nCONCLUSION:\nprinted_text(1984)"
+        }
+      ]
+    },
+    {
+      "id": "049",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "analog(1984)",
+          "formalization": "PREDICATES:\nanalog(x) ::: x is analog\ndigital(x) ::: x is digital\nstreaming_service(x) ::: x is a streaming service\nhardcover_book(x) ::: x is a hardcover book\nprinted_text(x) ::: x is printed text\n\nPREMISES:\nforall x (digital(x) -> analog(x))\nforall x (printed_text(x) -> analog(x))\nforall x (streaming_service(x) -> digital(x))\nforall x (hardcover_book(x) -> printed_text(x))\nforall x (streaming_service(x) -> hardcover_book(x))\nhardcover_book(1984)\n\nCONCLUSION:\nanalog(1984)"
+        }
+      ]
+    },
+    {
+      "id": "050",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "analog(1984)",
+          "formalization": "PREDICATES:\nanalog(x) ::: x is analog\ndigital(x) ::: x is digital\nstreaming_service(x) ::: x is a streaming service\nhardcover_book(x) ::: x is a hardcover book\nprinted_text(x) ::: x is printed text\n\nPREMISES:\nforall x (digital(x) -> analog(x))\nforall x (printed_text(x) -> analog(x))\nforall x (streaming_service(x) -> digital(x))\nforall x (hardcover_book(x) -> printed_text(x))\nforall x (streaming_service(x) -> hardcover_book(x))\nstreaming_service(1984)\n\nCONCLUSION:\nanalog(1984)"
+        }
+      ]
+    },
+    {
+      "id": "051",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~romance_language(basque)",
+          "formalization": "PREDICATES:\nindo_european_language(x) ::: x is an Indo-European language\nlanguage_family(x) ::: x is a language family\nrelated(x, y) ::: x is related to y\nromance_language(x) ::: x is a Romance language\nlanguage(x) ::: x is a language\nfrench(x) ::: x is French\nspanish(x) ::: x is Spanish\ngerman(x) ::: x is German\nbasque(x) ::: x is Basque\n\nPREMISES:\nforall x (romance_language(x) -> indo_european_language(x))\nlanguage_family(x) -> romance_language(x)\nforall x (language_family(x) -> forall y (language(y) & member(y, x) -> related(x, y)))\nromance_language(french)\nromance_language(spanish)\nrelated(german, spanish)\n~related(basque, x)\n\nCONCLUSION:\n~romance_language(basque)"
+        }
+      ]
+    },
+    {
+      "id": "052",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~german(x) | romance_language(german)",
+          "formalization": "PREDICATES:\nindo_european_language(x) ::: x is an Indo-European language\nlanguage_family(x) ::: x is a language family\nrelated(x, y) ::: x is related to y\nromance_language(x) ::: x is a Romance language\nlanguage(x) ::: x is a language\nfrench(x) ::: x is French\nspanish(x) ::: x is Spanish\ngerman(x) ::: x is German\nbasque(x) ::: x is Basque\n\nPREMISES:\nforall x (romance_language(x) -> indo_european_language(x))\nforall x (language_family(x) -> forall y (language(y) & member(y, x) -> related(x, y)))\nlanguage_family(x) -> romance_language(x)\nromance_language(french)\nromance_language(spanish)\nrelated(german, spanish)\n~related(basque, x)\n\nCONCLUSION:\n~german(x) | romance_language(german)"
+        }
+      ]
+    },
+    {
+      "id": "053",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "indo_european_language(french)",
+          "formalization": "PREDICATES:\nindo_european_language(x) ::: x is an Indo-European language\nlanguage_family(x) ::: x is a language family\nrelated(x, y) ::: x is related to y\nromance_language(x) ::: x is a Romance language\nlanguage(x) ::: x is a language\n\nPREMISES:\nforall x (romance_language(x) -> indo_european_language(x))\nlanguage_family(x) -> romance_language(x)\nforall x (language_family(x) -> forall y (language(y) -> related(x, y)))\nromance_language(french)\nromance_language(spanish)\nrelated(german, spanish)\n~related(basque, y)\n\nCONCLUSION:\nindo_european_language(french)"
+        }
+      ]
+    },
+    {
+      "id": "054",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "soccer_player(robert_lewandowski)",
+          "formalization": "PREDICATES:\nstriker(x) ::: x is a striker\nsoccer_player(x) ::: x is a soccer player\nplayer(x) ::: x is a player\nleaves_team(x, y) ::: x leaves y\nplays_for(x, y) ::: x plays for y\n\nPREMISES:\nstriker(robert_lewandowski)\nforall x (striker(x) -> soccer_player(x))\nforall x (leaves_team(x, y) -> not plays_for(x, y))\nleaves_team(robert_lewandowski, bayern_munchen)\n\nCONCLUSION:\nsoccer_player(robert_lewandowski)"
+        }
+      ]
+    },
+    {
+      "id": "055",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "-plays_for(robert_lewandowski,bayern_munchen)",
+          "formalization": "PREDICATES:\nstriker(x) ::: x is a striker\nsoccer_player(x) ::: x is a soccer player\nplays_for(x,y) ::: x plays for y\nleft(x,y) ::: x left y\n\nPREMISES:\nstriker(robert_lewandowski)\nforall x (striker(x) -> soccer_player(x))\nforall x (left(x,y) -> not plays_for(x,y))\nleft(robert_lewandowski,bayern_munchen)\n\nCONCLUSION:\nnot plays_for(robert_lewandowski,bayern_munchen)"
+        }
+      ]
+    },
+    {
+      "id": "056",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "star(robert_lewandowski)",
+          "formalization": "PREDICATES:\nstriker(x) ::: x is a striker\nsoccer_player(x) ::: x is a soccer player\nstar(x) ::: x is a star\nplayer_leaves_team(x, y) ::: x leaves y\nplays_for(x, y) ::: x plays for y\n\nPREMISES:\nstriker(robert_lewandowski)\nforall x (striker(x) -> soccer_player(x))\nforall x (player_leaves_team(x, y) -> not plays_for(x, y))\nplayer_leaves_team(robert_lewandowski, bayern_munchen)\n\nCONCLUSION:\nstar(robert_lewandowski)"
+        }
+      ]
+    },
+    {
+      "id": "057",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": null,
+          "formalization": "PREDICATES:\ncity(x) ::: x is a city\nstate(x) ::: x is a state in U.S.\nin(x, y) ::: x is in y\nmontana(x) ::: x is the state of Montana\nsame_state(x, y) ::: x and y are in the same state\n\nPREMISES:\ncity(billings) ::: billings is a city\ncity(butte) ::: butte is a city\ncity(helena) ::: helena is a city\ncity(missoula) ::: missoula is a city\ncity(white_sulphur_springs) ::: white_sulphur_springs is a city\ncity(st_pierre) ::: st_pierre is a city\nin(billings, montana) ::: billings is in the state of Montana\nin(helena, montana) ::: helena is in the state of Montana\nin(missoula, montana) ::: missoula is in the state of Montana\nin(white_sulphur_springs, montana) ::: white_sulphur_springs is in the state of Montana\nin(butte, montana) ::: butte is in the state of Montana\nnot_in(st_pierre, montana) ::: the city of St Pierre is not in the state of Montana\nforall x (city(x) -> (forall y (city(y) & in(x, y) -> same_state(x, y)))\nforall x (city(x) -> (forall y (city(y) & in(x, y) & in(x, montana) -> not in(x, y)))\nforall x (city(x) -> (forall y (city(y) & in(x, y) & in(x, st_pierre) -> not in(x, y)))\nforall x (city(x) -> (forall y (city(y) & in(x, y) & in(x, y) & in(x, y) -> (x = y)))\nforall x (city(x) -> (forall y (city(y) & in(x, y) & in(x, texarkana) -> (x = y)))\nforall x (city(x) -> (forall y (city(y) & in(x, y) & in(x, texhoma) -> (x = y)))\nforall x (city(x) -> (forall y (city(y) & in(x, y) & in(x, union_city"
+        }
+      ]
+    },
+    {
+      "id": "058",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": null,
+          "formalization": "PREDICATES:\ncity(x) ::: x is a city\nstate(x) ::: x is a state in U.S.\nin(x, y) ::: x is in y\nmontana(x) ::: x is the state of Montana\nsame_state(x, y) ::: x and y are in the same state\n\nPREMISES:\ncity(billings) ::: Billings is a city\ncity(butte) ::: Butte is a city\ncity(helena) ::: Helena is a city\ncity(missoula) ::: Missoula is a city\ncity(white_sulphur_springs) ::: White Sulphur Springs is a city\ncity(st_pierre) ::: St Pierre is a city\ncity(bismarck) ::: Bismarck is a city\nstate(montana) ::: the state of Montana is a state in U.S.\nin(billings, montana) ::: Billings is in the state of Montana\nin(butte, montana) ::: Butte is in the state of Montana\nin(helena, montana) ::: Helena is in the state of Montana\nin(missoula, montana) ::: Missoula is in the state of Montana\nin(white_sulphur_springs, montana) ::: White Sulphur Springs is in the state of Montana\nnot(in(st_pierre, montana)) ::: The city of St Pierre is not in the state of Montana\nforall x (city(x) -> (forall y (city(y) -> (in(x, y) -> not(in(x, z)) -> not(in(x, z)))))\nforall x (city(x) -> (forall y (city(y) -> (in(x, y) -> in(x, z) -> not(in(x, y)))))\nforall x (city(x) -> (forall y (city(y) -> (in(x, y) -> in(x, z) -> not(in(x, y)) -> (x = bristol -> in(x, z) -> in(x, y)))))\nforall x (city(x) -> (forall y (city(y) -> (in(x, y) -> in(x, z) -> in(x, y) -> (x = texarkana -> in(x, z) -> in(x, y)))))\nforall x (city(x) -> (forall y (city(y) -> (in(x, y) -> in(x, z) -> in(x, y"
+        }
+      ]
+    },
+    {
+      "id": "059",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "in(montana, missoula) ::: montana is home to the city of missoula",
+          "formalization": "PREDICATES:\ncity(x) ::: x is a city\nstate(x) ::: x is a state in U.S.\nin(x, y) ::: x is in y\nhome(x, y) ::: x is home to y\n\nPREMISES:\ncity(billings) ::: billings is a city\ncity(butte) ::: butte is a city\ncity(helena) ::: helena is a city\ncity(missoula) ::: missoula is a city\ncity(white_sulphur_springs) ::: white_sulphur_springs is a city\ncity(st_pierre) ::: st_pierre is a city\nstate(montana) ::: montana is a state in U.S.\nin(butte, montana) ::: butte is in montana\nin(helena, montana) ::: helena is in montana\nin(missoula, montana) ::: missoula is in montana\nin(white_sulphur_springs, montana) ::: white_sulphur_springs is in montana\nnot_in(st_pierre, montana) ::: the state of montana does not include the city of st_pierre\nforall x (city(x) -> (forall y (in(x, y) -> state(y))))\nforall x (city(x) -> (forall y (in(x, y) -> not_in(x, y2) | y2 = montana | y2 = butte | y2 = texarkana | y2 = texhoma | y2 = union_city)))\nnot_in(butte, st_pierre) ::: any city in butte is not in st_pierre\n\nCONCLUSION:\nin(montana, missoula) ::: montana is home to the city of missoula"
+        }
+      ]
+    },
+    {
+      "id": "060",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "CPT(mike)",
+          "formalization": "PREDICATES:\ninternational_student(x) ::: x is an international student\nF1_visa(x) ::: x has an F1 visa\nJ1_visa(x) ::: x has a J1 visa\nCPT(x) ::: x needs to apply for CPT\nOPT(x) ::: x needs to apply for OPT\nwork_in_US(x) ::: x wants to work in the US\n\nPREMISES:\nforall x (international_student(x) -> (F1_visa(x) | J1_visa(x)))\nforall x (F1_visa(x) & work_in_US(x) -> (CPT(x) | OPT(x)))\ninternational_student(mike)\nwork_in_US(mike)\n\nCONCLUSION:\nCPT(mike)"
+        }
+      ]
+    },
+    {
+      "id": "061",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "CPT(mike)",
+          "formalization": "PREDICATES:\ninternational_student(x) ::: x is an international student\nF1_visa(x) ::: x has an F1 visa\nJ1_visa(x) ::: x has a J1 visa\nCPT(x) ::: x needs to apply for CPT\nOPT(x) ::: x needs to apply for OPT\nwork_in_US(x) ::: x wants to work in the US\n\nPREMISES:\nforall x (international_student(x) -> (F1_visa(x) or J1_visa(x)))\nforall x ((international_student(x) and F1_visa(x)) -> (CPT(x) or OPT(x)))\ninternational_student(mike)\nwork_in_US(mike)\n\nCONCLUSION:\nCPT(mike)"
+        }
+      ]
+    },
+    {
+      "id": "062",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~domesticated_animal(ted)",
+          "formalization": "PREDICATES:\nbrown_swiss_cattle(x) ::: x is a Brown Swiss cattle\ncow(x) ::: x is a cow\npet(x) ::: x is a pet\ndomesticated_animal(x) ::: x is a domesticated animal\nalligator(x) ::: x is an alligator\n\nPREMISES:\nforall x (brown_swiss_cattle(x) -> cow(x))\nsome x (pet(x) & brown_swiss_cattle(x))\nforall x (cow(x) -> domesticated_animal(x))\nforall x (alligator(x) -> ~domesticated_animal(x))\nalligator(ted)\npet(ted)\n\nCONCLUSION:\n~domesticated_animal(ted)"
+        }
+      ]
+    },
+    {
+      "id": "063",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "brown_swiss_cattle(ted)",
+          "formalization": "PREDICATES:\nbrown_swiss_cattle(x) ::: x is a Brown Swiss cattle\ncow(x) ::: x is a cow\npet(x) ::: x is a pet\ndomesticated_animal(x) ::: x is a domesticated animal\nalligator(x) ::: x is an alligator\nbrown_swiss_cattle_cow(x) ::: x is a Brown Swiss cattle and a cow\n\nPREMISES:\nforall x (brown_swiss_cattle(x) -> cow(x))\nsome x (pet(x) & brown_swiss_cattle(x))\nforall x (cow(x) -> domesticated_animal(x))\nforall x (alligator(x) -> ~domesticated_animal(x))\nalligator(ted)\npet(ted)\n\nCONCLUSION:\nbrown_swiss_cattle(ted)"
+        }
+      ]
+    },
+    {
+      "id": "064",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~(brown_swiss_cattle(ted) -> pet(ted))",
+          "formalization": "PREDICATES:\nbrown_swiss_cattle(x) ::: x is a Brown Swiss cattle\ncow(x) ::: x is a cow\npet(x) ::: x is a pet\ndomesticated_animal(x) ::: x is a domesticated animal\nalligator(x) ::: x is an alligator\nbrown_swiss_cattle_cow(x) ::: x is a Brown Swiss cattle and a cow\nbrown_swiss_cattle_pet(x) ::: x is a Brown Swiss cattle and a pet\n\nPREMISES:\nforall x (brown_swiss_cattle(x) -> cow(x))\nsome x (brown_swiss_cattle(x) & pet(x))\nforall x (cow(x) -> domesticated_animal(x))\nforall x (alligator(x) -> ~domesticated_animal(x))\nalligator(ted)\n\nCONCLUSION:\n~(brown_swiss_cattle(ted) -> pet(ted))"
+        }
+      ]
+    },
+    {
+      "id": "065",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "moved(yale_university(x), new_haven(x))",
+          "formalization": "PREDICATES:\nivy_league_university(x) ::: x is an Ivy League research university\nprivate_university(x) ::: x is a private university\nresidential_college(x) ::: x is a residential college\nyale_university(x) ::: x is Yale University\nnew_haven(x) ::: x moved to New Haven\nuniversity(x) ::: x is a university\nmoved(x,y) ::: x moved to y\nvalued(x,y) ::: x's endowment was valued at y\nbillion(x) ::: x billion\nprivate(x) ::: x is private\nivy_league(x) ::: x is Ivy League\nresearch(x) ::: x is a research university\nyale(x) ::: x is Yale university\n\nPREMISES:\nivy_league_university(yale_university(x1))\nprivate(yale_university(x1))\nresearch(yale_university(x1))\nyale_university(x1) moved(x1, new_haven(x2))\nvalued(yale_university(x1), billion(42.3))\nresidential_college(x3) ::: x3 in {benjamin_franklin_college, berkeley_college, branford_college, davenport_college, ezra_stiles_college, grace_hopper_college, jonathan_edwards_college, morse_college, pauli_murray_college, pierson_college, saybrook_college, silliman_college, timothy_dwight_college, trumbull_college}\nforall x (residential_college(x) -> university(x))\n\nCONCLUSION:\nmoved(yale_university(x), new_haven(x))"
+        }
+      ]
+    },
+    {
+      "id": "066",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "has_endowment_largest(yale_university)",
+          "formalization": "PREDICATES:\nprivate_ivy_league_research_university(x) ::: x is a private Ivy League research university\nmoved_to_new_haven(x, y) ::: x moved to y in 1716\nhas_endowment(x, y) ::: x has an endowment of y\nresidential_college(x) ::: x is a residential college at Yale\nuniversity_endowment_largest(x) ::: x has the largest university endowment of any educational institution\n\nPREMISES:\nprivate_ivy_league_research_university(yale_university)\nmoved_to_new_haven(yale_university, new_haven)\nhas_endowment(yale_university, 42.3)\nresidential_college(benjamin_franklin_college)\nresidential_college(berkeley_college)\nresidential_college(branford_college)\nresidential_college(davenport_college)\nresidential_college(era_stiles_college)\nresidential_college(grace_hopper_college)\nresidential_college(jonathan_edwards_college)\nresidential_college(morse_college)\nresidential_college(pauli_murray_college)\nresidential_college(pierson_college)\nresidential_college(saybrook_college)\nresidential_college(silliman_college)\nresidential_college(timothy_dwight_college)\nresidential_college(trumbull_college)\n\nCONCLUSION:\nhas_endowment_largest(yale_university)"
+        }
+      ]
+    },
+    {
+      "id": "067",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": null,
+          "formalization": "PREDICATES:\nivy_league_university(x) ::: x is an Ivy League research university\nprivate_university(x) ::: x is a private university\nresidential_college(x) ::: x is a residential college\nyale_university(x) ::: x is Yale University\nnew_haven(x) ::: x is in New Haven\nuniversity_endowment(x) ::: x is a university endowment\nvalued_at(x, y) ::: x is valued at y billion\nresidential_college_at_yale(x) ::: x is a residential college at Yale\nyale(x) ::: x is Yale\n\nPREMISES:\nivy_league_research_university(yale_university(x)) ::: x is an Ivy League research university\nyale_university(x) moved_to(new_haven(x)) ::: x moved to New Haven in 1716\nvalued_at(yale_university(x), 42.3) ::: Yale university's endowment was valued at $42.3 billion\nresidential_college_at_yale(benjamin_franklin_college) ::: Benjamin Franklin College is a residential college at Yale\nresidential_college_at_yale(berkeley_college) ::: Berkeley College is a residential college at Yale\nresidential_college_at_yale(branford_college) ::: Branford College is a residential college at Yale\nresidential_college_at_yale(davenport_college) ::: Davenport College is a residential college at Yale\nresidential_college_at_yale(era_stiles_college) ::: Ezra Stiles College is a residential college at Yale\nresidential_college_at_yale(grace_hopper_college) ::: Grace Hopper College is a residential college at Yale\nresidential_college_at_yale(jonathan_edwards_college) ::: Jonathan Edwards College is a residential college at Yale\nresidential_college_at_yale(morse_college) ::: Morse College is a residential college at Yale\nresidential_college_at_yale(pauli_murray_college) ::: Pauli Murray College is a residential college at Yale\nresidential_college_at_yale(pierson_college) ::: Pierson College is a residential college at Yale\nresidential_college_at_yale(saybrook_college) ::: Saybrook College is a residential college at Yale\nresidential_college_at_yale(silliman_college) ::: Silliman College is a residential college at Yale\nresidential_college_at_yale(timothy"
+        }
+      ]
+    },
+    {
+      "id": "068",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "script_editor(Andrew_Collins, x) & working_title(x, \"The Secret Dude Society\")",
+          "formalization": "PREDICATES:\nbadults(x) ::: x is a series of the show Badults\nsitcom(x) ::: x is a British Sitcom series\npiloted(x, y) ::: x was piloted in y on BBC Three\nscript_editor(x, y) ::: x was the script editor for y\nworking_title(x, y) ::: x has the working title y\nmember(x, y) ::: x is a member of y\n\nPREMISES:\nbadults(x) -> sitcom(x)\nbadults(x) -> piloted(x, \"July 2013\") & piloted(x, \"BBC Three\")\nbadults(x) -> working_title(x, \"The Secret Dude Society\")\nscript_editor(Andrew_Collins, x) -> badults(x)\nmember(Pappy's, x) -> badults(x)\n\nCONCLUSION:\nscript_editor(Andrew_Collins, x) & working_title(x, \"The Secret Dude Society\")"
+        }
+      ]
+    },
+    {
+      "id": "069",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (pappy_member(x) -> (bbc_two(x) -> false))",
+          "formalization": "PREDICATES:\npappy_member(x) ::: x is a member of Pappy's\nbadults(x) ::: x has starred in Badults\nbbc_two(x) ::: x piloted on BBC Two\nbbc_three(x) ::: x piloted on BBC Three\nscript_editor(x) ::: x was the script editor for Badults\n\nPREMISES:\nbadults(x) ::: x has starred in Badults\nbadults(x) ::: x has starred in Badults\nbbc_three(badults)\nscript_editor(andrew_collins) ::: andrew_collins was the script editor for Badults\nforall x (pappy_member(x) -> badults(x))\nforall x (badults(x) -> (bbc_two(x) -> false))\n\nCONCLUSION:\nforall x (pappy_member(x) -> (bbc_two(x) -> false))"
+        }
+      ]
+    },
+    {
+      "id": "070",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "-suitable_for_retirement(ko)",
+          "formalization": "PREDICATES:\ngrowth_stock(x) ::: x is a growth stock\nmature_stock(x) ::: x is a mature stock\nstock(x) ::: x is a stock\nsuitable_for_retirement(x) ::: x is suitable for a retirement fund\nprofit_earnable(x) ::: x is bought to earn profits from rapid price appreciation\n\nPREMISES:\nforall x (growth_stock(x) -> profit_earnable(x))\nforall x (profit_earnable(x) -> not suitable_for_retirement(x))\ngrowth_stock(x)\nmature_stock(ko)\nstock(ko)\n\nCONCLUSION:\nnot suitable_for_retirement(ko)"
+        }
+      ]
+    },
+    {
+      "id": "071",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "-suitable_for_retirement(ko)",
+          "formalization": "PREDICATES:\ngrowth_stock(x) ::: x is a growth stock\nmature_stock(x) ::: x is a mature stock\nstock(x) ::: x is a stock\nsuitable_for_retirement(x) ::: x is suitable for a retirement fund\nprofit_earnable(x) ::: x is bought to earn profits from rapid price appreciation\n\nPREMISES:\nforall x (growth_stock(x) -> profit_earnable(x))\nforall x (profit_earnable(x) -> not suitable_for_retirement(x))\ngrowth_stock(x)\nmature_stock(ko)\nstock(ko)\n\nCONCLUSION:\nnot suitable_for_retirement(ko)"
+        }
+      ]
+    },
+    {
+      "id": "072",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-(ko or volatile_price(ko))",
+          "formalization": "PREDICATES:\ngrowth_stock(x) ::: x is a growth stock\nmature_stock(x) ::: x is a mature stock\nstock(x) ::: x is a stock\nvolatile_price(x) ::: x's price is volatile\nprofit_from_appreciation(x) ::: x is bought to earn profits from rapid price appreciation\nretirement_fund(x) ::: x is suitable for a retirement fund\n\nPREMISES:\nforall x (growth_stock(x) -> profit_from_appreciation(x))\nforall x (profit_from_appreciation(x) -> not retirement_fund(x))\ngrowth_stock(x)\nmature_stock(ko)\nstock(ko)\n\nCONCLUSION:\nnot (ko or volatile_price(ko))"
+        }
+      ]
+    },
+    {
+      "id": "073",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "begins_with_34(joe_plate)",
+          "formalization": "PREDICATES:\nis_from_istanbul(x) ::: x is from Istanbul\nbegins_with_34(x) ::: x begins with the number 34\nbegins_with_35(x) ::: x begins with the number 35\n\nPREMISES:\nforall x (begins_with_34(x) -> is_from_istanbul(x))\nforall x (not is_from_istanbul(x) -> not begins_with_34(x))\nis_from_istanbul(joe_plate)\nbegins_with_35(tom_plate)\n\nCONCLUSION:\nbegins_with_34(joe_plate)"
+        }
+      ]
+    },
+    {
+      "id": "074",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-begins_with_34(tom_plate)",
+          "formalization": "PREDICATES:\nis_from_istanbul(x) ::: x is from Istanbul\nbegins_with_34(x) ::: x begins with the number 34\nbegins_with_35(x) ::: x begins with the number 35\n\nPREMISES:\nforall x (begins_with_34(x) -> is_from_istanbul(x))\nforall x (not is_from_istanbul(x) -> not begins_with_34(x))\nis_from_istanbul(joe_plate)\nbegins_with_35(tom_plate)\n\nCONCLUSION:\nnot begins_with_34(tom_plate)"
+        }
+      ]
+    },
+    {
+      "id": "075",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "tuition(hannah)",
+          "formalization": "PREDICATES:\nstudent_job(x) ::: x works in student jobs on campus\npicky_eater(x) ::: x is a picky eater\ndining_hall(x) ::: x enjoys the dining hall meals and recipes\ncampus_dining(x) ::: x spends a lot of their time eating and catching up with friends in the campus dining halls\ntuition(x) ::: x needs to earn money to help pay for their college tuition\nat_marys_school(x) ::: x is at Mary's school\n\nPREMISES:\nforall x (at_marys_school(x) & student_job(x) -> tuition(x))\nforall x (at_marys_school(x) & order_takeout(x) -> student_job(x))\nforall x (at_marys_school(x) & (order_takeout(x) | dining_hall(x)))\nforall x (at_marys_school(x) & dining_hall(x) -> ~picky_eater(x))\nforall x (at_marys_school(x) & dining_hall(x) -> campus_dining(x))\nat_marys_school(hannah)\nstudent_job(hannah)\nforall x (student_job(x) & tuition(x) -> ~picky_eater(x) & ~tuition(x))\n\nCONCLUSION:\ntuition(hannah)"
+        }
+      ]
+    },
+    {
+      "id": "076",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "at_school(hannah) & -picky_eater(hannah) & eat_catch_up(hannah)",
+          "formalization": "PREDICATES:\nat_school(x) ::: x is at Mary's school\nstudent_job(x) ::: x works in student jobs on campus\nearn_money(x) ::: x needs to earn money to help pay for their college tuition\ntakeout(x) ::: x order takeout frequently in college\ndining_hall(x) ::: x enjoy the dining hall meals and recipes\npicky_eater(x) ::: x is a picky eater\neat_catch_up(x) ::: x spends a lot of their time eating and catching up with friends in the campus dining halls\n\nPREMISES:\nforall x (student_job(x) -> earn_money(x))\nforall x (takeout(x) -> student_job(x))\ntakeout(x) | dining_hall(x)\nforall x (dining_hall(x) -> not picky_eater(x))\nforall x (dining_hall(x) -> eat_catch_up(x))\nat_school(hannah)\nstudent_job(hannah)\nforall x (earn_money(x) & student_job(x) -> not (picky_eater(x) | earn_money(x)))\n\nCONCLUSION:\nat_school(hannah) & not picky_eater(hannah) & eat_catch_up(hannah)"
+        }
+      ]
+    },
+    {
+      "id": "077",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "hannah_at_school & (-picky_eater(hannah) | (picky_eater(hannah) -> eat_catch_up(hannah)))",
+          "formalization": "PREDICATES:\nstudent_job(x) ::: x works in student jobs on campus\npays_tuition(x) ::: x needs to earn money to help pay for their college tuition\ntakeout_frequent(x) ::: x order takeout frequently in college\ndining_hall(x) ::: x enjoy the dining hall meals and recipes\npicky_eater(x) ::: x is a picky eater\neat_catch_up(x) ::: x spends a lot of their time eating and catching up with friends in the campus dining halls\n\nPREMISES:\nforall x (student_job(x) -> pays_tuition(x))\nforall x (takeout_frequent(x) -> student_job(x))\ntakeout_frequent(x) v dining_hall(x)\nforall x (dining_hall(x) -> not picky_eater(x))\nforall x (dining_hall(x) -> eat_catch_up(x))\nhannah_at_school\nstudent_job(hannah)\nforall x (student_job(x) & pays_tuition(x) -> not (picky_eater(x) & pays_tuition(x)))\n\nCONCLUSION:\nhannah_at_school & (not picky_eater(hannah) | (picky_eater(hannah) -> eat_catch_up(hannah)))"
+        }
+      ]
+    },
+    {
+      "id": "078",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (product_of_baked_by_melissa(x) -> -spicy(x))",
+          "formalization": "PREDICATES:\nbaked_sweet(x) ::: x is a baked sweet\nspicy(x) ::: x is spicy\ncupcake(x) ::: x is a cupcake\nmala_hotpot(x) ::: x is a mala hotpot\nproduct_of_baked_by_melissa(x) ::: x is a product of Baked by Melissa\ndried_thai_chili(x) ::: x is a dried Thai chili\n\nPREMISES:\nforall x (baked_sweet(x) -> not spicy(x))\nforall x (cupcake(x) -> baked_sweet(x))\nforall x (mala_hotpot(x) -> spicy(x))\nforall x (product_of_baked_by_melissa(x) -> cupcake(x))\nforall x (spicy(x) or mala_hotpot(x) or not baked_sweet(x))\n\nCONCLUSION:\nforall x (product_of_baked_by_melissa(x) -> not spicy(x))"
+        }
+      ]
+    },
+    {
+      "id": "079",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (dried_thai_chili(x) -> -(spicy(x) or mala_hotpot(x) or -baked_sweet(x)))",
+          "formalization": "PREDICATES:\nbaked_sweet(x) ::: x is a baked sweet\nspicy(x) ::: x is spicy\ncupcake(x) ::: x is a cupcake\nmala_hotpot(x) ::: x is a mala hotpot\nproduct_of_baked_by_melissa(x) ::: x is a product of Baked by Melissa\ndried_thai_chili(x) ::: x is a dried Thai chili\n\nPREMISES:\nforall x (baked_sweet(x) -> not spicy(x))\nforall x (cupcake(x) -> baked_sweet(x))\nforall x (mala_hotpot(x) -> spicy(x))\nforall x (product_of_baked_by_melissa(x) -> cupcake(x))\nforall x (spicy(x) or mala_hotpot(x) or not baked_sweet(x))\n\nCONCLUSION:\nforall x (dried_thai_chili(x) -> not (spicy(x) or mala_hotpot(x) or not baked_sweet(x)))"
+        }
+      ]
+    },
+    {
+      "id": "080",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "mala_hotpot(dried_thai_chili)",
+          "formalization": "PREDICATES:\nbaked_sweet(x) ::: x is a baked sweet\nspicy(x) ::: x is spicy\ncupcake(x) ::: x is a cupcake\nmala_hotpot(x) ::: x is a mala hotpot\nproduct_of_baked_by_melissa(x) ::: x is a product from Baked by Melissa\ndried_thai_chili(x) ::: x is a dried Thai chili\n\nPREMISES:\nforall x (baked_sweet(x) -> not spicy(x))\nforall x (cupcake(x) -> baked_sweet(x))\nforall x (mala_hotpot(x) -> spicy(x))\nforall x (product_of_baked_by_melissa(x) -> cupcake(x))\nforall x (dried_thai_chili(x) -> (spicy(x) or mala_hotpot(x) or not baked_sweet(x)))\n\nCONCLUSION:\nmala_hotpot(dried_thai_chili)"
+        }
+      ]
+    },
+    {
+      "id": "081",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (dried_thai_chili(x) -> (spicy(x) or mala_hotpot(x) or -baked_sweet(x)))",
+          "formalization": "PREDICATES:\nbaked_sweet(x) ::: x is a baked sweet\nspicy(x) ::: x is spicy\ncupcake(x) ::: x is a cupcake\nmala_hotpot(x) ::: x is a mala hotpot\nproduct_of_baked_by_melissa(x) ::: x is a product of Baked by Melissa\ndried_thai_chili(x) ::: x is a dried Thai chili\n\nPREMISES:\nforall x (baked_sweet(x) -> not spicy(x))\nforall x (cupcake(x) -> baked_sweet(x))\nforall x (mala_hotpot(x) -> spicy(x))\nforall x (product_of_baked_by_melissa(x) -> cupcake(x))\nforall x (dried_thai_chili(x) -> (spicy(x) or mala_hotpot(x) or not baked_sweet(x)))\n\nCONCLUSION:\nforall x (dried_thai_chili(x) -> (spicy(x) or mala_hotpot(x) or not baked_sweet(x)))"
+        }
+      ]
+    },
+    {
+      "id": "082",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "-(dried_thai_chili(x) and product_of_baked_by_melissa(x))",
+          "formalization": "PREDICATES:\nbaked_sweet(x) ::: x is a baked sweet\nspicy(x) ::: x is spicy\ncupcake(x) ::: x is a cupcake\nmala_hotpot(x) ::: x is a mala hotpot\nproduct_of_baked_by_melissa(x) ::: x is a product of Baked by Melissa\ndried_thai_chili(x) ::: x is a dried Thai chili\n\nPREMISES:\nforall x (baked_sweet(x) -> not spicy(x))\nforall x (cupcake(x) -> baked_sweet(x))\nforall x (mala_hotpot(x) -> spicy(x))\nforall x (product_of_baked_by_melissa(x) -> cupcake(x))\nforall x (spicy(x) or mala_hotpot(x) or not baked_sweet(x))\n\nCONCLUSION:\nnot (dried_thai_chili(x) and product_of_baked_by_melissa(x))"
+        }
+      ]
+    },
+    {
+      "id": "083",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "rating(hamden_plaza_subway) > 4 & take_out(hamden_plaza_subway) -> negative_reviews(hamden_plaza_subway)",
+          "formalization": "PREDICATES:\nlisted(x) ::: x is listed in Yelp’s recommendations\nnegative_reviews(x) ::: x has received many negative reviews\nrating(x) ::: x has a rating\ntake_out(x) ::: x provides take-out service\npopular(x) ::: x is popular among local residents\n\nPREMISES:\nforall x (listed(x) -> not(negative_reviews(x)))\nforall x (rating(x) > 4 -> listed(x))\nexists x (not(take_out(x)) & negative_reviews(x))\nforall x (popular(x) -> rating(x) > 4)\nrating(hamden_plaza_subway) > 4 or popular(hamden_plaza_subway)\n\nCONCLUSION:\nrating(hamden_plaza_subway) > 4 & take_out(hamden_plaza_subway) -> negative_reviews(hamden_plaza_subway)"
+        }
+      ]
+    },
+    {
+      "id": "084",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "or(take_out_service(hamden_plaza_subway), not(negative_reviews(hamden_plaza_subway)))",
+          "formalization": "PREDICATES:\nlisted(x) ::: x is listed in Yelp’s recommendations\nnegative_reviews(x) ::: x has not received many negative reviews\nrating_greater_than_four(x) ::: x has a rating greater than four\npopular_among_local_residents(x) ::: x is popular among local residents\ntake_out_service(x) ::: x provides take-out service\nyelp_recommendation(x) ::: x is a restaurant listed in Yelp’s recommendations\n\nPREMISES:\nforall x (yelp_recommendation(x) -> not(negative_reviews(x)))\nforall x (rating_greater_than_four(x) -> yelp_recommendation(x))\nexists x (not(take_out_service(x)) & negative_reviews(x))\nforall x (popular_among_local_residents(x) -> rating_greater_than_four(x))\nor(rating_greater_than_four(hamden_plaza_subway), popular_among_local_residents(hamden_plaza_subway))\n\nCONCLUSION:\nor(take_out_service(hamden_plaza_subway), not(negative_reviews(hamden_plaza_subway)))"
+        }
+      ]
+    },
+    {
+      "id": "085",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "not(take_out(hamden_plaza_subway))",
+          "formalization": "PREDICATES:\nlisted(x) ::: x is listed in Yelp’s recommendations\nnegative_reviews(x) ::: x has received many negative reviews\nrestaurant(x) ::: x is a restaurant\nrating(x) ::: x has a rating\npopular(x) ::: x is popular among local residents\ntake_out(x) ::: x provides take-out service\n\nPREMISES:\nforall x (listed(x) -> not(negative_reviews(x)))\nforall x (rating(x) > 4 -> listed(x))\nexists x (not(take_out(x)) & negative_reviews(x))\nforall x (popular(x) -> rating(x) > 4)\nor(rating(hamden_plaza_subway) > 4, popular(hamden_plaza_subway))\n\nCONCLUSION:\nnot(take_out(hamden_plaza_subway))"
+        }
+      ]
+    },
+    {
+      "id": "086",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "~win(sir_digby_nemesis, sir_digby)",
+          "formalization": "PREDICATES:\nsuperhero_movie(x) ::: x is a superhero movie\ngood_guy(x) ::: x is a good guy\nbad_guy(x) ::: x is a bad guy\nfight(x, y) ::: x fights y\nwin(x, y) ::: x wins y\nnamed_after(x, y) ::: x is named after y\nin_movie(x, y) ::: x is in y\n\nPREMISES:\nforall x (superhero_movie(x) -> good_guy(x))\nsuperhero_movie(the_surprising_adventures_of_sir_digby_chicken_caesar)\nforall x (good_guy(x) -> bad_guy(x))\nforall x (bad_guy(x) -> good_guy(x))\ngood_guy(sir_digby)\nbad_guy(sir_digby_nemesis)\nforall x (win(x, y) -> ~win(y, x))\nsuperhero_movie(x) & named_after(x, sir_digby) -> good_guy(sir_digby)\nforall x (superhero_movie(x) & named_after(x, y) -> in_movie(y, x))\n\nCONCLUSION:\n~win(sir_digby_nemesis, sir_digby)"
+        }
+      ]
+    },
+    {
+      "id": "087",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "contains(walden, knowledge)",
+          "formalization": "PREDICATES:\nbook(x) ::: x is a book\nperson(x) ::: x is a person\nreads(x, y) ::: x reads y\ncontains(x, y) ::: x contains y\ngains(x, y) ::: x gains y\nsmarter(x) ::: x is smarter\nknowledge(x) ::: x is knowledge\n\nPREMISES:\nforall x (book(x) -> contains(x, knowledge))\nforall x (reads(x, y) -> gains(x, knowledge))\nforall x (gains(x, knowledge) -> smarter(x))\nbook(walden)\nperson(harry)\nreads(harry, walden)\n\nCONCLUSION:\ncontains(walden, knowledge)"
+        }
+      ]
+    },
+    {
+      "id": "088",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "smarter(harry)",
+          "formalization": "PREDICATES:\nbook(x) ::: x is a book\nperson(x) ::: x is a person\nreads(x, y) ::: x reads y\ngains_knowledge(x) ::: x gains knowledge\nsmarter(x) ::: x is smarter\nton(x) ::: x contains tons of knowledge\n\nPREMISES:\nforall x (book(x) -> ton(x))\nforall x (reads(x, y) -> gains_knowledge(x))\nforall x (gains_knowledge(x) -> smarter(x))\nbook(walden)\nperson(harry)\nreads(harry, walden)\n\nCONCLUSION:\nsmarter(harry)"
+        }
+      ]
+    },
+    {
+      "id": "089",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "smarter(harry)",
+          "formalization": "PREDICATES:\nbook(x) ::: x is a book\nperson(x) ::: x is a person\ntonsofknowledge(x) ::: x contains tons of knowledge\nreads(x,y) ::: x reads y\ngainsknowledge(x) ::: x gains knowledge\nsmarter(x) ::: x is smarter\nreadsbook(x) ::: x reads a book\ngainsknowledgefromreading(x,y) ::: x gains knowledge from reading y\n\nPREMISES:\nforall x (book(x) -> tonsfknowledge(x))\nforall x (reads(x,y) -> gainsknowledgefromreading(x,y))\nforall x (gainsknowledgefromreading(x,y) -> gainsknowledge(x))\nforall x (gainsknowledge(x) -> smarter(x))\nbook(walden)\nperson(harry)\nreads(harry, walden)\n\nCONCLUSION:\nsmarter(harry)"
+        }
+      ]
+    },
+    {
+      "id": "090",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "language_generation_task(machine_translation)",
+          "formalization": "PREDICATES:\nlanguage_generation_task(x) ::: x is a language generation task\nlanguage_understanding_task(x) ::: x is a language understanding task\nnatural_language_processing_task(x) ::: x is a natural language processing task\ntext_sequence(x) ::: x is a text sequence\n\nPREMISES:\nforall x (natural_language_processing_task(x) -> (text_sequence(x) -> language_generation_task(x)))\nnatural_language_processing_task(machine_translation)\ntext_sequence(machine_translation)\n\nCONCLUSION:\nlanguage_generation_task(machine_translation)"
+        }
+      ]
+    },
+    {
+      "id": "091",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "language_generation_task(machine_translation)",
+          "formalization": "PREDICATES:\nlanguage_generation_task(x) ::: x is a language generation task\nlanguage_understanding_task(x) ::: x is a language understanding task\nnatural_language_processing_task(x) ::: x is a natural language processing task\ntext_sequence(x) ::: x is a text sequence\n\nPREMISES:\nforall x (text_sequence(x) -> language_generation_task(x))\nnatural_language_processing_task(machine_translation)\ntext_sequence(output_of(machine_translation))\n\nCONCLUSION:\nlanguage_generation_task(machine_translation)"
+        }
+      ]
+    },
+    {
+      "id": "092",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "allowed_to_rent(tom, fluffy)",
+          "formalization": "PREDICATES:\npet(x) ::: x is a pet\nmanaged_building(x) ::: x is a managed building\nallowed(x, y) ::: x is allowed to move in with y\ndeposit(x, y) ::: the security deposit at x for y\nrent(x) ::: the monthly rent at x\nmore(x, y) ::: x is more than y\ncat(x) ::: x is a cat\nallowed_to_rent(x, y) ::: x will rent an apartment in y\n\nPREMISES:\nforall x (pet(x) -> allowed(x, y)) ::: cats are pets\nforall x (managed_building(x) -> forall y (pet(y) -> allowed(x, y))) ::: if a managed building allows pets, then people are allowed to move in with a pet\ncat(fluffy) ::: Fluffy is a cat\nmanaged_building(the_olive_garden) ::: The Olive Garden is a managed building\nrent(the_olive_garden) ::: the monthly rent at The Olive Garden is $2000\nmore($2000, $1500) ::: $2000 is more than $1500\nforall x (deposit(x, y) -> (deposit(x, y) = rent(x) | deposit(x, y) > rent(x))) ::: the security deposit can be either equal to the monthly rent at a managed building or more\nforall x (allowed(x, y) -> allowed_to_rent(x, y)) ::: if x is allowed to move in with y, then x will rent an apartment in y\npet(fluffy) ::: Fluffy is a pet\nallowed_to_rent(tom, fluffy) ::: Tom will rent an apartment in a managed building if he is allowed to move in with Fluffy, and the security deposit is no more than $1500\n\nCONCLUSION:\nallowed_to_rent(tom, fluffy)"
+        }
+      ]
+    },
+    {
+      "id": "093",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "allowed_to_rent(tom, the_olive_garden)",
+          "formalization": "PREDICATES:\npet(x) ::: x is a pet\nmanaged_building(x) ::: x is a managed building\nallowed(x, y) ::: x is allowed to move in with y\ndeposit(x, y) ::: the security deposit for x is y\nrent(x) ::: the monthly rent at x is\nmore(x, y) ::: x is more than y\ncat(x) ::: x is a cat\napartment(x) ::: x is an apartment\nperson(x) ::: x is a person\nallowed_to_rent(x, y) ::: x is allowed to rent y\nmove_in(x, y) ::: x is allowed to move in with y\n\nPREMISES:\nforall x (pet(x) -> allowed(x, y)) \nforall x (managed_building(x) -> (forall z (pet(z) -> allowed(x, z)))\nmanaged_building(the_olive_garden)\ncat(fluffy)\npet(fluffy)\nperson(tom)\nmanaged_building(the_olive_garden)\nrent(the_olive_garden) = $2000\n$2000 = more($2000, $1500)\nallowed_to_rent(tom, the_olive_garden) -> (move_in(tom, fluffy) & deposit(the_olive_garden, $1500))\nforall x (managed_building(x) -> (forall y (allowed(y, z) -> allowed_to_rent(y, x)))\n\nCONCLUSION:\nallowed_to_rent(tom, the_olive_garden)"
+        }
+      ]
+    },
+    {
+      "id": "094",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "True",
+          "query": "deposit(the_olive_garden) = $2000 | deposit(the_olive_garden) = more(rent(the_olive_garden))",
+          "formalization": "PREDICATES:\npet(x) ::: x is a pet\nmanaged_building(x) ::: x is a managed building\nallowed(x,y) ::: x is allowed to move in with y\ndeposit(x) ::: x is the security deposit\nrent(x) ::: x is the monthly rent\nmore(x,y) ::: x is more than y\ncat(x) ::: x is a cat\nperson(x) ::: x is a person\napartment(x) ::: x is an apartment\nmove_in(x,y) ::: x will move in with y\n\nPREMISES:\nforall x (pet(x) -> allowed(x,y)) \nforall x (managed_building(x) -> (forall y (pet(y) -> allowed(x,y)))\nmanaged_building(the_olive_garden)\ncat(fluffy)\npet(fluffy)\nperson(tom)\ncat(fluffy)\nmanaged_building(the_olive_garden)\nrent(the_olive_garden) = $2000\n$2000 = more($1500)\nforall x (managed_building(x) -> (deposit(x) = rent(x) | deposit(x) = more(rent(x))))\nallowed(tom,fluffy) -> deposit(the_olive_garden) = $1500\n\nCONCLUSION:\ndeposit(the_olive_garden) = $2000 | deposit(the_olive_garden) = more(rent(the_olive_garden))"
+        }
+      ]
+    },
+    {
+      "id": "095",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "has_legal_obligations(harvard_weekly_book_club)",
+          "formalization": "PREDICATES:\nbusiness_organization(x) ::: x is a business organization\ncompany(x) ::: x is a company\nprivate_company(x) ::: x is a private company\nlegal_entity(x) ::: x is a legal entity\ncreated_under_law(x) ::: x is created under law\nhas_legal_obligations(x) ::: x has legal obligations\n\nPREMISES:\nforall x (business_organization(x) -> legal_entity(x))\nforall x (company(x) -> business_organization(x))\nforall x (company(x) -> private_company(x))\nforall x (legal_entity(x) -> has_legal_obligations(x))\ncreated_under_law(harvard_weekly_book_club) -> ~private_company(harvard_weekly_book_club)\n\nCONCLUSION:\nhas_legal_obligations(harvard_weekly_book_club)"
+        }
+      ]
+    },
+    {
+      "id": "096",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "has_legal_obligations(harvard_weekly_book_club)",
+          "formalization": "PREDICATES:\nbusiness_organization(x) ::: x is a business organization\ncompany(x) ::: x is a company\nprivate_company(x) ::: x is a private company\nlegal_entity(x) ::: x is a legal entity\ncreated_under_law(x) ::: x is created under law\nhas_legal_obligations(x) ::: x has legal obligations\n\nPREMISES:\nforall x (business_organization(x) -> legal_entity(x))\nforall x (company(x) -> business_organization(x))\nforall x (company(x) -> private_company(x))\nforall x (legal_entity(x) -> has_legal_obligations(x))\ncreated_under_law(harvard_weekly_book_club) -> ~private_company(harvard_weekly_book_club)\n\nCONCLUSION:\nhas_legal_obligations(harvard_weekly_book_club)"
+        }
+      ]
+    },
+    {
+      "id": "097",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "all x (private_company(x) -> (has_legal_obligations(x) | created_under_law(x)))",
+          "formalization": "PREDICATES:\nbusiness_organization(x) ::: x is a business organization\ncompany(x) ::: x is a company\nprivate_company(x) ::: x is a private company\nlegal_entity(x) ::: x is a legal entity\ncreated_under_law(x) ::: x is created under law\nhas_legal_obligations(x) ::: x has legal obligations\n\nPREMISES:\nforall x (business_organization(x) -> legal_entity(x))\nforall x (company(x) -> business_organization(x))\nforall x (company(x) -> private_company(x))\nforall x (legal_entity(x) -> has_legal_obligations(x))\nforall x (private_company(x) -> company(x))\nforall x (created_under_law(x) -> legal_entity(x))\n~(private_company(harvard_weekly_book_club) -> created_under_law(harvard_weekly_book_club))\n\nCONCLUSION:\nforall x (private_company(x) -> (has_legal_obligations(x) | created_under_law(x)))"
+        }
+      ]
+    },
+    {
+      "id": "098",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "queen_bee(harry)",
+          "formalization": "PREDICATES:\ninvertebrate(x) ::: x is an invertebrate\nvertebrate(x) ::: x is a vertebrate\nreproduce_by_male_female_mating(x) ::: x reproduces by male-and-female mating\nhas_backbone(x) ::: x has a backbone\nbee(x) ::: x is a bee\nqueen_bee(x) ::: x is a queen bee\n\nPREMISES:\nforall x (animal(x) -> (invertebrate(x) | vertebrate(x)))\nforall x (vertebrate(x) -> has_backbone(x))\nforall x (has_backbone(x) -> reproduce_by_male_female_mating(x))\nforall x (bee(x) -> not reproduce_by_male_female_mating(x))\nbee(harry)\nforall x (queen_bee(x) -> bee(x))\n\nCONCLUSION:\nqueen_bee(harry)"
+        }
+      ]
+    },
+    {
+      "id": "099",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "invertebrate(harry) | queen_bee(harry)",
+          "formalization": "PREDICATES:\ninvertebrate(x) ::: x is an invertebrate\nvertebrate(x) ::: x is a vertebrate\nreproduce_by_male_female_mating(x) ::: x reproduces by male-and-female mating\nhas_backbone(x) ::: x has a backbone\nbee(x) ::: x is a bee\nqueen_bee(x) ::: x is a queen bee\n\nPREMISES:\nforall x (animal(x) -> (invertebrate(x) | vertebrate(x)))\nforall x (vertebrate(x) -> has_backbone(x))\nforall x (has_backbone(x) -> reproduce_by_male_female_mating(x))\nforall x (bee(x) -> not reproduce_by_male_female_mating(x))\nbee(harry)\nqueen_bee(x) -> bee(x)\n\nCONCLUSION:\ninvertebrate(harry) | queen_bee(harry)"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "pred": "Unknown",
+          "query": "not((vertebrate(harry) and animal_with_backbone(harry)) or not(vertebrate(harry) or animal_with_backbone(harry))) -> (invertebrate(harry) or not(queen_bee(harry)))",
+          "formalization": "PREDICATES:\ninvertebrate(x) ::: x is an invertebrate\nvertebrate(x) ::: x is a vertebrate\nanimal_with_backbone(x) ::: x is an animal with a backbone\nreproduce_by_male_female_mating(x) ::: x reproduces by male-and-female mating\nbee(x) ::: x is a bee\nqueen_bee(x) ::: x is a queen bee\n\nPREMISES:\nforall x (animal(x) -> (invertebrate(x) v vertebrate(x)))\nforall x (vertebrate(x) -> animal_with_backbone(x))\nforall x (animal_with_backbone(x) -> reproduce_by_male_female_mating(x))\nforall x (bee(x) -> not(reproduce_by_male_female_mating(x)))\nbee(harry)\nvertebrate(x) ::: x is a vertebrate\nanimal_with_backbone(x) ::: x is an animal with a backbone\n\nCONCLUSION:\nnot((vertebrate(harry) and animal_with_backbone(harry)) or not(vertebrate(harry) or animal_with_backbone(harry))) -> (invertebrate(harry) or not(queen_bee(harry)))"
+        }
+      ]
+    }
+  ]
+}

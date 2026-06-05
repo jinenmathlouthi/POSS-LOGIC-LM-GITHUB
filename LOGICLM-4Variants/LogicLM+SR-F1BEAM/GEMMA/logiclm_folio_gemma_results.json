@@ -1,0 +1,5599 @@
+{
+  "dataset": "folio",
+  "model": "gemma-2-9b-it",
+  "method": "LogicLM",
+  "solver": "Prover9",
+  "max_refinements": 3,
+  "stats": {
+    "total": 203,
+    "correct": 100,
+    "accuracy": 49.26,
+    "exe_rate": 26.6
+  },
+  "results": [
+    {
+      "id": "folio_000",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "perform_talent_show(bonnie)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "perform_talent_show(bonnie)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "perform_talent_show(bonnie)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "perform_talent_show(bonnie)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_001",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "student_attends_school(bonnie) | inactive_disinterested(bonnie)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "student_attends_school(bonnie) | inactive_disinterested(bonnie)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "student_attends_school(bonnie) | inactive_disinterested(bonnie)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_002",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_003",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "have_lunch_in_company_building(james)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "have_lunch_in_company_building(james)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "have_lunch_in_company_building(james)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "have_lunch_in_company_building(james)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_004",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-have_lunch_at_home(james)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-have_lunch_at_home(james)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-have_lunch_at_home(james)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-have_lunch_at_home(james)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_005",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-(is_manager(james) | is_in_other_countries(james))",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (is_manager(james) | is_in_other_countries(james))",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (is_manager(james) | is_in_other_countries(james))",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (is_manager(james) | is_in_other_countries(james))",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_006",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "animal(x)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "animal(a)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "animal(a)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "animal(a)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_007",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (has_flu(x))",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (has_flu(x))",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (has_flu(x))",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (has_flu(x))",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_008",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "has_cough(monkeypox)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-has_cough(monkeypox)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-has_cough(monkeypox)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-has_cough(monkeypox)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_009",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "ocellated_wild_turkey(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "ocellated_wild_turkey(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "ocellated_wild_turkey(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "ocellated_wild_turkey(tom)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_010",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-eastern_wild_turkey(tom)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_011",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "wild_turkey(joey)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "wild_turkey(joey)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "wild_turkey(joey)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "wild_turkey(joey)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_012",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "top_10_list(legend_of_zelda)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_013",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "japanese_game_company(fifa_22)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-japanese_game_company(fifa_22)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-japanese_game_company(fifa_22)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-japanese_game_company(fifa_22)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_014",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "-top_10_list(legend_of_zelda)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_015",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_016",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "turtle(rockie)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_017",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-turtle(rockie)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_018",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "turtle(rockie) | cute(rockie)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_019",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "True",
+          "formal_conclusion": "cute(rockie) | skittish(rockie)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_020",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_021",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "karen_shares(stranger_things)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_022",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "popular(black_mirror)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_023",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "karen_shares(black_mirror)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-karen_shares(black_mirror)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-karen_shares(black_mirror)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-karen_shares(black_mirror)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_024",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "beijing_hosted_summer_and_winter_olympics()",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "beijing_hosted_summer_and_winter_olympics()",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "beijing_hosted_summer_and_winter_olympics()",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "beijing_hosted_summer_and_winter_olympics()",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_025",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(beijing,southern_china)",
+          "num_premises": 9
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(beijing,southern_china)",
+          "num_premises": 9
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(beijing,southern_china)",
+          "num_premises": 9
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(beijing,southern_china)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_026",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-is_largest_city(beijing, china)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-is_largest_city(beijing, china)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-is_largest_city(beijing, china)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-is_largest_city(beijing, china)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_027",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "alien(marvin)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "alien(marvin)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "alien(marvin)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "alien(marvin)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_028",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-human(marvin) & -from_mars(marvin)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-human(marvin) & -from_mars(marvin)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-human(marvin) & -from_mars(marvin)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-human(marvin) & -from_mars(marvin)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_029",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_030",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "grand_slam_champion(djokovic)",
+          "num_premises": 9
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "grand_slam_champion(djokovic)",
+          "num_premises": 9
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "grand_slam_champion(djokovic)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "grand_slam_champion(djokovic)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_031",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "lives_in_tax_haven(djokovic)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_032",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "-lives_in_tax_haven(djokovic)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_033",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, professional_wrestling_stable)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, professional_wrestling_stable)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, professional_wrestling_stable)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, professional_wrestling_stable)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_034",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, creed_brothers)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, creed_brothers)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, creed_brothers)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "leads(roderick_strong, creed_brothers)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_035",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (has_feud_with(imperium, x) & includes(x, ivy_nile))",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (has_feud_with(imperium, x) & includes(x, ivy_nile))",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-has_feud_with(imperium, diamond_mine)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-has_feud_with(imperium, diamond_mine)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_036",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "composer(beethoven)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_037",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (orchestra(x) & premiered(x,y))",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (orchestra(x) & premiered(x,y))",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "True",
+          "formal_conclusion": "exists x (orchestra(x) & premiered(x,symphony_no_9))",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_038",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "-conductor(beethoven)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_039",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "brutalist_building(x)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "brutalist_building(some_x)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "brutalist_building(some_x)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "brutalist_building(some_x)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_040",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(x) & dreamy(x)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(some_x) & dreamy(some_x)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(some_x) & dreamy(some_x)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(some_x) & dreamy(some_x)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_041",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(x) | dreamy(x)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(max_adores_design) | dreamy(max_adores_design)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(max_adores_design) | dreamy(max_adores_design)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "evocative(max_adores_design) | dreamy(max_adores_design)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_042",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "most_active_player(coco_gauff)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_043",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-male_tennis_player(coco_gauff)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_044",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "- (lost_to_iga(coco_gauff) & most_active_player(coco_gauff))",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_045",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (cat(x) & pet(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (cat(x) & pet(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (cat(x) & pet(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (cat(x) & pet(x))",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_046",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(james,summer)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(james,summer)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(james,summer)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(james,summer)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_047",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(mia,spring)",
+          "num_premises": 3
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(mia,spring)",
+          "num_premises": 3
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(mia,spring)",
+          "num_premises": 3
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "favorite_season(mia,spring)",
+          "num_premises": 3
+        }
+      ]
+    },
+    {
+      "id": "folio_048",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "printed_text(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "printed_text(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "printed_text(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "printed_text(1984)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_049",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "streaming_service(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "streaming_service(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "streaming_service(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "streaming_service(1984)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_050",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-streaming_service(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-streaming_service(1984)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-streaming_service(1984)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_051",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(basque)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(basque)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(basque)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(basque)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_052",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(german)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(german)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(german)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-romance_language(german)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_053",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "indo_european_language(french)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "indo_european_language(french)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "indo_european_language(french)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "indo_european_language(french)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_054",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "soccer_player(robert_lewandowski)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "soccer_player(robert_lewandowski)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "soccer_player(robert_lewandowski)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "soccer_player(robert_lewandowski)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_055",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-plays_for_team(robert_lewandowski, bayern_munchen)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_056",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "star(robert_lewandowski)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "star(robert_lewandowski)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "star(robert_lewandowski)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "star(robert_lewandowski)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_057",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in(butte,st_pierre)",
+          "num_premises": 11
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in(butte,st_pierre)",
+          "num_premises": 11
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in(butte,st_pierre)",
+          "num_premises": 11
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in(butte,st_pierre)",
+          "num_premises": 11
+        }
+      ]
+    },
+    {
+      "id": "folio_058",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_state(st_pierre,bismarck)",
+          "num_premises": 15
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in_state(st_pierre,bismarck)",
+          "num_premises": 15
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in_state(st_pierre,bismarck)",
+          "num_premises": 15
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-in_state(st_pierre,bismarck)",
+          "num_premises": 15
+        }
+      ]
+    },
+    {
+      "id": "folio_059",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_state(missoula,montana)",
+          "num_premises": 11
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_state(missoula,montana)",
+          "num_premises": 11
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_state(missoula,montana)",
+          "num_premises": 11
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_state(missoula,montana)",
+          "num_premises": 11
+        }
+      ]
+    },
+    {
+      "id": "folio_060",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "f1_visa(mike)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "f1_visa(mike)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "f1_visa(mike)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "f1_visa(mike)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_061",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "j1_visa(mike)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-f1_visa(mike)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-f1_visa(mike)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-f1_visa(mike)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_062",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_063",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted) & brown_swiss_cattle(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted) & brown_swiss_cattle(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted) & brown_swiss_cattle(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted) & brown_swiss_cattle(ted)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_064",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-pet(ted)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_065",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "private_ivy_league_research_university(x) & moved_to_new_haven(x)",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_066",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "has_large_endowment(yale_university)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_067",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "residential_college(pierson_college)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_068",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "script_editor(andrew_collins,the_secret_dude_society)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "script_editor(andrew_collins,the_secret_dude_society)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "script_editor(andrew_collins,the_secret_dude_society)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "script_editor(andrew_collins,the_secret_dude_society)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_069",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-starred_in_show(andrew_collins,y) | pilot_on_bbc_two(y)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_070",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "stock(ko)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "stock(ko)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "stock(ko)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "stock(ko)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_071",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "growth_stock(ko) & stock(ko)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_072",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-stock(ko) & -price_volatile(ko)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-stock(ko) & -price_volatile(ko)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-stock(ko) & -price_volatile(ko)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_073",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "registration_plate_starts_with_34(joe)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_074",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-registration_plate_from_istanbul(tom)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_075",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "earn_money_to_help_pay_for_college_tuition(hannah)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_076",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "at_marys_school(hannah) & -picky_eater(hannah) & spend_a_lot_of_time_eating_and_catching_up_with_friends_in_the_campus_dining_halls(hannah)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_077",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_078",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_079",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_080",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "mala_hotpot(dried_thai_chilies)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "mala_hotpot(dried_thai_chilies)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "mala_hotpot(dried_thai_chilies)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "mala_hotpot(dried_thai_chilies)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_081",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_082",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "cupcake(dried_thai_chilies) & product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "cupcake(dried_thai_chilies) & product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "cupcake(dried_thai_chilies) & product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "cupcake(dried_thai_chilies) & product_of_baked_by_melissa(dried_thai_chilies)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_083",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-(take_out_service(hamden_plaza_subway) & many_negative_reviews(hamden_plaza_subway))",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_084",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "(take_out_service(hamden_plaza_subway) | -many_negative_reviews(hamden_plaza_subway))",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_085",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "many_negative_reviews(hamden_plaza_subway)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_086",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-wins(nemesis(sir_digby),sir_digby)",
+          "num_premises": 10
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-wins(nemesis(sir_digby),sir_digby)",
+          "num_premises": 10
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-wins(nemesis(sir_digby),sir_digby)",
+          "num_premises": 10
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-wins(nemesis(sir_digby),sir_digby)",
+          "num_premises": 10
+        }
+      ]
+    },
+    {
+      "id": "folio_087",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_knowledge(walden)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_knowledge(walden)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_knowledge(walden)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_knowledge(walden)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_088",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "becomes_smarter(harry)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_089",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "is_smarter(harry)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_090",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "language_generation_task(machine_translation)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_091",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-language_understanding_task(machine_translation)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-language_understanding_task(machine_translation)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-language_understanding_task(machine_translation)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-language_understanding_task(machine_translation)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_092",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "tom_rents(olive_garden)",
+          "num_premises": 13
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "tom_rents(olive_garden)",
+          "num_premises": 13
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "tom_rents(olive_garden)",
+          "num_premises": 13
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "tom_rents(olive_garden)",
+          "num_premises": 13
+        }
+      ]
+    },
+    {
+      "id": "folio_093",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "allowed_to_move_in(tom,olive_garden,fluffy)",
+          "num_premises": 12
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "allowed_to_move_in(tom,olive_garden,fluffy)",
+          "num_premises": 12
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "allowed_to_move_in(tom,olive_garden,fluffy)",
+          "num_premises": 12
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "allowed_to_move_in(tom,olive_garden,fluffy)",
+          "num_premises": 12
+        }
+      ]
+    },
+    {
+      "id": "folio_094",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "security_deposit(olive_garden,2000) | security_deposit(olive_garden,y)",
+          "num_premises": 13
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "security_deposit(olive_garden,2000) | security_deposit(olive_garden,y)",
+          "num_premises": 13
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "security_deposit(olive_garden,2000) | security_deposit(olive_garden,y)",
+          "num_premises": 13
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "security_deposit(olive_garden,2000) | security_deposit(olive_garden,y)",
+          "num_premises": 13
+        }
+      ]
+    },
+    {
+      "id": "folio_095",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "legal_obligation(harvard_weekly_book_club)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "legal_obligation(harvard_weekly_book_club)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "legal_obligation(harvard_weekly_book_club)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "legal_obligation(harvard_weekly_book_club)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_096",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "private_company(harvard_weekly_book_club) & has_legal_obligations(harvard_weekly_book_club)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_097",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_098",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "queen_bee(harry)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "queen_bee(harry)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "queen_bee(harry)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "queen_bee(harry)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_099",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "(invertebrate(harry) | queen_bee(harry))",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "invertebrate(harry) | queen_bee(harry)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "invertebrate(harry) | queen_bee(harry)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "invertebrate(harry) | queen_bee(harry)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_100",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-(invertebrate(harry) | queen_bee(harry))",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (invertebrate(harry) | queen_bee(harry))",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (invertebrate(harry) | queen_bee(harry))",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (invertebrate(harry) | queen_bee(harry))",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_101",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "spend_a_lot_of_time_hanging_out_and_playing_with_siblings(luke)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "spend_a_lot_of_time_hanging_out_and_playing_with_siblings(luke)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "spend_a_lot_of_time_hanging_out_and_playing_with_siblings(luke)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "spend_a_lot_of_time_hanging_out_and_playing_with_siblings(luke)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_102",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "complain_often_about_annoying_siblings(luke)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "complain_often_about_annoying_siblings(luke)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "complain_often_about_annoying_siblings(luke)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "complain_often_about_annoying_siblings(luke)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_103",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-born_in_multiple_birth(luke)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "False",
+          "formal_conclusion": "-born_in_multiple_birth(luke) & -complain_often_about_annoying_siblings(luke)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_104",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "provides_financial_aid(tom)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "provides_financial_aid(tom)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "provides_financial_aid(tom)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "provides_financial_aid(tom)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_105",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-gre_test_cost(300)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_106",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "-financial_aid(tom)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_107",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "not_notably_tidy(peter)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-not_notably_tidy(peter)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-not_notably_tidy(peter)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-not_notably_tidy(peter)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_108",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_109",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "False",
+          "formal_conclusion": "clumsy_foodie(peter) & goes_out_frequently_to_find_new_food_restaurants_to_try(peter) & prioritizes_order_and_spotlessness(peter)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_110",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (evergreen(x) & -object_of_worship(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (evergreen(x) & -object_of_worship(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (evergreen(x) & -object_of_worship(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (evergreen(x) & -object_of_worship(x))",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_111",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_new_mexico(picuris_mountains)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_new_mexico(picuris_mountains)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_new_mexico(picuris_mountains)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "in_new_mexico(picuris_mountains)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_112",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "visited(juan_de_onate, x) & in_texas(x) & mountain_range(x)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "visited(juan_de_onate, x) & in_texas(x) & mountain_range(x)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "visited(juan_de_onate, x) & in_texas(x) & mountain_range(x)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "visited(juan_de_onate, x) & in_texas(x) & mountain_range(x)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_113",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(harding_pegmatite_mine, mountain_range(x))",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(harding_pegmatite_mine, picuris_mountains)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(harding_pegmatite_mine, picuris_mountains)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(harding_pegmatite_mine, picuris_mountains)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_114",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (man(x) & taller_than(x,peter))",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (man(x) & taller_than(x,peter))",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (man(x) & taller_than(x,peter))",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (man(x) & taller_than(x,peter))",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_115",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "great_shooter(windy)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "True",
+          "formal_conclusion": "great_shooter_windy",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_116",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "block_shooting(peter,windy)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_117",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-named_after(barutin_cove, antarctica)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-named_after(barutin_cove, antarctica)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-named_after(barutin_cove, antarctica)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_118",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (cove(x) & named_after(x, y) & bulgarian_place(y))",
+          "num_premises": 9
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (cove(x) & named_after(x, y) & bulgarian_place(y))",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (cove(x) & named_after(x, y) & bulgarian_place(y))",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (cove(x) & named_after(x, y) & bulgarian_place(y))",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_119",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(barutin_cove, antarctica)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(barutin_cove, antarctica)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(barutin_cove, antarctica)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-located_in(barutin_cove, antarctica)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_120",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (affection(x) & positive(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (affection(x) & positive(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (affection(x) & positive(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (affection(x) & positive(x))",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_121",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "tesla_model_3(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "tesla_model_3(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "tesla_model_3(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "tesla_model_3(john_car)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_122",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "solo_ev(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "solo_ev(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "solo_ev(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "solo_ev(john_car)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_123",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-solo_ev(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-solo_ev(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-solo_ev(john_car)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-solo_ev(john_car)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_124",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "monkey(rock)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "monkey(rock)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "monkey(rock)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "monkey(rock)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_125",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "wings(rock)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_126",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "-wings(rock)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_127",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "has_larger_family(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "has_larger_family(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "has_larger_family(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "has_larger_family(john)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_128",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_129",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "is_engaged(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "is_engaged(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "is_engaged(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "is_engaged(john)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_130",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john) & -invite_others(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john) & -invite_others(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john) & -invite_others(john)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-larger_family(john) & -invite_others(john)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_131",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "mammal(platypus) & -teeth(platypus)",
+          "num_premises": 3
+        }
+      ]
+    },
+    {
+      "id": "folio_132",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-reptile(platypus)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-reptile(platypus)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-reptile(platypus)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-reptile(platypus)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_133",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "mammal(human)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "mammal(human)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "mammal(human)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "mammal(human)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_134",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "suck(space)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "suck(space)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "suck(space)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "suck(space)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_135",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "vampire(space)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "vampire(space)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-vampire(space)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "vampire(space)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_136",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-suck(duster)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-suck(duster)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_137",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "supervised_learning(text_summarization_model)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "supervised_learning(text_summarization_model)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "supervised_learning(text_summarization_model)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "supervised_learning(text_summarization_model)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_138",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "unsupervised_learning(text_summarization_model)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "unsupervised_learning(text_summarization_model)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "unsupervised_learning(text_summarization_model)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "unsupervised_learning(text_summarization_model)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_139",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "rated_general_audience(hachi_a_dogs_tale)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "rated_general_audience(hachi_a_dogs_tale)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "rated_general_audience(hachi_a_dogs_tale)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "rated_general_audience(hachi_a_dogs_tale)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_140",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-contains_excessive_erotic_and_violent_content(hachi_a_dogs_tale) & -frozen_series(hachi_a_dogs_tale)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-contains_excessive_erotic_and_violent_content(hachi_a_dogs_tale) & -frozen_series(hachi_a_dogs_tale)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-contains_excessive_erotic_and_violent_content(hachi_a_dogs_tale) & -frozen_series(hachi_a_dogs_tale)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_141",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "True",
+          "formal_conclusion": "- (contains_excessive_erotic_and_violent_content(hachi_a_dogs_tale) & movie_in_frozen_series(hachi_a_dogs_tale))",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_142",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (heck_cattle(x) & artificially_selected(x))",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (heck_cattle(x) & artificially_selected(x))",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (heck_cattle(x) & artificially_selected(x))",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (heck_cattle(x) & artificially_selected(x))",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_143",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "extinct(aurochs)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "extinct(aurochs)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "extinct(aurochs)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-extinct(aurochs)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_144",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "russian_federation_official(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "russian_federation_official(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "russian_federation_official(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "russian_federation_official(vladimir)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_145",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-russian_federation_official(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-russian_federation_official(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-russian_federation_official(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-russian_federation_official(vladimir)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_146",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_us_presidential_election(ekaterina) | manager_at_gazprom(ekaterina)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_us_presidential_election(ekaterina) | manager_at_gazprom(ekaterina)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_us_presidential_election(ekaterina) | manager_at_gazprom(ekaterina)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_us_presidential_election(ekaterina) | manager_at_gazprom(ekaterina)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_147",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_election(ekaterina) | manager_at_gazprom(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_election(ekaterina) | manager_at_gazprom(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_election(ekaterina) | manager_at_gazprom(vladimir)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "participate_in_2024_election(ekaterina) | manager_at_gazprom(vladimir)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_148",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (register_to_vote_us(ekaterina) & participate_in_2024_us_election(vladimir))",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (register_to_vote_us(ekaterina) & participate_in_2024_us_election(vladimir))",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (register_to_vote_us(ekaterina) & participate_in_2024_us_election(vladimir))",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (register_to_vote_us(ekaterina) & participate_in_2024_us_election(vladimir))",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_149",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "english_book(neapolitan_chronicles)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_150",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "published_by_new_vessel_press(harry_potter)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-published_by_new_vessel_press(harry_potter)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-published_by_new_vessel_press(harry_potter)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-published_by_new_vessel_press(harry_potter)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_151",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "translated_from(palace_of_flies, italian)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "translated_from(palace_of_flies,italian)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "translated_from(palace_of_flies,italian)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "translated_from(palace_of_flies,italian)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_152",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_carbon(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_carbon(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_carbon(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "contains_carbon(mixture)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_153",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "alkane(mixture) & contains_carbon(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "alkane(mixture) & contains_carbon(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "alkane(mixture) & contains_carbon(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "alkane(mixture) & contains_carbon(mixture)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_154",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-(chemical_compound(mixture) | alkane(mixture))",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-chemical_compound(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-chemical_compound(mixture)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-chemical_compound(mixture)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_155",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (greek(x) & mortal(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "mortal(some_greek)",
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "mortal(some_greek)",
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "mortal(some_greek)",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_156",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-has_part_time_job(james)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_157",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "-has_part_time_job(james)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_158",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 0
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 0
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "takes_database_course(james) | has_part_time_job(james)",
+          "num_premises": 0
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "takes_database_course(james) | has_part_time_job(james)",
+          "num_premises": 0
+        }
+      ]
+    },
+    {
+      "id": "folio_159",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "takes_database_course(james)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_160",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 3
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "will_compose(george)",
+          "num_premises": 3
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "will_compose(george)",
+          "num_premises": 3
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "will_compose(george)",
+          "num_premises": 3
+        }
+      ]
+    },
+    {
+      "id": "folio_161",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-can_compose(george)",
+          "num_premises": 4
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-can_compose(george)",
+          "num_premises": 4
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-can_compose(george)",
+          "num_premises": 4
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-can_compose(george)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_162",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_163",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "show_airs_at_8_pm_on_monday(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-show_airs_at_8_pm_on_monday(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-show_airs_at_8_pm_on_monday(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-show_airs_at_8_pm_on_monday(breaking_bad)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_164",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "show_airs_at_8_pm_on_monday(breaking_bad) & gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-show_airs_at_8_pm_on_monday(breaking_bad) & -gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-show_airs_at_8_pm_on_monday(breaking_bad) & -gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-show_airs_at_8_pm_on_monday(breaking_bad) & -gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_165",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-gives_out_roses_on_tv(breaking_bad)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_166",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "german(heinrich_schmidt) | russian(heinrich_schmidt)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_167",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "exists x (german_politician(x) & prussian_state_parliament(x) & nazi_reichstag(x))",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_168",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-nazi_reichstag_member(heinrich_schmidt)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-nazi_reichstag_member(heinrich_schmidt)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-nazi_reichstag_member(heinrich_schmidt)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-nazi_reichstag_member(heinrich_schmidt)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_169",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "severe_cancer(colorectal_cancer)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "severe_cancer(colorectal_cancer)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "severe_cancer(colorectal_cancer)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "severe_cancer(colorectal_cancer)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_170",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "(colorectal_cancer & bile_duct_cancer & low_survival_rate(colorectal_cancer))",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (colorectal_cancer & bile_duct_cancer & low_survival_rate(colorectal_cancer))",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (colorectal_cancer & bile_duct_cancer & low_survival_rate(colorectal_cancer))",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (colorectal_cancer & bile_duct_cancer & low_survival_rate(colorectal_cancer))",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_171",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (colorectal_cancer & cholangiocarcinoma & mild_flu)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (colorectal_cancer & cholangiocarcinoma & mild_flu)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (colorectal_cancer & cholangiocarcinoma & mild_flu)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_172",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "eat_salads_regularly(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "eat_salads_regularly(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "eat_salads_regularly(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "eat_salads_regularly(taylor)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_173",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_174",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grew_up_in_health_conscious_home(taylor) & -visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grew_up_in_health_conscious_home(taylor) & -visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grew_up_in_health_conscious_home(taylor) & -visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grew_up_in_health_conscious_home(taylor) & -visit_gym_at_least_once_a_day(taylor)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_175",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "sporting_event(world_championships)",
+          "num_premises": 3
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "sporting_event(world_championships)",
+          "num_premises": 3
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "sporting_event(world_championships)",
+          "num_premises": 3
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "sporting_event(world_championships)",
+          "num_premises": 3
+        }
+      ]
+    },
+    {
+      "id": "folio_176",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "False",
+          "formal_conclusion": "-was_in(last_summer_olympic_games,tokyo)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_177",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "won_most_medals(united_states,last_summer_olympic_games)",
+          "num_premises": 4
+        }
+      ]
+    },
+    {
+      "id": "folio_178",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "exists x (human(x) & horse(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (human(x) & horse(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (human(x) & horse(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-exists x (human(x) & horse(x))",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_179",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "flies_from(susan,lga)",
+          "num_premises": 3
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "flies_from(susan,lga)",
+          "num_premises": 3
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-flies_from(susan,lga)",
+          "num_premises": 3
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-flies_from(susan,lga)",
+          "num_premises": 3
+        }
+      ]
+    },
+    {
+      "id": "folio_180",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "flies_to(john,lga)",
+          "num_premises": 3
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "flies_to(john,lga)",
+          "num_premises": 3
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "flies_to(john,lga)",
+          "num_premises": 3
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "flies_to(john,lga)",
+          "num_premises": 3
+        }
+      ]
+    },
+    {
+      "id": "folio_181",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "grumpy(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "grumpy(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "grumpy(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "grumpy(tom)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_182",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "- (grumpy(tom) & mean_to_animals(tom))",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grumpy(tom) & mean_to_animals(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grumpy(tom) & mean_to_animals(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grumpy(tom) & mean_to_animals(tom)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_183",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-(grumpy_person(tom) & animal_lover(tom))",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grumpy_person(tom) | -animal_lover(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grumpy_person(tom) | -animal_lover(tom)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-grumpy_person(tom) | -animal_lover(tom)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_184",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "novel_writer(dani_shapiro)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_185",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "novel(family_secrets)",
+          "num_premises": 9
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "novel(family_secrets)",
+          "num_premises": 9
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "novel(family_secrets)",
+          "num_premises": 9
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "novel(family_secrets)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_186",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "american(dani_shapiro)",
+          "num_premises": 10
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "born_in(dani_shapiro,boston)",
+          "num_premises": 10
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "born_in(dani_shapiro,boston)",
+          "num_premises": 10
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "born_in(dani_shapiro,boston)",
+          "num_premises": 10
+        }
+      ]
+    },
+    {
+      "id": "folio_187",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "american_national(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "american_national(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "american_national(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "american_national(yuri)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_188",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_189",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-professional_basketball_player(yuri)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_190",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-(leap_straight_into_air(yuri)) | professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-leap_straight_into_air(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-leap_straight_into_air(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-leap_straight_into_air(yuri)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_191",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": null,
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "professional_basketball_player(yuri)",
+          "num_premises": 5
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "professional_basketball_player(yuri)",
+          "num_premises": 5
+        }
+      ]
+    },
+    {
+      "id": "folio_192",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-happy(x)",
+          "num_premises": 2
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-all x (event(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-all x (event(x))",
+          "num_premises": 2
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-all x (event(x))",
+          "num_premises": 2
+        }
+      ]
+    },
+    {
+      "id": "folio_193",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-winner(steinhauer)",
+          "num_premises": 5
+        },
+        {
+          "step": 1,
+          "prediction": "False",
+          "formal_conclusion": "-winner(steinhauer)",
+          "num_premises": 6
+        }
+      ]
+    },
+    {
+      "id": "folio_194",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "six_way_tie(descampe)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "six_way_tie(descampe)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "six_way_tie(descampe)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "six_way_tie(descampe)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_195",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "terricolous(ki_ki)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "terricolous(ki_ki)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "terricolous(ki_ki)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "terricolous(ki_ki)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_196",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "dog(ki ki)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "False",
+          "formal_conclusion": "dog(ki_ki)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_197",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-bark(ki_ki)",
+          "num_premises": 9
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-bark(ki_ki)",
+          "num_premises": 9
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-bark(ki_ki)",
+          "num_premises": 9
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-bark(ki_ki)",
+          "num_premises": 9
+        }
+      ]
+    },
+    {
+      "id": "folio_198",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-brazilian(ailton_silva)",
+          "num_premises": 8
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-brazilian(ailton_silva)",
+          "num_premises": 8
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-brazilian(ailton_silva)",
+          "num_premises": 8
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-brazilian(ailton_silva)",
+          "num_premises": 8
+        }
+      ]
+    },
+    {
+      "id": "folio_199",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-football_club(ailton)",
+          "num_premises": 10
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-plays_for(ailton,_)",
+          "num_premises": 10
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-plays_for(ailton,_ )",
+          "num_premises": 10
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-plays_for(ailton,_ )",
+          "num_premises": 10
+        }
+      ]
+    },
+    {
+      "id": "folio_200",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "-loaned_out(ailton,football_club)",
+          "num_premises": 11
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-loaned_out(ailton,football_club)",
+          "num_premises": 11
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-loaned_out(ailton,football_club)",
+          "num_premises": 11
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-loaned_out(ailton,football_club)",
+          "num_premises": 11
+        }
+      ]
+    },
+    {
+      "id": "folio_201",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "Unknown",
+          "formal_conclusion": "plays_for(ailton_silva,fluminense)",
+          "num_premises": 7
+        },
+        {
+          "step": 1,
+          "prediction": "Unknown",
+          "formal_conclusion": "-plays_for(ailton_silva,fluminense)",
+          "num_premises": 7
+        },
+        {
+          "step": 2,
+          "prediction": "Unknown",
+          "formal_conclusion": "-plays_for(ailton_silva,fluminense)",
+          "num_premises": 7
+        },
+        {
+          "step": 3,
+          "prediction": "Unknown",
+          "formal_conclusion": "-plays_for(ailton_silva,fluminense)",
+          "num_premises": 7
+        }
+      ]
+    },
+    {
+      "id": "folio_202",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": [
+        {
+          "step": 0,
+          "prediction": "True",
+          "formal_conclusion": "loaned_out(ailton)",
+          "num_premises": 8
+        }
+      ]
+    }
+  ]
+}

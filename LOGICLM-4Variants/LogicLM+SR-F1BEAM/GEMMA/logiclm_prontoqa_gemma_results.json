@@ -1,0 +1,5013 @@
+{
+  "dataset": "prontoqa",
+  "model": "gemma-2-9b-it",
+  "method": "LogicLM+SelfRefinement",
+  "stats": {
+    "total": 500,
+    "correct": 466,
+    "accuracy": 93.2,
+    "exe_rate": 100.0
+  },
+  "results": [
+    {
+      "index": 0,
+      "id": "pqa_000",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.03
+    },
+    {
+      "index": 1,
+      "id": "pqa_001",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 2,
+      "id": "pqa_002",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 3,
+      "id": "pqa_003",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 4,
+      "id": "pqa_004",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 5,
+      "id": "pqa_005",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 6,
+      "id": "pqa_006",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 7,
+      "id": "pqa_007",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 8,
+      "id": "pqa_008",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 9,
+      "id": "pqa_009",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 10,
+      "id": "pqa_010",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 11,
+      "id": "pqa_011",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 12,
+      "id": "pqa_012",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 13,
+      "id": "pqa_013",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 14,
+      "id": "pqa_014",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 15,
+      "id": "pqa_015",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 16,
+      "id": "pqa_016",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 17,
+      "id": "pqa_017",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 18,
+      "id": "pqa_018",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 19,
+      "id": "pqa_019",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 20,
+      "id": "pqa_020",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 21,
+      "id": "pqa_021",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 22,
+      "id": "pqa_022",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 23,
+      "id": "pqa_023",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 24,
+      "id": "pqa_024",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 25,
+      "id": "pqa_025",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 26,
+      "id": "pqa_026",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 27,
+      "id": "pqa_027",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 28,
+      "id": "pqa_028",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 29,
+      "id": "pqa_029",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 30,
+      "id": "pqa_030",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 31,
+      "id": "pqa_031",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 32,
+      "id": "pqa_032",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 33,
+      "id": "pqa_033",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 34,
+      "id": "pqa_034",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 35,
+      "id": "pqa_035",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 36,
+      "id": "pqa_036",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 37,
+      "id": "pqa_037",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 38,
+      "id": "pqa_038",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 39,
+      "id": "pqa_039",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 40,
+      "id": "pqa_040",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 41,
+      "id": "pqa_041",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 42,
+      "id": "pqa_042",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 43,
+      "id": "pqa_043",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 44,
+      "id": "pqa_044",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 45,
+      "id": "pqa_045",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 46,
+      "id": "pqa_046",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 47,
+      "id": "pqa_047",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 48,
+      "id": "pqa_048",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 49,
+      "id": "pqa_049",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 50,
+      "id": "pqa_050",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 51,
+      "id": "pqa_051",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 52,
+      "id": "pqa_052",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 53,
+      "id": "pqa_053",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 54,
+      "id": "pqa_054",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 55,
+      "id": "pqa_055",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 56,
+      "id": "pqa_056",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 57,
+      "id": "pqa_057",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 58,
+      "id": "pqa_058",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 59,
+      "id": "pqa_059",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 60,
+      "id": "pqa_060",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 61,
+      "id": "pqa_061",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 62,
+      "id": "pqa_062",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 63,
+      "id": "pqa_063",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 64,
+      "id": "pqa_064",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 65,
+      "id": "pqa_065",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 66,
+      "id": "pqa_066",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 67,
+      "id": "pqa_067",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 68,
+      "id": "pqa_068",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 69,
+      "id": "pqa_069",
+      "gold": "False",
+      "prediction": "True",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 70,
+      "id": "pqa_070",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 71,
+      "id": "pqa_071",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 72,
+      "id": "pqa_072",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 73,
+      "id": "pqa_073",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 74,
+      "id": "pqa_074",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 75,
+      "id": "pqa_075",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 76,
+      "id": "pqa_076",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 77,
+      "id": "pqa_077",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 78,
+      "id": "pqa_078",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 79,
+      "id": "pqa_079",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 80,
+      "id": "pqa_080",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 81,
+      "id": "pqa_081",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 82,
+      "id": "pqa_082",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 83,
+      "id": "pqa_083",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 84,
+      "id": "pqa_084",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 85,
+      "id": "pqa_085",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 86,
+      "id": "pqa_086",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 87,
+      "id": "pqa_087",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 88,
+      "id": "pqa_088",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 89,
+      "id": "pqa_089",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 90,
+      "id": "pqa_090",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 91,
+      "id": "pqa_091",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 92,
+      "id": "pqa_092",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 93,
+      "id": "pqa_093",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 94,
+      "id": "pqa_094",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 95,
+      "id": "pqa_095",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 96,
+      "id": "pqa_096",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 97,
+      "id": "pqa_097",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 98,
+      "id": "pqa_098",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 99,
+      "id": "pqa_099",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 100,
+      "id": "pqa_100",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 101,
+      "id": "pqa_101",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 102,
+      "id": "pqa_102",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 103,
+      "id": "pqa_103",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 104,
+      "id": "pqa_104",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 105,
+      "id": "pqa_105",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 106,
+      "id": "pqa_106",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 107,
+      "id": "pqa_107",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 108,
+      "id": "pqa_108",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 109,
+      "id": "pqa_109",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 110,
+      "id": "pqa_110",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 111,
+      "id": "pqa_111",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 112,
+      "id": "pqa_112",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 113,
+      "id": "pqa_113",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 114,
+      "id": "pqa_114",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 115,
+      "id": "pqa_115",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 116,
+      "id": "pqa_116",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 117,
+      "id": "pqa_117",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 118,
+      "id": "pqa_118",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 119,
+      "id": "pqa_119",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 120,
+      "id": "pqa_120",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 121,
+      "id": "pqa_121",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 122,
+      "id": "pqa_122",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 123,
+      "id": "pqa_123",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 124,
+      "id": "pqa_124",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 125,
+      "id": "pqa_125",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 126,
+      "id": "pqa_126",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 127,
+      "id": "pqa_127",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 128,
+      "id": "pqa_128",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 129,
+      "id": "pqa_129",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 130,
+      "id": "pqa_130",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 131,
+      "id": "pqa_131",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 132,
+      "id": "pqa_132",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 133,
+      "id": "pqa_133",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 134,
+      "id": "pqa_134",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 135,
+      "id": "pqa_135",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 136,
+      "id": "pqa_136",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 137,
+      "id": "pqa_137",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 138,
+      "id": "pqa_138",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 139,
+      "id": "pqa_139",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 140,
+      "id": "pqa_140",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 141,
+      "id": "pqa_141",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 142,
+      "id": "pqa_142",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 143,
+      "id": "pqa_143",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 144,
+      "id": "pqa_144",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 145,
+      "id": "pqa_145",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 146,
+      "id": "pqa_146",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 147,
+      "id": "pqa_147",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 148,
+      "id": "pqa_148",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 149,
+      "id": "pqa_149",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 150,
+      "id": "pqa_150",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 151,
+      "id": "pqa_151",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 152,
+      "id": "pqa_152",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 153,
+      "id": "pqa_153",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 154,
+      "id": "pqa_154",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 155,
+      "id": "pqa_155",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 156,
+      "id": "pqa_156",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 157,
+      "id": "pqa_157",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 158,
+      "id": "pqa_158",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 159,
+      "id": "pqa_159",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 160,
+      "id": "pqa_160",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 161,
+      "id": "pqa_161",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 162,
+      "id": "pqa_162",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 163,
+      "id": "pqa_163",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 164,
+      "id": "pqa_164",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 165,
+      "id": "pqa_165",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 166,
+      "id": "pqa_166",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 167,
+      "id": "pqa_167",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 168,
+      "id": "pqa_168",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 169,
+      "id": "pqa_169",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 170,
+      "id": "pqa_170",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 171,
+      "id": "pqa_171",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 172,
+      "id": "pqa_172",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 173,
+      "id": "pqa_173",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 174,
+      "id": "pqa_174",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 175,
+      "id": "pqa_175",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 176,
+      "id": "pqa_176",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 177,
+      "id": "pqa_177",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 178,
+      "id": "pqa_178",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 179,
+      "id": "pqa_179",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 180,
+      "id": "pqa_180",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 181,
+      "id": "pqa_181",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 182,
+      "id": "pqa_182",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 183,
+      "id": "pqa_183",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 184,
+      "id": "pqa_184",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 185,
+      "id": "pqa_185",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 186,
+      "id": "pqa_186",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 187,
+      "id": "pqa_187",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 188,
+      "id": "pqa_188",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 189,
+      "id": "pqa_189",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 190,
+      "id": "pqa_190",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 191,
+      "id": "pqa_191",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 192,
+      "id": "pqa_192",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 193,
+      "id": "pqa_193",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 194,
+      "id": "pqa_194",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 195,
+      "id": "pqa_195",
+      "gold": "False",
+      "prediction": "True",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 196,
+      "id": "pqa_196",
+      "gold": "False",
+      "prediction": "True",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 197,
+      "id": "pqa_197",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 198,
+      "id": "pqa_198",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 199,
+      "id": "pqa_199",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 200,
+      "id": "pqa_200",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 201,
+      "id": "pqa_201",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 202,
+      "id": "pqa_202",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 203,
+      "id": "pqa_203",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 204,
+      "id": "pqa_204",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 205,
+      "id": "pqa_205",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 206,
+      "id": "pqa_206",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 207,
+      "id": "pqa_207",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 208,
+      "id": "pqa_208",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 209,
+      "id": "pqa_209",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 210,
+      "id": "pqa_210",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 211,
+      "id": "pqa_211",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 212,
+      "id": "pqa_212",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 213,
+      "id": "pqa_213",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 214,
+      "id": "pqa_214",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 215,
+      "id": "pqa_215",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 216,
+      "id": "pqa_216",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 217,
+      "id": "pqa_217",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 218,
+      "id": "pqa_218",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 219,
+      "id": "pqa_219",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 220,
+      "id": "pqa_220",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 221,
+      "id": "pqa_221",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 222,
+      "id": "pqa_222",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 223,
+      "id": "pqa_223",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 224,
+      "id": "pqa_224",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 225,
+      "id": "pqa_225",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 226,
+      "id": "pqa_226",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 227,
+      "id": "pqa_227",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 228,
+      "id": "pqa_228",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 229,
+      "id": "pqa_229",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 230,
+      "id": "pqa_230",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 231,
+      "id": "pqa_231",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 232,
+      "id": "pqa_232",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 233,
+      "id": "pqa_233",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 234,
+      "id": "pqa_234",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 235,
+      "id": "pqa_235",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 236,
+      "id": "pqa_236",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 237,
+      "id": "pqa_237",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 238,
+      "id": "pqa_238",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 239,
+      "id": "pqa_239",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 240,
+      "id": "pqa_240",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 241,
+      "id": "pqa_241",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 242,
+      "id": "pqa_242",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 243,
+      "id": "pqa_243",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 244,
+      "id": "pqa_244",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 245,
+      "id": "pqa_245",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 246,
+      "id": "pqa_246",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 247,
+      "id": "pqa_247",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 248,
+      "id": "pqa_248",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 249,
+      "id": "pqa_249",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 250,
+      "id": "pqa_250",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 251,
+      "id": "pqa_251",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 252,
+      "id": "pqa_252",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 253,
+      "id": "pqa_253",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 254,
+      "id": "pqa_254",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 255,
+      "id": "pqa_255",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 256,
+      "id": "pqa_256",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 257,
+      "id": "pqa_257",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 258,
+      "id": "pqa_258",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 259,
+      "id": "pqa_259",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 260,
+      "id": "pqa_260",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 261,
+      "id": "pqa_261",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 262,
+      "id": "pqa_262",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 263,
+      "id": "pqa_263",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 264,
+      "id": "pqa_264",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 265,
+      "id": "pqa_265",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 266,
+      "id": "pqa_266",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 267,
+      "id": "pqa_267",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 268,
+      "id": "pqa_268",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 269,
+      "id": "pqa_269",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 270,
+      "id": "pqa_270",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 271,
+      "id": "pqa_271",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 272,
+      "id": "pqa_272",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 273,
+      "id": "pqa_273",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 274,
+      "id": "pqa_274",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 275,
+      "id": "pqa_275",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 276,
+      "id": "pqa_276",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 277,
+      "id": "pqa_277",
+      "gold": "False",
+      "prediction": "True",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 278,
+      "id": "pqa_278",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 279,
+      "id": "pqa_279",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 280,
+      "id": "pqa_280",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 281,
+      "id": "pqa_281",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 282,
+      "id": "pqa_282",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 283,
+      "id": "pqa_283",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 284,
+      "id": "pqa_284",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 285,
+      "id": "pqa_285",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 286,
+      "id": "pqa_286",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 287,
+      "id": "pqa_287",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 288,
+      "id": "pqa_288",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 289,
+      "id": "pqa_289",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 290,
+      "id": "pqa_290",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 291,
+      "id": "pqa_291",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 292,
+      "id": "pqa_292",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 293,
+      "id": "pqa_293",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 294,
+      "id": "pqa_294",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 295,
+      "id": "pqa_295",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 296,
+      "id": "pqa_296",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 297,
+      "id": "pqa_297",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 298,
+      "id": "pqa_298",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 299,
+      "id": "pqa_299",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 300,
+      "id": "pqa_300",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 301,
+      "id": "pqa_301",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 302,
+      "id": "pqa_302",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 303,
+      "id": "pqa_303",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 304,
+      "id": "pqa_304",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 305,
+      "id": "pqa_305",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 306,
+      "id": "pqa_306",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 307,
+      "id": "pqa_307",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 308,
+      "id": "pqa_308",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 309,
+      "id": "pqa_309",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 310,
+      "id": "pqa_310",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 311,
+      "id": "pqa_311",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 312,
+      "id": "pqa_312",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 313,
+      "id": "pqa_313",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 314,
+      "id": "pqa_314",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 315,
+      "id": "pqa_315",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 316,
+      "id": "pqa_316",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 317,
+      "id": "pqa_317",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 318,
+      "id": "pqa_318",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 319,
+      "id": "pqa_319",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 320,
+      "id": "pqa_320",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 321,
+      "id": "pqa_321",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 322,
+      "id": "pqa_322",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 323,
+      "id": "pqa_323",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 324,
+      "id": "pqa_324",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 325,
+      "id": "pqa_325",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 326,
+      "id": "pqa_326",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 327,
+      "id": "pqa_327",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 328,
+      "id": "pqa_328",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 329,
+      "id": "pqa_329",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 330,
+      "id": "pqa_330",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 331,
+      "id": "pqa_331",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 332,
+      "id": "pqa_332",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 333,
+      "id": "pqa_333",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 334,
+      "id": "pqa_334",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 335,
+      "id": "pqa_335",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 336,
+      "id": "pqa_336",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 337,
+      "id": "pqa_337",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 338,
+      "id": "pqa_338",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 339,
+      "id": "pqa_339",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 340,
+      "id": "pqa_340",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 341,
+      "id": "pqa_341",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 342,
+      "id": "pqa_342",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 343,
+      "id": "pqa_343",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 344,
+      "id": "pqa_344",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 345,
+      "id": "pqa_345",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 346,
+      "id": "pqa_346",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 347,
+      "id": "pqa_347",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 348,
+      "id": "pqa_348",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 349,
+      "id": "pqa_349",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 350,
+      "id": "pqa_350",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 351,
+      "id": "pqa_351",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 352,
+      "id": "pqa_352",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 353,
+      "id": "pqa_353",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 354,
+      "id": "pqa_354",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 355,
+      "id": "pqa_355",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 356,
+      "id": "pqa_356",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 357,
+      "id": "pqa_357",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 358,
+      "id": "pqa_358",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 359,
+      "id": "pqa_359",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 360,
+      "id": "pqa_360",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 361,
+      "id": "pqa_361",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 362,
+      "id": "pqa_362",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 363,
+      "id": "pqa_363",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 364,
+      "id": "pqa_364",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 365,
+      "id": "pqa_365",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 366,
+      "id": "pqa_366",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 367,
+      "id": "pqa_367",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 368,
+      "id": "pqa_368",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 369,
+      "id": "pqa_369",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 370,
+      "id": "pqa_370",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 371,
+      "id": "pqa_371",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 372,
+      "id": "pqa_372",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 373,
+      "id": "pqa_373",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 374,
+      "id": "pqa_374",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 375,
+      "id": "pqa_375",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 376,
+      "id": "pqa_376",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 377,
+      "id": "pqa_377",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 378,
+      "id": "pqa_378",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 379,
+      "id": "pqa_379",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 380,
+      "id": "pqa_380",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 381,
+      "id": "pqa_381",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 382,
+      "id": "pqa_382",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 383,
+      "id": "pqa_383",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 384,
+      "id": "pqa_384",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 385,
+      "id": "pqa_385",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 386,
+      "id": "pqa_386",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 387,
+      "id": "pqa_387",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 388,
+      "id": "pqa_388",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 389,
+      "id": "pqa_389",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 390,
+      "id": "pqa_390",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 391,
+      "id": "pqa_391",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 392,
+      "id": "pqa_392",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 393,
+      "id": "pqa_393",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 394,
+      "id": "pqa_394",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 395,
+      "id": "pqa_395",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 396,
+      "id": "pqa_396",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 397,
+      "id": "pqa_397",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 398,
+      "id": "pqa_398",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 399,
+      "id": "pqa_399",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 400,
+      "id": "pqa_400",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 401,
+      "id": "pqa_401",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 402,
+      "id": "pqa_402",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 403,
+      "id": "pqa_403",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 404,
+      "id": "pqa_404",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 405,
+      "id": "pqa_405",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 406,
+      "id": "pqa_406",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 407,
+      "id": "pqa_407",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 408,
+      "id": "pqa_408",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 409,
+      "id": "pqa_409",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 410,
+      "id": "pqa_410",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 411,
+      "id": "pqa_411",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 412,
+      "id": "pqa_412",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 413,
+      "id": "pqa_413",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 414,
+      "id": "pqa_414",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 415,
+      "id": "pqa_415",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 416,
+      "id": "pqa_416",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 417,
+      "id": "pqa_417",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 418,
+      "id": "pqa_418",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 419,
+      "id": "pqa_419",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 420,
+      "id": "pqa_420",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 421,
+      "id": "pqa_421",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 422,
+      "id": "pqa_422",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 423,
+      "id": "pqa_423",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 424,
+      "id": "pqa_424",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 425,
+      "id": "pqa_425",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 426,
+      "id": "pqa_426",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 427,
+      "id": "pqa_427",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 428,
+      "id": "pqa_428",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 429,
+      "id": "pqa_429",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 430,
+      "id": "pqa_430",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 431,
+      "id": "pqa_431",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 432,
+      "id": "pqa_432",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 433,
+      "id": "pqa_433",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 434,
+      "id": "pqa_434",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 435,
+      "id": "pqa_435",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 436,
+      "id": "pqa_436",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 437,
+      "id": "pqa_437",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 438,
+      "id": "pqa_438",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 439,
+      "id": "pqa_439",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 440,
+      "id": "pqa_440",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 441,
+      "id": "pqa_441",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 442,
+      "id": "pqa_442",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 443,
+      "id": "pqa_443",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 444,
+      "id": "pqa_444",
+      "gold": "True",
+      "prediction": "False",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 445,
+      "id": "pqa_445",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 446,
+      "id": "pqa_446",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 447,
+      "id": "pqa_447",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 448,
+      "id": "pqa_448",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 449,
+      "id": "pqa_449",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 450,
+      "id": "pqa_450",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 451,
+      "id": "pqa_451",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 452,
+      "id": "pqa_452",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 453,
+      "id": "pqa_453",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 454,
+      "id": "pqa_454",
+      "gold": "False",
+      "prediction": "True",
+      "correct": false,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 455,
+      "id": "pqa_455",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 456,
+      "id": "pqa_456",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 457,
+      "id": "pqa_457",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 458,
+      "id": "pqa_458",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 459,
+      "id": "pqa_459",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 460,
+      "id": "pqa_460",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 461,
+      "id": "pqa_461",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 462,
+      "id": "pqa_462",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 463,
+      "id": "pqa_463",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 464,
+      "id": "pqa_464",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 465,
+      "id": "pqa_465",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 466,
+      "id": "pqa_466",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 467,
+      "id": "pqa_467",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 468,
+      "id": "pqa_468",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 469,
+      "id": "pqa_469",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 470,
+      "id": "pqa_470",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 471,
+      "id": "pqa_471",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 472,
+      "id": "pqa_472",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 473,
+      "id": "pqa_473",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 474,
+      "id": "pqa_474",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 475,
+      "id": "pqa_475",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 476,
+      "id": "pqa_476",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 477,
+      "id": "pqa_477",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 478,
+      "id": "pqa_478",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 479,
+      "id": "pqa_479",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 480,
+      "id": "pqa_480",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 481,
+      "id": "pqa_481",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 482,
+      "id": "pqa_482",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 483,
+      "id": "pqa_483",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 484,
+      "id": "pqa_484",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 485,
+      "id": "pqa_485",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 486,
+      "id": "pqa_486",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 487,
+      "id": "pqa_487",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 488,
+      "id": "pqa_488",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 489,
+      "id": "pqa_489",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 490,
+      "id": "pqa_490",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 491,
+      "id": "pqa_491",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.01
+    },
+    {
+      "index": 492,
+      "id": "pqa_492",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 493,
+      "id": "pqa_493",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 494,
+      "id": "pqa_494",
+      "gold": "True",
+      "prediction": "True",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 495,
+      "id": "pqa_495",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 496,
+      "id": "pqa_496",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 497,
+      "id": "pqa_497",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 498,
+      "id": "pqa_498",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    },
+    {
+      "index": 499,
+      "id": "pqa_499",
+      "gold": "False",
+      "prediction": "False",
+      "correct": true,
+      "refinement_rounds": 0,
+      "success": true,
+      "time_s": 0.02
+    }
+  ]
+}

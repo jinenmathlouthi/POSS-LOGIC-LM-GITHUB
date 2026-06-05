@@ -1,0 +1,37 @@
+﻿Dataset,Model,Category,Count,Pct,Accuracy,Source
+PrOntoQA,Gemma,TF consensus,476,95.2,95.17,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_prontoqa_gemma_results.json
+PrOntoQA,Gemma,Semantic Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_prontoqa_gemma_results.json
+PrOntoQA,Gemma,Conflict,24,4.8,70.83,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_prontoqa_gemma_results.json
+PrOntoQA,Gemma,Technical Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_prontoqa_gemma_results.json
+PrOntoQA,LLaMA,TF consensus,315,63.0,93.02,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_prontoqa_results.json
+PrOntoQA,LLaMA,Semantic Unknown,3,0.6,0.0,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_prontoqa_results.json
+PrOntoQA,LLaMA,Conflict,182,36.4,79.12,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_prontoqa_results.json
+PrOntoQA,LLaMA,Technical Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_prontoqa_results.json
+PrOntoQA,Qwen,TF consensus,377,75.4,91.25,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_prontoqa_results.json
+PrOntoQA,Qwen,Semantic Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_prontoqa_results.json
+PrOntoQA,Qwen,Conflict,123,24.6,72.36,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_prontoqa_results.json
+PrOntoQA,Qwen,Technical Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_prontoqa_results.json
+ProofWriter,Gemma,TF consensus,284,47.33,51.41,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_proofwriter_results.json
+ProofWriter,Gemma,Semantic Unknown,283,47.17,91.17,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_proofwriter_results.json
+ProofWriter,Gemma,Conflict,33,5.5,21.21,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_proofwriter_results.json
+ProofWriter,Gemma,Technical Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_proofwriter_results.json
+ProofWriter,LLaMA,TF consensus,169,28.17,62.72,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_proofwriter_results.json
+ProofWriter,LLaMA,Semantic Unknown,317,52.83,81.07,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_proofwriter_results.json
+ProofWriter,LLaMA,Conflict,114,19.0,29.82,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_proofwriter_results.json
+ProofWriter,LLaMA,Technical Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_proofwriter_results.json
+ProofWriter,Qwen,TF consensus,150,25.0,52.0,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_proofwriter_results.json
+ProofWriter,Qwen,Semantic Unknown,326,54.33,82.82,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_proofwriter_results.json
+ProofWriter,Qwen,Conflict,124,20.67,45.16,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_proofwriter_results.json
+ProofWriter,Qwen,Technical Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_proofwriter_results.json
+FOLIO,Gemma,TF consensus,33,16.26,87.88,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_folio_gemma_results.json
+FOLIO,Gemma,Semantic Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_folio_gemma_results.json
+FOLIO,Gemma,Conflict,20,9.85,60.0,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_folio_gemma_results.json
+FOLIO,Gemma,Technical Unknown,150,73.89,42.67,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-GEMMA\PBS-GEMMA\pbs_folio_gemma_results.json
+FOLIO,LLaMA,TF consensus,6,2.96,83.33,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_folio_llama_results.json
+FOLIO,LLaMA,Semantic Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_folio_llama_results.json
+FOLIO,LLaMA,Conflict,79,38.92,58.23,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_folio_llama_results.json
+FOLIO,LLaMA,Technical Unknown,118,58.13,42.37,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-LLAMA\PBS-LLAMA\pbs_folio_llama_results.json
+FOLIO,Qwen,TF consensus,13,6.4,92.31,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_folio_results.json
+FOLIO,Qwen,Semantic Unknown,0,0.0,,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_folio_results.json
+FOLIO,Qwen,Conflict,67,33.0,53.73,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_folio_results.json
+FOLIO,Qwen,Technical Unknown,123,60.59,45.53,C:\Users\mathlouthi\Desktop\POSS-LOGIC-LM-GITHUB\POSS-LOGICLM\PBS-QWEN\PBS-QWEN\pbs_folio_results.json

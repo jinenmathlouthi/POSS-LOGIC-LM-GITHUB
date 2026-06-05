@@ -1,0 +1,2281 @@
+{
+  "dataset": "ProofWriter",
+  "model": "gemma",
+  "method": "LogicLM-F1-noSR",
+  "stats": {
+    "total": 600,
+    "correct": 134,
+    "accuracy": 41.36,
+    "exe_rate": 70.37
+  },
+  "results": [
+    {
+      "id": "pw_000",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "needs(dog,bear)"
+    },
+    {
+      "id": "pw_001",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "needs(bear,bald_eagle)"
+    },
+    {
+      "id": "pw_004",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "quiet(gary)"
+    },
+    {
+      "id": "pw_005",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_quiet(charlie)"
+    },
+    {
+      "id": "pw_008",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "cold(bear)"
+    },
+    {
+      "id": "pw_009",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_cold(bear)"
+    },
+    {
+      "id": "pw_012",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(bear)"
+    },
+    {
+      "id": "pw_013",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_nice(bear)"
+    },
+    {
+      "id": "pw_016",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(tiger)"
+    },
+    {
+      "id": "pw_017",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "big(tiger)"
+    },
+    {
+      "id": "pw_020",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "white(gary)"
+    },
+    {
+      "id": "pw_021",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_smart(gary)"
+    },
+    {
+      "id": "pw_022",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "young(dog)"
+    },
+    {
+      "id": "pw_023",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_big(dog)"
+    },
+    {
+      "id": "pw_026",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(dave)"
+    },
+    {
+      "id": "pw_027",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(dave)"
+    },
+    {
+      "id": "pw_030",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(bear)"
+    },
+    {
+      "id": "pw_031",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "eagle(bald,not_chase_mouse)"
+    },
+    {
+      "id": "pw_034",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "needs(rabbit,dog)"
+    },
+    {
+      "id": "pw_035",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_like(dog,rabbit)"
+    },
+    {
+      "id": "pw_038",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(anne)"
+    },
+    {
+      "id": "pw_039",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(anne)"
+    },
+    {
+      "id": "pw_042",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "kind(harry)"
+    },
+    {
+      "id": "pw_043",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(harry)"
+    },
+    {
+      "id": "pw_044",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "white(dave)"
+    },
+    {
+      "id": "pw_045",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_quiet(erin)"
+    },
+    {
+      "id": "pw_048",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(dave)"
+    },
+    {
+      "id": "pw_049",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_blue(bob)"
+    },
+    {
+      "id": "pw_052",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_red(fiona)"
+    },
+    {
+      "id": "pw_053",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "kind(erin)"
+    },
+    {
+      "id": "pw_056",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "furry(gary)"
+    },
+    {
+      "id": "pw_057",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_white(gary)"
+    },
+    {
+      "id": "pw_060",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_rough(bob)"
+    },
+    {
+      "id": "pw_061",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(harry)"
+    },
+    {
+      "id": "pw_064",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(gary)"
+    },
+    {
+      "id": "pw_065",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_round(gary)"
+    },
+    {
+      "id": "pw_068",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "visits(cat,lion)"
+    },
+    {
+      "id": "pw_069",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_big(bald_eagle)"
+    },
+    {
+      "id": "pw_072",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "quiet(dave)"
+    },
+    {
+      "id": "pw_073",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_quiet(dave)"
+    },
+    {
+      "id": "pw_074",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "kind(gary)"
+    },
+    {
+      "id": "pw_075",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_furry(gary)"
+    },
+    {
+      "id": "pw_076",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(fiona)"
+    },
+    {
+      "id": "pw_077",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(fiona)"
+    },
+    {
+      "id": "pw_080",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_round(erin)"
+    },
+    {
+      "id": "pw_081",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(dave)"
+    },
+    {
+      "id": "pw_084",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "sees(lion,cat)"
+    },
+    {
+      "id": "pw_085",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_see(lion,cat)"
+    },
+    {
+      "id": "pw_088",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sees(lion,squirrel)"
+    },
+    {
+      "id": "pw_089",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_see(lion,squirrel)"
+    },
+    {
+      "id": "pw_092",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(charlie)"
+    },
+    {
+      "id": "pw_093",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(bob)"
+    },
+    {
+      "id": "pw_096",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "visits(cat,rabbit)"
+    },
+    {
+      "id": "pw_097",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_visit(cat,rabbit)"
+    },
+    {
+      "id": "pw_100",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(anne)"
+    },
+    {
+      "id": "pw_101",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(anne)"
+    },
+    {
+      "id": "pw_104",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_young(dog)"
+    },
+    {
+      "id": "pw_105",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_blue(dog)"
+    },
+    {
+      "id": "pw_108",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(rabbit)"
+    },
+    {
+      "id": "pw_109",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(rabbit)"
+    },
+    {
+      "id": "pw_112",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sees(squirrel,lion)"
+    },
+    {
+      "id": "pw_113",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(bear)"
+    },
+    {
+      "id": "pw_116",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "green(bob)"
+    },
+    {
+      "id": "pw_117",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(bob)"
+    },
+    {
+      "id": "pw_118",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(gary)"
+    },
+    {
+      "id": "pw_119",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_big(bob)"
+    },
+    {
+      "id": "pw_122",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "kind(anne)"
+    },
+    {
+      "id": "pw_123",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_big(charlie)"
+    },
+    {
+      "id": "pw_126",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(anne)"
+    },
+    {
+      "id": "pw_127",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "quiet(gary)"
+    },
+    {
+      "id": "pw_130",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(cat)"
+    },
+    {
+      "id": "pw_131",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_eat(lion,cat)"
+    },
+    {
+      "id": "pw_134",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(squirrel,cow)"
+    },
+    {
+      "id": "pw_135",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_visit(squirrel,dog)"
+    },
+    {
+      "id": "pw_138",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(gary)"
+    },
+    {
+      "id": "pw_139",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(gary)"
+    },
+    {
+      "id": "pw_140",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "visits(squirrel,bald_eagle)"
+    },
+    {
+      "id": "pw_141",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "eagle(bald,not_see_tiger)"
+    },
+    {
+      "id": "pw_144",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "round(gary)"
+    },
+    {
+      "id": "pw_145",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_round(gary)"
+    },
+    {
+      "id": "pw_148",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(anne)"
+    },
+    {
+      "id": "pw_149",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(anne)"
+    },
+    {
+      "id": "pw_150",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(bear)"
+    },
+    {
+      "id": "pw_151",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_kind(bear)"
+    },
+    {
+      "id": "pw_154",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "rough(cat)"
+    },
+    {
+      "id": "pw_155",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(cat)"
+    },
+    {
+      "id": "pw_158",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sees(lion,tiger)"
+    },
+    {
+      "id": "pw_159",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_big(cat)"
+    },
+    {
+      "id": "pw_162",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_rough(erin)"
+    },
+    {
+      "id": "pw_163",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(anne)"
+    },
+    {
+      "id": "pw_166",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_kind(gary)"
+    },
+    {
+      "id": "pw_167",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "kind(gary)"
+    },
+    {
+      "id": "pw_170",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(dave)"
+    },
+    {
+      "id": "pw_171",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(fiona)"
+    },
+    {
+      "id": "pw_174",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(bear)"
+    },
+    {
+      "id": "pw_175",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_need(tiger,bear)"
+    },
+    {
+      "id": "pw_178",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(harry)"
+    },
+    {
+      "id": "pw_179",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_rough(gary)"
+    },
+    {
+      "id": "pw_182",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "green(bald_eagle)"
+    },
+    {
+      "id": "pw_183",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(bald_eagle)"
+    },
+    {
+      "id": "pw_186",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(squirrel,cat)"
+    },
+    {
+      "id": "pw_187",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_like(cat,dog)"
+    },
+    {
+      "id": "pw_190",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(gary)"
+    },
+    {
+      "id": "pw_191",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(erin)"
+    },
+    {
+      "id": "pw_194",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "visits(tiger,cat)"
+    },
+    {
+      "id": "pw_195",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_visit(tiger,cat)"
+    },
+    {
+      "id": "pw_198",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(bald_eagle)"
+    },
+    {
+      "id": "pw_199",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_cold(bald_eagle)"
+    },
+    {
+      "id": "pw_202",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(gary)"
+    },
+    {
+      "id": "pw_203",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_white(gary)"
+    },
+    {
+      "id": "pw_204",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_rough(bear)"
+    },
+    {
+      "id": "pw_205",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_red(bear)"
+    },
+    {
+      "id": "pw_208",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "big(bob)"
+    },
+    {
+      "id": "pw_209",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_white(bob)"
+    },
+    {
+      "id": "pw_210",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "quiet(fiona)"
+    },
+    {
+      "id": "pw_211",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_smart(fiona)"
+    },
+    {
+      "id": "pw_212",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "chases(rabbit,bald_eagle)"
+    },
+    {
+      "id": "pw_213",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_big(bald_eagle)"
+    },
+    {
+      "id": "pw_216",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(dog,cat)"
+    },
+    {
+      "id": "pw_217",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_rough(cat)"
+    },
+    {
+      "id": "pw_220",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(anne)"
+    },
+    {
+      "id": "pw_221",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_furry(fiona)"
+    },
+    {
+      "id": "pw_224",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(cat)"
+    },
+    {
+      "id": "pw_225",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(cat)"
+    },
+    {
+      "id": "pw_228",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "quiet(fiona)"
+    },
+    {
+      "id": "pw_229",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_red(fiona)"
+    },
+    {
+      "id": "pw_230",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(tiger,bald_eagle)"
+    },
+    {
+      "id": "pw_231",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "needs(tiger,dog)"
+    },
+    {
+      "id": "pw_234",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(bob)"
+    },
+    {
+      "id": "pw_235",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_round(gary)"
+    },
+    {
+      "id": "pw_238",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "rough(charlie)"
+    },
+    {
+      "id": "pw_239",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_smart(gary)"
+    },
+    {
+      "id": "pw_242",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(charlie)"
+    },
+    {
+      "id": "pw_243",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_white(charlie)"
+    },
+    {
+      "id": "pw_246",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "kind(erin)"
+    },
+    {
+      "id": "pw_247",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(bob)"
+    },
+    {
+      "id": "pw_250",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(charlie)"
+    },
+    {
+      "id": "pw_251",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(charlie)"
+    },
+    {
+      "id": "pw_254",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "big(tiger)"
+    },
+    {
+      "id": "pw_255",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_big(tiger)"
+    },
+    {
+      "id": "pw_258",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "visits(lion,squirrel)"
+    },
+    {
+      "id": "pw_259",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(squirrel)"
+    },
+    {
+      "id": "pw_262",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(squirrel)"
+    },
+    {
+      "id": "pw_263",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(squirrel)"
+    },
+    {
+      "id": "pw_266",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "eagle(bald,eats_squirrel)"
+    },
+    {
+      "id": "pw_267",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "kind(rabbit)"
+    },
+    {
+      "id": "pw_270",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "chases(bear,bald_eagle)"
+    },
+    {
+      "id": "pw_271",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(bald_eagle)"
+    },
+    {
+      "id": "pw_274",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "likes(squirrel,tiger)"
+    },
+    {
+      "id": "pw_275",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_like(squirrel,tiger)"
+    },
+    {
+      "id": "pw_278",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(dog)"
+    },
+    {
+      "id": "pw_279",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(dog)"
+    },
+    {
+      "id": "pw_282",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "big(harry)"
+    },
+    {
+      "id": "pw_283",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(charlie)"
+    },
+    {
+      "id": "pw_286",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_big(charlie)"
+    },
+    {
+      "id": "pw_287",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(charlie)"
+    },
+    {
+      "id": "pw_288",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(erin)"
+    },
+    {
+      "id": "pw_289",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(erin)"
+    },
+    {
+      "id": "pw_290",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_red(harry)"
+    },
+    {
+      "id": "pw_291",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(fiona)"
+    },
+    {
+      "id": "pw_294",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "kind(gary)"
+    },
+    {
+      "id": "pw_295",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(charlie)"
+    },
+    {
+      "id": "pw_298",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(rabbit,mouse)"
+    },
+    {
+      "id": "pw_299",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(mouse)"
+    },
+    {
+      "id": "pw_302",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(lion,mouse)"
+    },
+    {
+      "id": "pw_303",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(lion)"
+    },
+    {
+      "id": "pw_306",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(bob)"
+    },
+    {
+      "id": "pw_307",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_white(erin)"
+    },
+    {
+      "id": "pw_310",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(anne)"
+    },
+    {
+      "id": "pw_311",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(anne)"
+    },
+    {
+      "id": "pw_314",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "green(bald_eagle)"
+    },
+    {
+      "id": "pw_315",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(bald_eagle)"
+    },
+    {
+      "id": "pw_318",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sees(mouse,cat)"
+    },
+    {
+      "id": "pw_319",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_eat(cat,mouse)"
+    },
+    {
+      "id": "pw_322",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sees(bear,cow)"
+    },
+    {
+      "id": "pw_323",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_eat(bear,dog)"
+    },
+    {
+      "id": "pw_326",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "big(cat)"
+    },
+    {
+      "id": "pw_327",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_need(cow,mouse)"
+    },
+    {
+      "id": "pw_330",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(fiona)"
+    },
+    {
+      "id": "pw_331",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_smart(dave)"
+    },
+    {
+      "id": "pw_334",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_blue(mouse)"
+    },
+    {
+      "id": "pw_335",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(mouse)"
+    },
+    {
+      "id": "pw_338",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "smart(charlie)"
+    },
+    {
+      "id": "pw_339",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_smart(bob)"
+    },
+    {
+      "id": "pw_342",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(harry)"
+    },
+    {
+      "id": "pw_343",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(charlie)"
+    },
+    {
+      "id": "pw_346",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "white(harry)"
+    },
+    {
+      "id": "pw_347",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(harry)"
+    },
+    {
+      "id": "pw_348",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_nice(bald_eagle)"
+    },
+    {
+      "id": "pw_349",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_round(bald_eagle)"
+    },
+    {
+      "id": "pw_352",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "chases(squirrel,cat)"
+    },
+    {
+      "id": "pw_353",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_chase(squirrel,cat)"
+    },
+    {
+      "id": "pw_356",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(fiona)"
+    },
+    {
+      "id": "pw_357",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(fiona)"
+    },
+    {
+      "id": "pw_360",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(erin)"
+    },
+    {
+      "id": "pw_361",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_furry(dave)"
+    },
+    {
+      "id": "pw_364",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "round(erin)"
+    },
+    {
+      "id": "pw_365",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(fiona)"
+    },
+    {
+      "id": "pw_368",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(rabbit)"
+    },
+    {
+      "id": "pw_369",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(cat)"
+    },
+    {
+      "id": "pw_372",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(fiona)"
+    },
+    {
+      "id": "pw_373",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(fiona)"
+    },
+    {
+      "id": "pw_376",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(tiger)"
+    },
+    {
+      "id": "pw_377",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(tiger)"
+    },
+    {
+      "id": "pw_380",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(charlie)"
+    },
+    {
+      "id": "pw_381",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(charlie)"
+    },
+    {
+      "id": "pw_384",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(squirrel)"
+    },
+    {
+      "id": "pw_385",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_young(squirrel)"
+    },
+    {
+      "id": "pw_388",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_cold(anne)"
+    },
+    {
+      "id": "pw_389",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "big(harry)"
+    },
+    {
+      "id": "pw_392",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(fiona)"
+    },
+    {
+      "id": "pw_393",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_blue(anne)"
+    },
+    {
+      "id": "pw_396",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_eat(tiger,cat)"
+    },
+    {
+      "id": "pw_397",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(tiger)"
+    },
+    {
+      "id": "pw_400",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(cow)"
+    },
+    {
+      "id": "pw_401",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(cow)"
+    },
+    {
+      "id": "pw_404",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "furry(dave)"
+    },
+    {
+      "id": "pw_405",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_cold(gary)"
+    },
+    {
+      "id": "pw_408",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "green(fiona)"
+    },
+    {
+      "id": "pw_409",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(fiona)"
+    },
+    {
+      "id": "pw_412",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(charlie)"
+    },
+    {
+      "id": "pw_413",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_white(bob)"
+    },
+    {
+      "id": "pw_416",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(bald_eagle)"
+    },
+    {
+      "id": "pw_417",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_chase(tiger,rabbit)"
+    },
+    {
+      "id": "pw_420",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "white(erin)"
+    },
+    {
+      "id": "pw_421",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_furry(charlie)"
+    },
+    {
+      "id": "pw_424",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "big(lion)"
+    },
+    {
+      "id": "pw_425",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(lion)"
+    },
+    {
+      "id": "pw_428",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "quiet(gary)"
+    },
+    {
+      "id": "pw_429",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_nice(fiona)"
+    },
+    {
+      "id": "pw_432",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "furry(charlie)"
+    },
+    {
+      "id": "pw_433",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "round(fiona)"
+    },
+    {
+      "id": "pw_434",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "round(anne)"
+    },
+    {
+      "id": "pw_435",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_round(gary)"
+    },
+    {
+      "id": "pw_438",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "quiet(anne)"
+    },
+    {
+      "id": "pw_439",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(anne)"
+    },
+    {
+      "id": "pw_442",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "round(cow)"
+    },
+    {
+      "id": "pw_443",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_eat(cow,rabbit)"
+    },
+    {
+      "id": "pw_446",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "rough(fiona)"
+    },
+    {
+      "id": "pw_447",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_rough(harry)"
+    },
+    {
+      "id": "pw_450",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(charlie)"
+    },
+    {
+      "id": "pw_451",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_nice(fiona)"
+    },
+    {
+      "id": "pw_454",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(squirrel)"
+    },
+    {
+      "id": "pw_455",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_green(squirrel)"
+    },
+    {
+      "id": "pw_458",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "likes(rabbit,bald_eagle)"
+    },
+    {
+      "id": "pw_459",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_like(rabbit,bald_eagle)"
+    },
+    {
+      "id": "pw_462",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "kind(tiger)"
+    },
+    {
+      "id": "pw_463",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_like(tiger,bald_eagle)"
+    },
+    {
+      "id": "pw_466",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(dog,cat)"
+    },
+    {
+      "id": "pw_467",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_round(dog)"
+    },
+    {
+      "id": "pw_470",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "likes(dog,bald_eagle)"
+    },
+    {
+      "id": "pw_471",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_see(dog,tiger)"
+    },
+    {
+      "id": "pw_474",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(lion,cat)"
+    },
+    {
+      "id": "pw_475",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_big(cat)"
+    },
+    {
+      "id": "pw_478",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "likes(squirrel,cow)"
+    },
+    {
+      "id": "pw_479",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_big(lion)"
+    },
+    {
+      "id": "pw_482",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "big(charlie)"
+    },
+    {
+      "id": "pw_483",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_rough(anne)"
+    },
+    {
+      "id": "pw_484",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "furry(harry)"
+    },
+    {
+      "id": "pw_485",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_nice(harry)"
+    },
+    {
+      "id": "pw_486",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(dave)"
+    },
+    {
+      "id": "pw_487",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(dave)"
+    },
+    {
+      "id": "pw_490",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nice(charlie)"
+    },
+    {
+      "id": "pw_491",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_furry(fiona)"
+    },
+    {
+      "id": "pw_494",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(erin)"
+    },
+    {
+      "id": "pw_495",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(erin)"
+    },
+    {
+      "id": "pw_496",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(fiona)"
+    },
+    {
+      "id": "pw_497",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(bob)"
+    },
+    {
+      "id": "pw_498",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "big(bald_eagle)"
+    },
+    {
+      "id": "pw_499",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_big(bear)"
+    },
+    {
+      "id": "pw_502",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_big(squirrel)"
+    },
+    {
+      "id": "pw_503",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "big(squirrel)"
+    },
+    {
+      "id": "pw_506",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(harry)"
+    },
+    {
+      "id": "pw_507",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_quiet(bob)"
+    },
+    {
+      "id": "pw_510",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(dave)"
+    },
+    {
+      "id": "pw_511",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_furry(gary)"
+    },
+    {
+      "id": "pw_514",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(cow)"
+    },
+    {
+      "id": "pw_515",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(dog)"
+    },
+    {
+      "id": "pw_518",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "smart(anne)"
+    },
+    {
+      "id": "pw_519",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_cold(dave)"
+    },
+    {
+      "id": "pw_522",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "furry(anne)"
+    },
+    {
+      "id": "pw_523",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_smart(bob)"
+    },
+    {
+      "id": "pw_526",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_like(mouse,bald_eagle)"
+    },
+    {
+      "id": "pw_527",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_chase(mouse,bald_eagle)"
+    },
+    {
+      "id": "pw_530",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_nice(lion)"
+    },
+    {
+      "id": "pw_531",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(bear)"
+    },
+    {
+      "id": "pw_534",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "eats(lion,cat)"
+    },
+    {
+      "id": "pw_535",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nice(lion)"
+    },
+    {
+      "id": "pw_538",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(lion)"
+    },
+    {
+      "id": "pw_539",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_rough(lion)"
+    },
+    {
+      "id": "pw_542",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "visits(tiger,squirrel)"
+    },
+    {
+      "id": "pw_543",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_visit(tiger,squirrel)"
+    },
+    {
+      "id": "pw_546",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(erin)"
+    },
+    {
+      "id": "pw_547",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(erin)"
+    },
+    {
+      "id": "pw_550",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(dog)"
+    },
+    {
+      "id": "pw_551",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_blue(dog)"
+    },
+    {
+      "id": "pw_554",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(charlie)"
+    },
+    {
+      "id": "pw_555",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(charlie)"
+    },
+    {
+      "id": "pw_558",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "white(anne)"
+    },
+    {
+      "id": "pw_559",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_white(anne)"
+    },
+    {
+      "id": "pw_562",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "blue(tiger)"
+    },
+    {
+      "id": "pw_563",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(mouse)"
+    },
+    {
+      "id": "pw_566",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "cold(bob)"
+    },
+    {
+      "id": "pw_567",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_cold(bob)"
+    },
+    {
+      "id": "pw_570",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "green(gary)"
+    },
+    {
+      "id": "pw_571",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_young(gary)"
+    },
+    {
+      "id": "pw_574",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "young(fiona)"
+    },
+    {
+      "id": "pw_575",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_round(fiona)"
+    },
+    {
+      "id": "pw_576",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "white(harry)"
+    },
+    {
+      "id": "pw_577",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(harry)"
+    },
+    {
+      "id": "pw_578",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "smart(anne)"
+    },
+    {
+      "id": "pw_579",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "kind(anne)"
+    },
+    {
+      "id": "pw_580",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "young(bear)"
+    },
+    {
+      "id": "pw_581",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_green(bear)"
+    },
+    {
+      "id": "pw_584",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "cold(rabbit)"
+    },
+    {
+      "id": "pw_585",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_kind(rabbit)"
+    },
+    {
+      "id": "pw_588",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(anne)"
+    },
+    {
+      "id": "pw_589",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_rough(anne)"
+    },
+    {
+      "id": "pw_590",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(erin)"
+    },
+    {
+      "id": "pw_591",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(erin)"
+    },
+    {
+      "id": "pw_592",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "rough(fiona)"
+    },
+    {
+      "id": "pw_593",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "query": "neg_quiet(harry)"
+    },
+    {
+      "id": "pw_596",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_see(bear,rabbit)"
+    },
+    {
+      "id": "pw_597",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_like(rabbit,bear)"
+    }
+  ]
+}

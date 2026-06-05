@@ -1,0 +1,4213 @@
+{
+  "dataset": "proofwriter",
+  "model": "gemma-2-9b-it",
+  "method": "LogicLM+SelfRefinement",
+  "stats": {
+    "total": 600,
+    "correct": 404,
+    "accuracy": 67.33,
+    "exe_rate": 53.67
+  },
+  "results": [
+    {
+      "id": "pw_000",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_001",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_002",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_003",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_004",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_005",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_006",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_007",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_008",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_009",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_010",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_011",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_012",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_013",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_014",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_015",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_016",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_017",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_018",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_019",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_020",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_021",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_022",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_023",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_024",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_025",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_026",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_027",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_028",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_029",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_030",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_031",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_032",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_033",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_034",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_035",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_036",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_037",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_038",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_039",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_040",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_041",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_042",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_043",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_044",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_045",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_046",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_047",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_048",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_049",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_050",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_051",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_052",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_053",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_054",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_055",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_056",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_057",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_058",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_059",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_060",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_061",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_062",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_063",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_064",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_065",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_066",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_067",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_068",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_069",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_070",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_071",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_072",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_073",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_074",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_075",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_076",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_077",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_078",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_079",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_080",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_081",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_082",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_083",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_084",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_085",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_086",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_087",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_088",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_089",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_090",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_091",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_092",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_093",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_094",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_095",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_096",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_097",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_098",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_099",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_100",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_101",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_102",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_103",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_104",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_105",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_106",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_107",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_108",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_109",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_110",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_111",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_112",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_113",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_114",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_115",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_116",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_117",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_118",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_119",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_120",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_121",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_122",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_123",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_124",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_125",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_126",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_127",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_128",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_129",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_130",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_131",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_132",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_133",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_134",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_135",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_136",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_137",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_138",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_139",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_140",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_141",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_142",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_143",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_144",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_145",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_146",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_147",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_148",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_149",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_150",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_151",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_152",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_153",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_154",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_155",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_156",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_157",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_158",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_159",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_160",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_161",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_162",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_163",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_164",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_165",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_166",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_167",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_168",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_169",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 2
+    },
+    {
+      "id": "pw_170",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_171",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_172",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_173",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_174",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_175",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_176",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_177",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_178",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_179",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_180",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_181",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_182",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_183",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_184",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_185",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_186",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_187",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_188",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_189",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_190",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_191",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_192",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_193",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_194",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_195",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_196",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_197",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_198",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_199",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_200",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_201",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_202",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_203",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_204",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_205",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_206",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_207",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_208",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_209",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_210",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_211",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_212",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_213",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_214",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_215",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_216",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_217",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 1
+    },
+    {
+      "id": "pw_218",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_219",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_220",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_221",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_222",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_223",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_224",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_225",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_226",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_227",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_228",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_229",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_230",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_231",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_232",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_233",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_234",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_235",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_236",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_237",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_238",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_239",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_240",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_241",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_242",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_243",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_244",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_245",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_246",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_247",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_248",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_249",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_250",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_251",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_252",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_253",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_254",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_255",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_256",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_257",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_258",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_259",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_260",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_261",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_262",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_263",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_264",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_265",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_266",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_267",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_268",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_269",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_270",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_271",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_272",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_273",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_274",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_275",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_276",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_277",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_278",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_279",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_280",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_281",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_282",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_283",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_284",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_285",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_286",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_287",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_288",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_289",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_290",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_291",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_292",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_293",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_294",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_295",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_296",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_297",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_298",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_299",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_300",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_301",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_302",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_303",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_304",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_305",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_306",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_307",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_308",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_309",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_310",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_311",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_312",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_313",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_314",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_315",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_316",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_317",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_318",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_319",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_320",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_321",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_322",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_323",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_324",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_325",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_326",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_327",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_328",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_329",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_330",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_331",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_332",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_333",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_334",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_335",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_336",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_337",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_338",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_339",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_340",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_341",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_342",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_343",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_344",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_345",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_346",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_347",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_348",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_349",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_350",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_351",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_352",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_353",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_354",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_355",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_356",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_357",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_358",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_359",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_360",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_361",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_362",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_363",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_364",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_365",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_366",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_367",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_368",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_369",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_370",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_371",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_372",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_373",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_374",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_375",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_376",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_377",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_378",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_379",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_380",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_381",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_382",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_383",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_384",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_385",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_386",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_387",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_388",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_389",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_390",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_391",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_392",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_393",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_394",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_395",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_396",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_397",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_398",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_399",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_400",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_401",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_402",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_403",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_404",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_405",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_406",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_407",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_408",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_409",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_410",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_411",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_412",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_413",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_414",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_415",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_416",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_417",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_418",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_419",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_420",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_421",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_422",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_423",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_424",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_425",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_426",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_427",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_428",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_429",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_430",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_431",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_432",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_433",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_434",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_435",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_436",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_437",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_438",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_439",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_440",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_441",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_442",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_443",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_444",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_445",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_446",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_447",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_448",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_449",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_450",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_451",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 2
+    },
+    {
+      "id": "pw_452",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_453",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_454",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_455",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_456",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_457",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_458",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_459",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_460",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_461",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_462",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_463",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_464",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_465",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_466",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_467",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_468",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_469",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_470",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_471",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_472",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_473",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_474",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_475",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_476",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_477",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_478",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_479",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_480",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_481",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_482",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_483",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_484",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_485",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_486",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_487",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_488",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_489",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_490",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_491",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_492",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_493",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_494",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_495",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_496",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_497",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_498",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_499",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_500",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_501",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_502",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_503",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_504",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_505",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_506",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_507",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_508",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_509",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_510",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_511",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_512",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_513",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_514",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_515",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_516",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_517",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_518",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_519",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_520",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_521",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_522",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_523",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_524",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_525",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_526",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_527",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_528",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 1
+    },
+    {
+      "id": "pw_529",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_530",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_531",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_532",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_533",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_534",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_535",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_536",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_537",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_538",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_539",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_540",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_541",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_542",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_543",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_544",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_545",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_546",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_547",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_548",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_549",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_550",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_551",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_552",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_553",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_554",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_555",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_556",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_557",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_558",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_559",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_560",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_561",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_562",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_563",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_564",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_565",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_566",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_567",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_568",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_569",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_570",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_571",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_572",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_573",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_574",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_575",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_576",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_577",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_578",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_579",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_580",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_581",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_582",
+      "gold": "Unknown",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_583",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_584",
+      "gold": "True",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_585",
+      "gold": "False",
+      "pred": "Unknown",
+      "correct": false,
+      "steps": 3
+    },
+    {
+      "id": "pw_586",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_587",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_588",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_589",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_590",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_591",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_592",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "pw_593",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_594",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_595",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_596",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_597",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "pw_598",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    },
+    {
+      "id": "pw_599",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 3
+    }
+  ]
+}

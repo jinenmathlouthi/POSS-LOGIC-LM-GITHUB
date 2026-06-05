@@ -1,0 +1,44 @@
+{
+  "id": "dolphins_mammals_divided_beam",
+  "context": "All mammals breathe air.\nFish live in water. Dolphins live in water.\nDolphins breathe air.",
+  "conclusion": "Dolphins are mammals.",
+  "label": "True",
+  "log_scores": [
+    -0.023510107770562172,
+    -0.08757835626602173,
+    -0.20255114138126373,
+    -0.20935475826263428,
+    -0.22378164529800415
+  ],
+  "formalisations": [
+    "PREDICATES:\nmammal(x) ::: x is a mammal\nbreathe_air(x) ::: x breathes air\nfish(x) ::: x is a fish\nlive_in_water(x) ::: x lives in water\n\nPREMISES:\nforall x (mammal(x) -> breathe_air(x))\nforall x (fish(x) -> live_in_water(x))\nlive_in_water(dolphins)\nbreathe_air(dolphins)\n\nCONCLUSION:\nmammal(dolphins)",
+    "PREDICATES:\nmammal(x) ::: x is a mammal\nbreathe_air(x) ::: x breathes air\nfish(x) ::: x is a fish\nlive_in_water(x) ::: x lives in water\n\nPREMISES:\nforall x (mammal(x) -> breathe_air(x))\nforall x (fish(x) -> live_in_water(x))\nforall x ((live_in_water(x) AND breathe_air(x)) -> mammal(x))\nlive_in_water(dolphins)\nbreathe_air(dolphins)\n\nCONCLUSION:\nmammal(dolphins)",
+    "PREDICATES:\nmammal(x) ::: x is a mammal\nbreathe_air(x) ::: x breathes air\nfish(x) ::: x is a fish\nlive_in_water(x) ::: x lives in water\n\nPREMISES:\nforall x (mammal(x) -> breathe_air(x))\nforall x (fish(x) -> live_in_water(x))\nlive_in_water(dolphins)\nbreathe_air(dolphins)\n\nCONCLUSION:\nmammal(dolphins)",
+    "PREDICATES:\nmammal(x) ::: x is a mammal\nbreathe_air(x) ::: x breathes air\nfish(x) ::: x is a fish\nlive_in_water(x) ::: x lives in water\n\nPREMISES:\nforall x (mammal(x) -> breathe_air(x))\nforall x (fish(x) -> live_in_water(x))\nforall x (breathe_air(x) -> mammal(x))\nlive_in_water(dolphins)\nbreathe_air(dolphins)\n\nCONCLUSION:\nmammal(dolphins)",
+    "PREDICATES:\nmammal(x) ::: x is a mammal\nbreathe_air(x) ::: x breathes air\nfish(x) ::: x is a fish\nlive_in_water(x) ::: x lives in water\n\nPREMISES:\nforall x (mammal(x) -> breathe_air(x))\nforall x (fish(x) -> live_in_water(x))\nlive_in_water(dolphins)\nbreathe_air(dolphins)\n\nCONCLUSION:\nmammal(dolphins)"
+  ],
+  "solver_results": [
+    "False",
+    "True",
+    "False",
+    "True",
+    "False"
+  ],
+  "pi": {
+    "True": 0.937940984285275,
+    "False": 1.0,
+    "Unknown": 0.0
+  },
+  "necessity": {
+    "True": 0.0,
+    "False": 0.06205901571472505,
+    "Unknown": 0.0
+  },
+  "weighted": {
+    "True": 1.7683435718808438,
+    "False": 2.6545800587914483,
+    "Unknown": 0.0
+  },
+  "decision": "False",
+  "correct": false
+}
