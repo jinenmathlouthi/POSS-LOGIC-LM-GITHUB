@@ -281,5 +281,5 @@ If you use this repository, please cite the associated paper:
 
 ## Author
 
-**Jinen Mathlouthi**Nahla Ben Amor***
+**Jinen Mathlouthi** and **Nahla Ben Amor**  
 LARODEC, ISG-Tunis, University of Tunis, Tunisia
