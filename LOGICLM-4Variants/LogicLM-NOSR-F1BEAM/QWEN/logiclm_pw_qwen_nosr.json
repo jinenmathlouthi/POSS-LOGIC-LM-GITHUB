@@ -1,2281 +1,4213 @@
 {
-  "dataset": "ProofWriter",
-  "model": "qwen",
-  "method": "LogicLM-F1-noSR",
+  "dataset": "proofwriter",
+  "model": "qwen2.5-7b-instruct",
+  "method": "LogicLM Beam-noSR",
   "stats": {
     "total": 600,
-    "correct": 121,
-    "accuracy": 37.35,
-    "exe_rate": 69.75
+    "correct": 375,
+    "accuracy": 62.5,
+    "exe_rate": 69.8
   },
   "results": [
     {
       "id": "proofwriter_000",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "needs(dog,bear)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_001",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "needs(bear,bald_eagle)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_002",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_003",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_004",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "quiet(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_005",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_006",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_quiet(charlie)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_007",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_008",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "cold(bear)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_009",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_010",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_cold(bear)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_011",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_012",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "blue(bear)"
+      "steps": 0
     },
     {
       "id": "proofwriter_013",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "neg_nice(bear)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_014",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_015",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_016",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "round(tiger)"
+      "steps": 0
     },
     {
       "id": "proofwriter_017",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "big(tiger)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_018",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_019",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_020",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "white(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_021",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_smart(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_022",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "young(dog)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_023",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_024",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_big(dog)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_025",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_026",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "green(dave)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_027",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_028",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_green(dave)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_029",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_030",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "rough(bear)"
+      "steps": 0
     },
     {
       "id": "proofwriter_031",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_032",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "eagle(bald,not_chase_mouse)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_033",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_034",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "needs(rabbit,dog)"
+      "steps": 0
     },
     {
       "id": "proofwriter_035",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_036",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_like(dog,rabbit)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_037",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_038",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "rough(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_039",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_blue(anne)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_040",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_041",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_042",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "kind(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_043",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_green(harry)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_044",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "white(dave)"
+      "steps": 0
     },
     {
       "id": "proofwriter_045",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_046",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_quiet(erin)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_047",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_048",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(dave)"
+      "steps": 0
     },
     {
       "id": "proofwriter_049",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_blue(bob)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_050",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_051",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_052",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_red(fiona)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_053",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "kind(erin)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_054",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_055",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_056",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "furry(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_057",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_white(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_058",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_059",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_060",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "neg_rough(bob)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_061",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_062",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_green(harry)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_063",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_064",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "round(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_065",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_round(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_066",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_067",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_068",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "visits(cat,lion)"
+      "steps": 0
     },
     {
       "id": "proofwriter_069",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_070",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_big(bald_eagle)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_071",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_072",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "quiet(dave)"
+      "steps": 0
     },
     {
       "id": "proofwriter_073",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_quiet(dave)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_074",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "kind(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_075",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_furry(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_076",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "round(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_077",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_078",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_079",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_080",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_round(erin)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_081",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "cold(dave)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_082",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_083",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_084",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "sees(lion,cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_085",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_086",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_see(lion,cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_087",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_088",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "sees(lion,squirrel)"
+      "steps": 0
     },
     {
       "id": "proofwriter_089",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_090",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_see(lion,squirrel)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_091",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_092",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "red(charlie)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_093",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_094",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_blue(bob)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_095",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_096",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "visits(cat,rabbit)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_097",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_098",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_visit(cat,rabbit)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_099",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_100",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "young(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_101",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_102",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_young(anne)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_103",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_104",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_young(dog)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_105",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_106",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_blue(dog)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_107",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_108",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "green(rabbit)"
+      "steps": 0
     },
     {
       "id": "proofwriter_109",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_green(rabbit)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_110",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_111",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_112",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "sees(squirrel,lion)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_113",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_114",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "cold(bear)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_115",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_116",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "green(bob)"
+      "steps": 0
     },
     {
       "id": "proofwriter_117",
       "gold": "False",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "neg_green(bob)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_118",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "green(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_119",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_big(bob)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_120",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_121",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_122",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "kind(anne)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_123",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_124",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_big(charlie)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_125",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_126",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_127",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "quiet(gary)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_128",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_129",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_130",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "nice(cat)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_131",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_132",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_eat(lion,cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_133",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_134",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "eats(squirrel,cow)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_135",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_136",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_visit(squirrel,dog)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_137",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_138",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "rough(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_139",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_140",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "visits(squirrel,bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_141",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_142",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "eagle(bald,not_see_tiger)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_143",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_144",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "round(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_145",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_round(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_146",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_147",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_148",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "young(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_149",
       "gold": "False",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "neg_young(anne)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_150",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(bear)"
+      "steps": 0
     },
     {
       "id": "proofwriter_151",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_kind(bear)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_152",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_153",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_154",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "rough(cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_155",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_green(cat)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_156",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_157",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_158",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "sees(lion,tiger)"
+      "steps": 0
     },
     {
       "id": "proofwriter_159",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_big(cat)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_160",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_161",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_162",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_rough(erin)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_163",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_164",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_red(anne)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_165",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_166",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "neg_kind(gary)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_167",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_168",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "kind(gary)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_169",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_170",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "red(dave)"
+      "steps": 0
     },
     {
       "id": "proofwriter_171",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_red(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_172",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_173",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_174",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "rough(bear)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_175",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_176",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_need(tiger,bear)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_177",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_178",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "red(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_179",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_rough(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_180",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_181",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_182",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "green(bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_183",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_green(bald_eagle)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_184",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_185",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_186",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "eats(squirrel,cat)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_187",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_188",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_like(cat,dog)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_189",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_190",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_191",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(erin)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_192",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_193",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_194",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "visits(tiger,cat)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_195",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_196",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_visit(tiger,cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_197",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_198",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "cold(bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_199",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(bald_eagle)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_200",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_201",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_202",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "round(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_203",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_white(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_204",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_rough(bear)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_205",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_red(bear)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_206",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_207",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_208",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "big(bob)"
+      "steps": 0
     },
     {
       "id": "proofwriter_209",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_white(bob)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_210",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "quiet(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_211",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_smart(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_212",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "chases(rabbit,bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_213",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_big(bald_eagle)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_214",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_215",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_216",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "eats(dog,cat)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_217",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_218",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_rough(cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_219",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_220",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "cold(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_221",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_furry(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_222",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_223",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_224",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "young(cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_225",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_226",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_young(cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_227",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_228",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "quiet(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_229",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_red(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_230",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "eats(tiger,bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_231",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_232",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "needs(tiger,dog)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_233",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_234",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "blue(bob)"
+      "steps": 0
     },
     {
       "id": "proofwriter_235",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_round(gary)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_236",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_237",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_238",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "rough(charlie)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_239",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_240",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_smart(gary)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_241",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_242",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "cold(charlie)"
+      "steps": 0
     },
     {
       "id": "proofwriter_243",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_white(charlie)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_244",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_245",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_246",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "kind(erin)"
+      "steps": 0
     },
     {
       "id": "proofwriter_247",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_248",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_nice(bob)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_249",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_250",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "red(charlie)"
+      "steps": 0
     },
     {
       "id": "proofwriter_251",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_red(charlie)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_252",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_253",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_254",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "big(tiger)"
+      "steps": 0
     },
     {
       "id": "proofwriter_255",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_big(tiger)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_256",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_257",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_258",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "visits(lion,squirrel)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_259",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_green(squirrel)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_260",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_261",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_262",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "blue(squirrel)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_263",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_blue(squirrel)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_264",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_265",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_266",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "eagle(bald,eats_squirrel)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_267",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "kind(rabbit)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_268",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_269",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_270",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "chases(bear,bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_271",
       "gold": "False",
       "pred": "False",
       "correct": true,
-      "query": "neg_green(bald_eagle)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_272",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_273",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_274",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "likes(squirrel,tiger)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_275",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_276",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_like(squirrel,tiger)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_277",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_278",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "blue(dog)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_279",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_kind(dog)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_280",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_281",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_282",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "big(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_283",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(charlie)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_284",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_285",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_286",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_big(charlie)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_287",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_nice(charlie)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_288",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "blue(erin)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_289",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(erin)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_290",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_red(harry)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_291",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_nice(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_292",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_293",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_294",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "kind(gary)"
+      "steps": 0
     },
     {
       "id": "proofwriter_295",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_nice(charlie)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_296",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_297",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_298",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "eats(rabbit,mouse)"
+      "steps": 0
     },
     {
       "id": "proofwriter_299",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_young(mouse)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_300",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_301",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_302",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "eats(lion,mouse)"
+      "steps": 0
     },
     {
       "id": "proofwriter_303",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_304",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_blue(lion)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_305",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_306",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(bob)"
+      "steps": 0
     },
     {
       "id": "proofwriter_307",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_white(erin)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_308",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_309",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_310",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "blue(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_311",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_red(anne)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_312",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_313",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_314",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "green(bald_eagle)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_315",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_316",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_green(bald_eagle)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_317",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_318",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "sees(mouse,cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_319",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_320",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_eat(cat,mouse)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_321",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_322",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "sees(bear,cow)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_323",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_324",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_eat(bear,dog)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_325",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_326",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "big(cat)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_327",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_328",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_need(cow,mouse)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_329",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_330",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "green(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_331",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_smart(dave)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_332",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_333",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_334",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_blue(mouse)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_335",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_red(mouse)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_336",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_337",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_338",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "smart(charlie)"
+      "steps": 0
     },
     {
       "id": "proofwriter_339",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_smart(bob)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_340",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_341",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_342",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "red(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_343",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_cold(charlie)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_344",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_345",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_346",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "white(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_347",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_kind(harry)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_348",
       "gold": "True",
-      "pred": "False",
-      "correct": false,
-      "query": "neg_nice(bald_eagle)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_349",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_round(bald_eagle)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_350",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_351",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_352",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "chases(squirrel,cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_353",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_354",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_chase(squirrel,cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_355",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_356",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_357",
       "gold": "False",
-      "pred": "True",
-      "correct": false,
-      "query": "neg_nice(fiona)"
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_358",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_359",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_360",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "round(erin)"
+      "steps": 0
     },
     {
       "id": "proofwriter_361",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_362",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_furry(dave)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_363",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_364",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "round(erin)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_365",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_366",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_green(fiona)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_367",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_368",
       "gold": "True",
-      "pred": "Unknown",
-      "correct": false,
-      "query": "round(rabbit)"
+      "pred": "True",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_369",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_370",
+      "gold": "Unknown",
       "pred": "Unknown",
-      "correct": false,
-      "query": "neg_young(cat)"
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_371",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
     },
     {
       "id": "proofwriter_372",
       "gold": "True",
       "pred": "True",
       "correct": true,
-      "query": "nice(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_373",
       "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_374",
+      "gold": "Unknown",
+      "pred": "Unknown",
+      "correct": true,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_375",
+      "gold": "Unknown",
       "pred": "True",
       "correct": false,
-      "query": "neg_nice(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_376",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "green(tiger)"
+      "steps": 0
     },
     {
       "id": "proofwriter_377",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(tiger)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_378",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_379",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_380",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "green(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_381",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_green(charlie)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_382",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_383",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_384",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "young(squirrel)"
+      "steps": 0
     },
     {
       "id": "proofwriter_385",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_young(squirrel)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_386",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_387",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_388",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "neg_cold(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_389",
       "gold": "False",
-      "pred": "False",
-      "correct": true,
-      "query": "big(harry)"
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_390",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_391",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_392",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "round(fiona)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_393",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(anne)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_394",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_395",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_396",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "neg_eat(tiger,cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_397",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_young(tiger)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_398",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_399",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_400",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "nice(cow)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_401",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_young(cow)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_402",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_403",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_404",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "furry(dave)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_405",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_cold(gary)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_406",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_407",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_408",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "green(fiona)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_409",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_green(fiona)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_410",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_411",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_412",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "rough(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_413",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_white(bob)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_414",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_415",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_416",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "green(bald_eagle)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_417",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_chase(tiger,rabbit)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_418",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_419",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_420",
       "gold": "True",
       "pred": "False",
       "correct": false,
-      "query": "white(erin)"
+      "steps": 0
     },
     {
       "id": "proofwriter_421",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_furry(charlie)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_422",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_423",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_424",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "big(lion)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_425",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_cold(lion)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_426",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_427",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_428",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "quiet(gary)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_429",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_nice(fiona)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_430",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_431",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_432",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "furry(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_433",
       "gold": "False",
-      "pred": "False",
-      "correct": true,
-      "query": "round(fiona)"
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_434",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "round(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_435",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_round(gary)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_436",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_437",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_438",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "quiet(anne)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_439",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_red(anne)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_440",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_441",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_442",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "round(cow)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_443",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_eat(cow,rabbit)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_444",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_445",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_446",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "rough(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_447",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_rough(harry)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_448",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_449",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_450",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "rough(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_451",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_nice(fiona)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_452",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_453",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_454",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "green(squirrel)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_455",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_green(squirrel)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_456",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_457",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_458",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "likes(rabbit,bald_eagle)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_459",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_like(rabbit,bald_eagle)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_460",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_461",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_462",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "kind(tiger)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_463",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_like(tiger,bald_eagle)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_464",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_465",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_466",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "eats(dog,cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_467",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_round(dog)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_468",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_469",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_470",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "likes(dog,bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_471",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_see(dog,tiger)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_472",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_473",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_474",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "eats(lion,cat)"
+      "steps": 0
     },
     {
       "id": "proofwriter_475",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_big(cat)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_476",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_477",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_478",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "likes(squirrel,cow)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_479",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_big(lion)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_480",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_481",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_482",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "big(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_483",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_rough(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_484",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "furry(harry)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_485",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_nice(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_486",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "red(dave)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_487",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_red(dave)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_488",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_489",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_490",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "nice(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_491",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_furry(fiona)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_492",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_493",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_494",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "blue(erin)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_495",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_green(erin)"
+      "steps": 0
     },
     {
       "id": "proofwriter_496",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "red(fiona)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_497",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_kind(bob)"
+      "steps": 0
     },
     {
       "id": "proofwriter_498",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "big(bald_eagle)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_499",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_big(bear)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_500",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_501",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_502",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "neg_big(squirrel)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_503",
       "gold": "False",
-      "pred": "False",
-      "correct": true,
-      "query": "big(squirrel)"
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_504",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_505",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_506",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "rough(harry)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_507",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_quiet(bob)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_508",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_509",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_510",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "young(dave)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_511",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_furry(gary)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_512",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_513",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_514",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "young(cow)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_515",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(dog)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_516",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_517",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_518",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "smart(anne)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_519",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_cold(dave)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_520",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_521",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_522",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "furry(anne)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_523",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_smart(bob)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_524",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_525",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_526",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "neg_like(mouse,bald_eagle)"
+      "steps": 0
     },
     {
       "id": "proofwriter_527",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_chase(mouse,bald_eagle)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_528",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_529",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_530",
       "gold": "True",
       "pred": "False",
       "correct": false,
-      "query": "neg_nice(lion)"
+      "steps": 0
     },
     {
       "id": "proofwriter_531",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(bear)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_532",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_533",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_534",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "eats(lion,cat)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_535",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_nice(lion)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_536",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_537",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_538",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "rough(lion)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_539",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_rough(lion)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_540",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_541",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_542",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "visits(tiger,squirrel)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_543",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_visit(tiger,squirrel)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_544",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_545",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_546",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "young(erin)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_547",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_young(erin)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_548",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_549",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_550",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "cold(dog)"
+      "steps": 0
     },
     {
       "id": "proofwriter_551",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(dog)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_552",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_553",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_554",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "cold(charlie)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_555",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(charlie)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_556",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_557",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_558",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "white(anne)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_559",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_white(anne)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_560",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_561",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_562",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "blue(tiger)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_563",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_blue(mouse)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_564",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_565",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_566",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "cold(bob)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_567",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_cold(bob)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_568",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_569",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_570",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "green(gary)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_571",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_young(gary)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_572",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_573",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_574",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "young(fiona)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_575",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_round(fiona)"
+      "steps": 0
     },
     {
       "id": "proofwriter_576",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "white(harry)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_577",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_kind(harry)"
+      "steps": 0
     },
     {
       "id": "proofwriter_578",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "smart(anne)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_579",
       "gold": "False",
-      "pred": "False",
-      "correct": true,
-      "query": "kind(anne)"
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_580",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "young(bear)"
+      "steps": 0
     },
     {
       "id": "proofwriter_581",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_green(bear)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_582",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_583",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_584",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "cold(rabbit)"
+      "steps": 0
     },
     {
       "id": "proofwriter_585",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_kind(rabbit)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_586",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_587",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_588",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "blue(anne)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_589",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_rough(anne)"
+      "steps": 0
     },
     {
       "id": "proofwriter_590",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "rough(erin)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_591",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_kind(erin)"
+      "steps": 0
     },
     {
       "id": "proofwriter_592",
       "gold": "True",
-      "pred": "True",
-      "correct": true,
-      "query": "rough(fiona)"
+      "pred": "False",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_593",
       "gold": "False",
-      "pred": "Unknown",
+      "pred": "True",
       "correct": false,
-      "query": "neg_quiet(harry)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_594",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_595",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     },
     {
       "id": "proofwriter_596",
       "gold": "True",
-      "pred": "Unknown",
+      "pred": "False",
       "correct": false,
-      "query": "neg_see(bear,rabbit)"
+      "steps": 0
     },
     {
       "id": "proofwriter_597",
       "gold": "False",
       "pred": "True",
       "correct": false,
-      "query": "neg_like(rabbit,bear)"
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_598",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
+    },
+    {
+      "id": "proofwriter_599",
+      "gold": "Unknown",
+      "pred": "True",
+      "correct": false,
+      "steps": 0
     }
   ]
 }
