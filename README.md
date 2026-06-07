@@ -46,10 +46,10 @@ POSS-LOGIC-LM-GITHUB/
 │   ├── llama3/
 │   └── qwen/
 │
-├── LOGICLM-4Variants/
+├── LOGICLM/
 │   ├── LOGICLMGREEDY-NO-SR/
 │   ├── LOGICLMGREEDY+SR/
-│   ├── LogicLM-NOSR-F1BEAM/
+│   ├── LogicLM-/
 │   └── LogicLM+SR-F1BEAM/
 │
 ├── POSS-LOGICLM/
@@ -129,14 +129,14 @@ The repository contains results for four Logic-LM variants and the proposed Poss
 
 ## Result Folders
 
-### `LOGICLM-4Variants/`
+### `LOGICLM/`
 
 This folder stores the JSON result files for the four Logic-LM variants:
 
 ```text
 LOGICLMGREEDY-NO-SR/
 LOGICLMGREEDY+SR/
-LogicLM-NOSR-F1BEAM/
+LogicLM-/
 LogicLM+SR-F1BEAM/
 ```
 
