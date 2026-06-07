@@ -1,0 +1,3513 @@
+{
+  "dataset": "PrOntoQA",
+  "model": "gemma",
+  "method": "LogicLM-F1-noSR",
+  "stats": {
+    "total": 500,
+    "correct": 235,
+    "accuracy": 47.0,
+    "exe_rate": 100.0
+  },
+  "results": [
+    {
+      "id": "pqa_000",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "sour(max)"
+    },
+    {
+      "id": "pqa_001",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bright(stella)"
+    },
+    {
+      "id": "pqa_002",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(wren)"
+    },
+    {
+      "id": "pqa_003",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(alex)"
+    },
+    {
+      "id": "pqa_004",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(alex)"
+    },
+    {
+      "id": "pqa_005",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "dull(wren)"
+    },
+    {
+      "id": "pqa_006",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "happy(stella)"
+    },
+    {
+      "id": "pqa_007",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "hot(alex)"
+    },
+    {
+      "id": "pqa_008",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "wooden(wren)"
+    },
+    {
+      "id": "pqa_009",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "sweet(fae)"
+    },
+    {
+      "id": "pqa_010",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_fruity(sam)"
+    },
+    {
+      "id": "pqa_011",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_floral(fae)"
+    },
+    {
+      "id": "pqa_012",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "dull(max)"
+    },
+    {
+      "id": "pqa_013",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(fae)"
+    },
+    {
+      "id": "pqa_014",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_015",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(sally)"
+    },
+    {
+      "id": "pqa_016",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(fae)"
+    },
+    {
+      "id": "pqa_017",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(sam)"
+    },
+    {
+      "id": "pqa_018",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_019",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "sour(stella)"
+    },
+    {
+      "id": "pqa_020",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "orange(max)"
+    },
+    {
+      "id": "pqa_021",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_feisty(wren)"
+    },
+    {
+      "id": "pqa_022",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bitter(sally)"
+    },
+    {
+      "id": "pqa_023",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "amenable(alex)"
+    },
+    {
+      "id": "pqa_024",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_025",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "large(rex)"
+    },
+    {
+      "id": "pqa_026",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_aggressive(fae)"
+    },
+    {
+      "id": "pqa_027",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(alex)"
+    },
+    {
+      "id": "pqa_028",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "bright(max)"
+    },
+    {
+      "id": "pqa_029",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "temperate(fae)"
+    },
+    {
+      "id": "pqa_030",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_angry(wren)"
+    },
+    {
+      "id": "pqa_031",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_wooden(sally)"
+    },
+    {
+      "id": "pqa_032",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_bright(stella)"
+    },
+    {
+      "id": "pqa_033",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "shy(sam)"
+    },
+    {
+      "id": "pqa_034",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "orange(fae)"
+    },
+    {
+      "id": "pqa_035",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "shy(sally)"
+    },
+    {
+      "id": "pqa_036",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sweet(wren)"
+    },
+    {
+      "id": "pqa_037",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(polly)"
+    },
+    {
+      "id": "pqa_038",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_hot(stella)"
+    },
+    {
+      "id": "pqa_039",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "amenable(sally)"
+    },
+    {
+      "id": "pqa_040",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_hot(max)"
+    },
+    {
+      "id": "pqa_041",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_orange(wren)"
+    },
+    {
+      "id": "pqa_042",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "angry(polly)"
+    },
+    {
+      "id": "pqa_043",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_spicy(rex)"
+    },
+    {
+      "id": "pqa_044",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "wooden(fae)"
+    },
+    {
+      "id": "pqa_045",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(sally)"
+    },
+    {
+      "id": "pqa_046",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(max)"
+    },
+    {
+      "id": "pqa_047",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "neg_fruity(sam)"
+    },
+    {
+      "id": "pqa_048",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "liquid(wren)"
+    },
+    {
+      "id": "pqa_049",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_blue(fae)"
+    },
+    {
+      "id": "pqa_050",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(max)"
+    },
+    {
+      "id": "pqa_051",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(polly)"
+    },
+    {
+      "id": "pqa_052",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "dull(fae)"
+    },
+    {
+      "id": "pqa_053",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_red(stella)"
+    },
+    {
+      "id": "pqa_054",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "mean(rex)"
+    },
+    {
+      "id": "pqa_055",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_liquid(sam)"
+    },
+    {
+      "id": "pqa_056",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_feisty(alex)"
+    },
+    {
+      "id": "pqa_057",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_fruity(fae)"
+    },
+    {
+      "id": "pqa_058",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_nervous(max)"
+    },
+    {
+      "id": "pqa_059",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "mean(sam)"
+    },
+    {
+      "id": "pqa_060",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_nervous(max)"
+    },
+    {
+      "id": "pqa_061",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_transparent(wren)"
+    },
+    {
+      "id": "pqa_062",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "brown(rex)"
+    },
+    {
+      "id": "pqa_063",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_temperate(sam)"
+    },
+    {
+      "id": "pqa_064",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "angry(max)"
+    },
+    {
+      "id": "pqa_065",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sweet(sam)"
+    },
+    {
+      "id": "pqa_066",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "orange(sam)"
+    },
+    {
+      "id": "pqa_067",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "spicy(wren)"
+    },
+    {
+      "id": "pqa_068",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_cold(wren)"
+    },
+    {
+      "id": "pqa_069",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_transparent(rex)"
+    },
+    {
+      "id": "pqa_070",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sally)"
+    },
+    {
+      "id": "pqa_071",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "fruity(sam)"
+    },
+    {
+      "id": "pqa_072",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_earthy(wren)"
+    },
+    {
+      "id": "pqa_073",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_fruity(sam)"
+    },
+    {
+      "id": "pqa_074",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "fruity(polly)"
+    },
+    {
+      "id": "pqa_075",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "spicy(sally)"
+    },
+    {
+      "id": "pqa_076",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(sam)"
+    },
+    {
+      "id": "pqa_077",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "small(fae)"
+    },
+    {
+      "id": "pqa_078",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "blue(stella)"
+    },
+    {
+      "id": "pqa_079",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(sally)"
+    },
+    {
+      "id": "pqa_080",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "dull(sam)"
+    },
+    {
+      "id": "pqa_081",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(rex)"
+    },
+    {
+      "id": "pqa_082",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "transparent(wren)"
+    },
+    {
+      "id": "pqa_083",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(rex)"
+    },
+    {
+      "id": "pqa_084",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_transparent(sam)"
+    },
+    {
+      "id": "pqa_085",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_shy(stella)"
+    },
+    {
+      "id": "pqa_086",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_sour(alex)"
+    },
+    {
+      "id": "pqa_087",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "liquid(wren)"
+    },
+    {
+      "id": "pqa_088",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_brown(max)"
+    },
+    {
+      "id": "pqa_089",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "metallic(max)"
+    },
+    {
+      "id": "pqa_090",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(wren)"
+    },
+    {
+      "id": "pqa_091",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "metallic(sally)"
+    },
+    {
+      "id": "pqa_092",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_luminous(polly)"
+    },
+    {
+      "id": "pqa_093",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "angry(max)"
+    },
+    {
+      "id": "pqa_094",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "feisty(stella)"
+    },
+    {
+      "id": "pqa_095",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "bright(fae)"
+    },
+    {
+      "id": "pqa_096",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(polly)"
+    },
+    {
+      "id": "pqa_097",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_angry(rex)"
+    },
+    {
+      "id": "pqa_098",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_earthy(sam)"
+    },
+    {
+      "id": "pqa_099",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(alex)"
+    },
+    {
+      "id": "pqa_100",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_shy(sam)"
+    },
+    {
+      "id": "pqa_101",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_spicy(rex)"
+    },
+    {
+      "id": "pqa_102",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(sally)"
+    },
+    {
+      "id": "pqa_103",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(stella)"
+    },
+    {
+      "id": "pqa_104",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_brown(alex)"
+    },
+    {
+      "id": "pqa_105",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "angry(max)"
+    },
+    {
+      "id": "pqa_106",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_bitter(sally)"
+    },
+    {
+      "id": "pqa_107",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_hot(wren)"
+    },
+    {
+      "id": "pqa_108",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "large(sally)"
+    },
+    {
+      "id": "pqa_109",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(sally)"
+    },
+    {
+      "id": "pqa_110",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "amenable(sally)"
+    },
+    {
+      "id": "pqa_111",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_brown(max)"
+    },
+    {
+      "id": "pqa_112",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_wooden(rex)"
+    },
+    {
+      "id": "pqa_113",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sweet(polly)"
+    },
+    {
+      "id": "pqa_114",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "wooden(alex)"
+    },
+    {
+      "id": "pqa_115",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_hot(sally)"
+    },
+    {
+      "id": "pqa_116",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "angry(alex)"
+    },
+    {
+      "id": "pqa_117",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sweet(sam)"
+    },
+    {
+      "id": "pqa_118",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "shy(max)"
+    },
+    {
+      "id": "pqa_119",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_fruity(stella)"
+    },
+    {
+      "id": "pqa_120",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_mean(max)"
+    },
+    {
+      "id": "pqa_121",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "transparent(fae)"
+    },
+    {
+      "id": "pqa_122",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "aggressive(polly)"
+    },
+    {
+      "id": "pqa_123",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(sam)"
+    },
+    {
+      "id": "pqa_124",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_feisty(sally)"
+    },
+    {
+      "id": "pqa_125",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_floral(stella)"
+    },
+    {
+      "id": "pqa_126",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "nervous(max)"
+    },
+    {
+      "id": "pqa_127",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "temperate(sam)"
+    },
+    {
+      "id": "pqa_128",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_sweet(wren)"
+    },
+    {
+      "id": "pqa_129",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_opaque(polly)"
+    },
+    {
+      "id": "pqa_130",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "dull(polly)"
+    },
+    {
+      "id": "pqa_131",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_blue(polly)"
+    },
+    {
+      "id": "pqa_132",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_bitter(wren)"
+    },
+    {
+      "id": "pqa_133",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "temperate(stella)"
+    },
+    {
+      "id": "pqa_134",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_blue(alex)"
+    },
+    {
+      "id": "pqa_135",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sour(sally)"
+    },
+    {
+      "id": "pqa_136",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_liquid(rex)"
+    },
+    {
+      "id": "pqa_137",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "red(sally)"
+    },
+    {
+      "id": "pqa_138",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_small(sam)"
+    },
+    {
+      "id": "pqa_139",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "sour(stella)"
+    },
+    {
+      "id": "pqa_140",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "bright(alex)"
+    },
+    {
+      "id": "pqa_141",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(stella)"
+    },
+    {
+      "id": "pqa_142",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "transparent(max)"
+    },
+    {
+      "id": "pqa_143",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_large(wren)"
+    },
+    {
+      "id": "pqa_144",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "luminous(stella)"
+    },
+    {
+      "id": "pqa_145",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_bright(fae)"
+    },
+    {
+      "id": "pqa_146",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_kind(polly)"
+    },
+    {
+      "id": "pqa_147",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(fae)"
+    },
+    {
+      "id": "pqa_148",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(stella)"
+    },
+    {
+      "id": "pqa_149",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "small(alex)"
+    },
+    {
+      "id": "pqa_150",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "shy(sally)"
+    },
+    {
+      "id": "pqa_151",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(wren)"
+    },
+    {
+      "id": "pqa_152",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(sally)"
+    },
+    {
+      "id": "pqa_153",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_brown(sam)"
+    },
+    {
+      "id": "pqa_154",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_large(sam)"
+    },
+    {
+      "id": "pqa_155",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_small(wren)"
+    },
+    {
+      "id": "pqa_156",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_happy(polly)"
+    },
+    {
+      "id": "pqa_157",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_spicy(sam)"
+    },
+    {
+      "id": "pqa_158",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_earthy(alex)"
+    },
+    {
+      "id": "pqa_159",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nervous(wren)"
+    },
+    {
+      "id": "pqa_160",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(max)"
+    },
+    {
+      "id": "pqa_161",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_mean(wren)"
+    },
+    {
+      "id": "pqa_162",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "metallic(stella)"
+    },
+    {
+      "id": "pqa_163",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_sweet(stella)"
+    },
+    {
+      "id": "pqa_164",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_feisty(fae)"
+    },
+    {
+      "id": "pqa_165",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_sour(polly)"
+    },
+    {
+      "id": "pqa_166",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_bright(stella)"
+    },
+    {
+      "id": "pqa_167",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "floral(wren)"
+    },
+    {
+      "id": "pqa_168",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(sam)"
+    },
+    {
+      "id": "pqa_169",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_brown(max)"
+    },
+    {
+      "id": "pqa_170",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(polly)"
+    },
+    {
+      "id": "pqa_171",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(rex)"
+    },
+    {
+      "id": "pqa_172",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(sally)"
+    },
+    {
+      "id": "pqa_173",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "kind(polly)"
+    },
+    {
+      "id": "pqa_174",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "nervous(stella)"
+    },
+    {
+      "id": "pqa_175",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_spicy(sally)"
+    },
+    {
+      "id": "pqa_176",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bright(rex)"
+    },
+    {
+      "id": "pqa_177",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "metallic(polly)"
+    },
+    {
+      "id": "pqa_178",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_opaque(wren)"
+    },
+    {
+      "id": "pqa_179",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_luminous(max)"
+    },
+    {
+      "id": "pqa_180",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(rex)"
+    },
+    {
+      "id": "pqa_181",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "large(sam)"
+    },
+    {
+      "id": "pqa_182",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(fae)"
+    },
+    {
+      "id": "pqa_183",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_angry(sam)"
+    },
+    {
+      "id": "pqa_184",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_happy(polly)"
+    },
+    {
+      "id": "pqa_185",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(sally)"
+    },
+    {
+      "id": "pqa_186",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "bitter(sam)"
+    },
+    {
+      "id": "pqa_187",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_cold(stella)"
+    },
+    {
+      "id": "pqa_188",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "dull(wren)"
+    },
+    {
+      "id": "pqa_189",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "nervous(max)"
+    },
+    {
+      "id": "pqa_190",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "happy(fae)"
+    },
+    {
+      "id": "pqa_191",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_192",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(wren)"
+    },
+    {
+      "id": "pqa_193",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_earthy(max)"
+    },
+    {
+      "id": "pqa_194",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_spicy(fae)"
+    },
+    {
+      "id": "pqa_195",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_feisty(fae)"
+    },
+    {
+      "id": "pqa_196",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "kind(alex)"
+    },
+    {
+      "id": "pqa_197",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(wren)"
+    },
+    {
+      "id": "pqa_198",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(alex)"
+    },
+    {
+      "id": "pqa_199",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_transparent(rex)"
+    },
+    {
+      "id": "pqa_200",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_wooden(sally)"
+    },
+    {
+      "id": "pqa_201",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(wren)"
+    },
+    {
+      "id": "pqa_202",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "shy(alex)"
+    },
+    {
+      "id": "pqa_203",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_feisty(sam)"
+    },
+    {
+      "id": "pqa_204",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(stella)"
+    },
+    {
+      "id": "pqa_205",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "fruity(polly)"
+    },
+    {
+      "id": "pqa_206",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_floral(sally)"
+    },
+    {
+      "id": "pqa_207",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_orange(max)"
+    },
+    {
+      "id": "pqa_208",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "earthy(polly)"
+    },
+    {
+      "id": "pqa_209",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_hot(fae)"
+    },
+    {
+      "id": "pqa_210",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_earthy(alex)"
+    },
+    {
+      "id": "pqa_211",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_temperate(stella)"
+    },
+    {
+      "id": "pqa_212",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_wooden(rex)"
+    },
+    {
+      "id": "pqa_213",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "nervous(sally)"
+    },
+    {
+      "id": "pqa_214",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_earthy(max)"
+    },
+    {
+      "id": "pqa_215",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "aggressive(max)"
+    },
+    {
+      "id": "pqa_216",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(sally)"
+    },
+    {
+      "id": "pqa_217",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "transparent(fae)"
+    },
+    {
+      "id": "pqa_218",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(wren)"
+    },
+    {
+      "id": "pqa_219",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_luminous(stella)"
+    },
+    {
+      "id": "pqa_220",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(stella)"
+    },
+    {
+      "id": "pqa_221",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "neg_metallic(stella)"
+    },
+    {
+      "id": "pqa_222",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_luminous(polly)"
+    },
+    {
+      "id": "pqa_223",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(sally)"
+    },
+    {
+      "id": "pqa_224",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "large(sam)"
+    },
+    {
+      "id": "pqa_225",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "metallic(stella)"
+    },
+    {
+      "id": "pqa_226",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nervous(sam)"
+    },
+    {
+      "id": "pqa_227",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_transparent(alex)"
+    },
+    {
+      "id": "pqa_228",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_cold(alex)"
+    },
+    {
+      "id": "pqa_229",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "kind(rex)"
+    },
+    {
+      "id": "pqa_230",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_231",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(max)"
+    },
+    {
+      "id": "pqa_232",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_large(rex)"
+    },
+    {
+      "id": "pqa_233",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_earthy(stella)"
+    },
+    {
+      "id": "pqa_234",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_happy(stella)"
+    },
+    {
+      "id": "pqa_235",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "orange(fae)"
+    },
+    {
+      "id": "pqa_236",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(sally)"
+    },
+    {
+      "id": "pqa_237",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "small(polly)"
+    },
+    {
+      "id": "pqa_238",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_spicy(alex)"
+    },
+    {
+      "id": "pqa_239",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "spicy(alex)"
+    },
+    {
+      "id": "pqa_240",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_orange(sally)"
+    },
+    {
+      "id": "pqa_241",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_blue(wren)"
+    },
+    {
+      "id": "pqa_242",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "feisty(max)"
+    },
+    {
+      "id": "pqa_243",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_transparent(wren)"
+    },
+    {
+      "id": "pqa_244",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "large(rex)"
+    },
+    {
+      "id": "pqa_245",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_red(sam)"
+    },
+    {
+      "id": "pqa_246",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "brown(sam)"
+    },
+    {
+      "id": "pqa_247",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sour(polly)"
+    },
+    {
+      "id": "pqa_248",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(stella)"
+    },
+    {
+      "id": "pqa_249",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "wooden(stella)"
+    },
+    {
+      "id": "pqa_250",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "kind(sam)"
+    },
+    {
+      "id": "pqa_251",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(alex)"
+    },
+    {
+      "id": "pqa_252",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_large(fae)"
+    },
+    {
+      "id": "pqa_253",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "bright(max)"
+    },
+    {
+      "id": "pqa_254",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bitter(max)"
+    },
+    {
+      "id": "pqa_255",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(sam)"
+    },
+    {
+      "id": "pqa_256",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "kind(max)"
+    },
+    {
+      "id": "pqa_257",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(wren)"
+    },
+    {
+      "id": "pqa_258",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "sweet(sally)"
+    },
+    {
+      "id": "pqa_259",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_wooden(max)"
+    },
+    {
+      "id": "pqa_260",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_fruity(alex)"
+    },
+    {
+      "id": "pqa_261",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(sam)"
+    },
+    {
+      "id": "pqa_262",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "floral(sally)"
+    },
+    {
+      "id": "pqa_263",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_bright(max)"
+    },
+    {
+      "id": "pqa_264",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_fruity(sally)"
+    },
+    {
+      "id": "pqa_265",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "temperate(rex)"
+    },
+    {
+      "id": "pqa_266",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(polly)"
+    },
+    {
+      "id": "pqa_267",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_cold(alex)"
+    },
+    {
+      "id": "pqa_268",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(max)"
+    },
+    {
+      "id": "pqa_269",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bright(wren)"
+    },
+    {
+      "id": "pqa_270",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_small(sally)"
+    },
+    {
+      "id": "pqa_271",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(alex)"
+    },
+    {
+      "id": "pqa_272",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "luminous(alex)"
+    },
+    {
+      "id": "pqa_273",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(sam)"
+    },
+    {
+      "id": "pqa_274",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_aggressive(max)"
+    },
+    {
+      "id": "pqa_275",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_nervous(sally)"
+    },
+    {
+      "id": "pqa_276",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_temperate(rex)"
+    },
+    {
+      "id": "pqa_277",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_dull(sally)"
+    },
+    {
+      "id": "pqa_278",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_feisty(wren)"
+    },
+    {
+      "id": "pqa_279",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "sweet(alex)"
+    },
+    {
+      "id": "pqa_280",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "luminous(stella)"
+    },
+    {
+      "id": "pqa_281",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "luminous(stella)"
+    },
+    {
+      "id": "pqa_282",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "large(polly)"
+    },
+    {
+      "id": "pqa_283",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "happy(rex)"
+    },
+    {
+      "id": "pqa_284",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(stella)"
+    },
+    {
+      "id": "pqa_285",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "floral(max)"
+    },
+    {
+      "id": "pqa_286",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bright(rex)"
+    },
+    {
+      "id": "pqa_287",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(fae)"
+    },
+    {
+      "id": "pqa_288",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "amenable(polly)"
+    },
+    {
+      "id": "pqa_289",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "sweet(rex)"
+    },
+    {
+      "id": "pqa_290",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_luminous(stella)"
+    },
+    {
+      "id": "pqa_291",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(fae)"
+    },
+    {
+      "id": "pqa_292",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_luminous(sally)"
+    },
+    {
+      "id": "pqa_293",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "luminous(polly)"
+    },
+    {
+      "id": "pqa_294",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "liquid(sally)"
+    },
+    {
+      "id": "pqa_295",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "small(wren)"
+    },
+    {
+      "id": "pqa_296",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "sour(sam)"
+    },
+    {
+      "id": "pqa_297",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(sally)"
+    },
+    {
+      "id": "pqa_298",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(polly)"
+    },
+    {
+      "id": "pqa_299",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "temperate(sam)"
+    },
+    {
+      "id": "pqa_300",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "small(max)"
+    },
+    {
+      "id": "pqa_301",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_large(alex)"
+    },
+    {
+      "id": "pqa_302",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(alex)"
+    },
+    {
+      "id": "pqa_303",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_amenable(polly)"
+    },
+    {
+      "id": "pqa_304",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "earthy(alex)"
+    },
+    {
+      "id": "pqa_305",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "aggressive(max)"
+    },
+    {
+      "id": "pqa_306",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_hot(stella)"
+    },
+    {
+      "id": "pqa_307",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_orange(alex)"
+    },
+    {
+      "id": "pqa_308",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_large(wren)"
+    },
+    {
+      "id": "pqa_309",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "liquid(sam)"
+    },
+    {
+      "id": "pqa_310",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_small(polly)"
+    },
+    {
+      "id": "pqa_311",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_aggressive(max)"
+    },
+    {
+      "id": "pqa_312",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "temperate(stella)"
+    },
+    {
+      "id": "pqa_313",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_opaque(sally)"
+    },
+    {
+      "id": "pqa_314",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(fae)"
+    },
+    {
+      "id": "pqa_315",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(alex)"
+    },
+    {
+      "id": "pqa_316",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_red(stella)"
+    },
+    {
+      "id": "pqa_317",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "spicy(max)"
+    },
+    {
+      "id": "pqa_318",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_temperate(wren)"
+    },
+    {
+      "id": "pqa_319",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_shy(sam)"
+    },
+    {
+      "id": "pqa_320",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_temperate(sally)"
+    },
+    {
+      "id": "pqa_321",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(alex)"
+    },
+    {
+      "id": "pqa_322",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_amenable(wren)"
+    },
+    {
+      "id": "pqa_323",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_red(alex)"
+    },
+    {
+      "id": "pqa_324",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_wooden(wren)"
+    },
+    {
+      "id": "pqa_325",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(alex)"
+    },
+    {
+      "id": "pqa_326",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(rex)"
+    },
+    {
+      "id": "pqa_327",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "transparent(wren)"
+    },
+    {
+      "id": "pqa_328",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bitter(polly)"
+    },
+    {
+      "id": "pqa_329",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_earthy(rex)"
+    },
+    {
+      "id": "pqa_330",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(sam)"
+    },
+    {
+      "id": "pqa_331",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_kind(max)"
+    },
+    {
+      "id": "pqa_332",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_temperate(stella)"
+    },
+    {
+      "id": "pqa_333",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(sally)"
+    },
+    {
+      "id": "pqa_334",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_large(polly)"
+    },
+    {
+      "id": "pqa_335",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(max)"
+    },
+    {
+      "id": "pqa_336",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "spicy(polly)"
+    },
+    {
+      "id": "pqa_337",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_fruity(stella)"
+    },
+    {
+      "id": "pqa_338",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "transparent(max)"
+    },
+    {
+      "id": "pqa_339",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "feisty(wren)"
+    },
+    {
+      "id": "pqa_340",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_temperate(polly)"
+    },
+    {
+      "id": "pqa_341",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "temperate(polly)"
+    },
+    {
+      "id": "pqa_342",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sour(polly)"
+    },
+    {
+      "id": "pqa_343",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "temperate(stella)"
+    },
+    {
+      "id": "pqa_344",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(rex)"
+    },
+    {
+      "id": "pqa_345",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bright(sam)"
+    },
+    {
+      "id": "pqa_346",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_earthy(sally)"
+    },
+    {
+      "id": "pqa_347",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "luminous(fae)"
+    },
+    {
+      "id": "pqa_348",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_mean(alex)"
+    },
+    {
+      "id": "pqa_349",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sour(alex)"
+    },
+    {
+      "id": "pqa_350",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_fruity(stella)"
+    },
+    {
+      "id": "pqa_351",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(wren)"
+    },
+    {
+      "id": "pqa_352",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_hot(wren)"
+    },
+    {
+      "id": "pqa_353",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bright(fae)"
+    },
+    {
+      "id": "pqa_354",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_brown(rex)"
+    },
+    {
+      "id": "pqa_355",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "kind(rex)"
+    },
+    {
+      "id": "pqa_356",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(stella)"
+    },
+    {
+      "id": "pqa_357",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "wooden(max)"
+    },
+    {
+      "id": "pqa_358",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "wooden(max)"
+    },
+    {
+      "id": "pqa_359",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "temperate(sally)"
+    },
+    {
+      "id": "pqa_360",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "transparent(rex)"
+    },
+    {
+      "id": "pqa_361",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_blue(sally)"
+    },
+    {
+      "id": "pqa_362",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(polly)"
+    },
+    {
+      "id": "pqa_363",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(stella)"
+    },
+    {
+      "id": "pqa_364",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_transparent(sally)"
+    },
+    {
+      "id": "pqa_365",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "floral(polly)"
+    },
+    {
+      "id": "pqa_366",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "hot(polly)"
+    },
+    {
+      "id": "pqa_367",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_blue(fae)"
+    },
+    {
+      "id": "pqa_368",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "brown(rex)"
+    },
+    {
+      "id": "pqa_369",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_earthy(max)"
+    },
+    {
+      "id": "pqa_370",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_371",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "kind(rex)"
+    },
+    {
+      "id": "pqa_372",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "dull(sam)"
+    },
+    {
+      "id": "pqa_373",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "aggressive(fae)"
+    },
+    {
+      "id": "pqa_374",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "metallic(fae)"
+    },
+    {
+      "id": "pqa_375",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "transparent(wren)"
+    },
+    {
+      "id": "pqa_376",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sam)"
+    },
+    {
+      "id": "pqa_377",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "transparent(max)"
+    },
+    {
+      "id": "pqa_378",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_sour(wren)"
+    },
+    {
+      "id": "pqa_379",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(polly)"
+    },
+    {
+      "id": "pqa_380",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "feisty(sally)"
+    },
+    {
+      "id": "pqa_381",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_temperate(polly)"
+    },
+    {
+      "id": "pqa_382",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "brown(sam)"
+    },
+    {
+      "id": "pqa_383",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_kind(fae)"
+    },
+    {
+      "id": "pqa_384",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "fruity(wren)"
+    },
+    {
+      "id": "pqa_385",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "floral(wren)"
+    },
+    {
+      "id": "pqa_386",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "red(polly)"
+    },
+    {
+      "id": "pqa_387",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_luminous(rex)"
+    },
+    {
+      "id": "pqa_388",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_cold(sally)"
+    },
+    {
+      "id": "pqa_389",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(max)"
+    },
+    {
+      "id": "pqa_390",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "brown(stella)"
+    },
+    {
+      "id": "pqa_391",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "blue(stella)"
+    },
+    {
+      "id": "pqa_392",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(fae)"
+    },
+    {
+      "id": "pqa_393",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(fae)"
+    },
+    {
+      "id": "pqa_394",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "brown(wren)"
+    },
+    {
+      "id": "pqa_395",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "happy(sally)"
+    },
+    {
+      "id": "pqa_396",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "fruity(stella)"
+    },
+    {
+      "id": "pqa_397",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "opaque(wren)"
+    },
+    {
+      "id": "pqa_398",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_opaque(polly)"
+    },
+    {
+      "id": "pqa_399",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(wren)"
+    },
+    {
+      "id": "pqa_400",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_liquid(sally)"
+    },
+    {
+      "id": "pqa_401",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_angry(stella)"
+    },
+    {
+      "id": "pqa_402",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "wooden(alex)"
+    },
+    {
+      "id": "pqa_403",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_happy(fae)"
+    },
+    {
+      "id": "pqa_404",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(wren)"
+    },
+    {
+      "id": "pqa_405",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(sally)"
+    },
+    {
+      "id": "pqa_406",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_happy(max)"
+    },
+    {
+      "id": "pqa_407",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "mean(sally)"
+    },
+    {
+      "id": "pqa_408",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(stella)"
+    },
+    {
+      "id": "pqa_409",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sweet(sam)"
+    },
+    {
+      "id": "pqa_410",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bright(stella)"
+    },
+    {
+      "id": "pqa_411",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "happy(max)"
+    },
+    {
+      "id": "pqa_412",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(rex)"
+    },
+    {
+      "id": "pqa_413",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_dull(sally)"
+    },
+    {
+      "id": "pqa_414",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "red(alex)"
+    },
+    {
+      "id": "pqa_415",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(polly)"
+    },
+    {
+      "id": "pqa_416",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_metallic(polly)"
+    },
+    {
+      "id": "pqa_417",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(alex)"
+    },
+    {
+      "id": "pqa_418",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_small(wren)"
+    },
+    {
+      "id": "pqa_419",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_opaque(rex)"
+    },
+    {
+      "id": "pqa_420",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "nervous(alex)"
+    },
+    {
+      "id": "pqa_421",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_happy(fae)"
+    },
+    {
+      "id": "pqa_422",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_transparent(wren)"
+    },
+    {
+      "id": "pqa_423",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_mean(polly)"
+    },
+    {
+      "id": "pqa_424",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_opaque(wren)"
+    },
+    {
+      "id": "pqa_425",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "floral(wren)"
+    },
+    {
+      "id": "pqa_426",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "small(alex)"
+    },
+    {
+      "id": "pqa_427",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "neg_feisty(rex)"
+    },
+    {
+      "id": "pqa_428",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_shy(wren)"
+    },
+    {
+      "id": "pqa_429",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_shy(wren)"
+    },
+    {
+      "id": "pqa_430",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "large(rex)"
+    },
+    {
+      "id": "pqa_431",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(sally)"
+    },
+    {
+      "id": "pqa_432",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_hot(wren)"
+    },
+    {
+      "id": "pqa_433",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "small(max)"
+    },
+    {
+      "id": "pqa_434",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_opaque(rex)"
+    },
+    {
+      "id": "pqa_435",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "floral(max)"
+    },
+    {
+      "id": "pqa_436",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "earthy(fae)"
+    },
+    {
+      "id": "pqa_437",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(sam)"
+    },
+    {
+      "id": "pqa_438",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_orange(sally)"
+    },
+    {
+      "id": "pqa_439",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "cold(stella)"
+    },
+    {
+      "id": "pqa_440",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(fae)"
+    },
+    {
+      "id": "pqa_441",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_large(alex)"
+    },
+    {
+      "id": "pqa_442",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_metallic(max)"
+    },
+    {
+      "id": "pqa_443",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_large(alex)"
+    },
+    {
+      "id": "pqa_444",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "sour(stella)"
+    },
+    {
+      "id": "pqa_445",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "transparent(alex)"
+    },
+    {
+      "id": "pqa_446",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "mean(sally)"
+    },
+    {
+      "id": "pqa_447",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(wren)"
+    },
+    {
+      "id": "pqa_448",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "metallic(max)"
+    },
+    {
+      "id": "pqa_449",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_transparent(stella)"
+    },
+    {
+      "id": "pqa_450",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "angry(wren)"
+    },
+    {
+      "id": "pqa_451",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "red(max)"
+    },
+    {
+      "id": "pqa_452",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_brown(wren)"
+    },
+    {
+      "id": "pqa_453",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "floral(sally)"
+    },
+    {
+      "id": "pqa_454",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "feisty(polly)"
+    },
+    {
+      "id": "pqa_455",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_earthy(fae)"
+    },
+    {
+      "id": "pqa_456",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_large(stella)"
+    },
+    {
+      "id": "pqa_457",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_transparent(rex)"
+    },
+    {
+      "id": "pqa_458",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "earthy(max)"
+    },
+    {
+      "id": "pqa_459",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_liquid(sam)"
+    },
+    {
+      "id": "pqa_460",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "opaque(rex)"
+    },
+    {
+      "id": "pqa_461",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_opaque(sally)"
+    },
+    {
+      "id": "pqa_462",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "brown(stella)"
+    },
+    {
+      "id": "pqa_463",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(alex)"
+    },
+    {
+      "id": "pqa_464",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sour(rex)"
+    },
+    {
+      "id": "pqa_465",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "angry(max)"
+    },
+    {
+      "id": "pqa_466",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_blue(alex)"
+    },
+    {
+      "id": "pqa_467",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_kind(polly)"
+    },
+    {
+      "id": "pqa_468",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_mean(polly)"
+    },
+    {
+      "id": "pqa_469",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(alex)"
+    },
+    {
+      "id": "pqa_470",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bright(sam)"
+    },
+    {
+      "id": "pqa_471",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sour(wren)"
+    },
+    {
+      "id": "pqa_472",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_liquid(max)"
+    },
+    {
+      "id": "pqa_473",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "mean(sally)"
+    },
+    {
+      "id": "pqa_474",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bright(polly)"
+    },
+    {
+      "id": "pqa_475",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "amenable(wren)"
+    },
+    {
+      "id": "pqa_476",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_bright(fae)"
+    },
+    {
+      "id": "pqa_477",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "small(polly)"
+    },
+    {
+      "id": "pqa_478",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_bitter(sally)"
+    },
+    {
+      "id": "pqa_479",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_dull(stella)"
+    },
+    {
+      "id": "pqa_480",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "happy(polly)"
+    },
+    {
+      "id": "pqa_481",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "temperate(rex)"
+    },
+    {
+      "id": "pqa_482",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_red(sally)"
+    },
+    {
+      "id": "pqa_483",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_orange(fae)"
+    },
+    {
+      "id": "pqa_484",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_luminous(stella)"
+    },
+    {
+      "id": "pqa_485",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "opaque(sam)"
+    },
+    {
+      "id": "pqa_486",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "bright(rex)"
+    },
+    {
+      "id": "pqa_487",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "hot(alex)"
+    },
+    {
+      "id": "pqa_488",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(rex)"
+    },
+    {
+      "id": "pqa_489",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "bright(max)"
+    },
+    {
+      "id": "pqa_490",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "cold(stella)"
+    },
+    {
+      "id": "pqa_491",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_orange(rex)"
+    },
+    {
+      "id": "pqa_492",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_angry(alex)"
+    },
+    {
+      "id": "pqa_493",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "query": "neg_fruity(rex)"
+    },
+    {
+      "id": "pqa_494",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "query": "orange(sam)"
+    },
+    {
+      "id": "pqa_495",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "query": "neg_aggressive(alex)"
+    },
+    {
+      "id": "pqa_496",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(stella)"
+    },
+    {
+      "id": "pqa_497",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_sweet(rex)"
+    },
+    {
+      "id": "pqa_498",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(fae)"
+    },
+    {
+      "id": "pqa_499",
+      "gold": "False",
+      "pred": "True",
+      "correct": false,
+      "query": "neg_small(polly)"
+    }
+  ]
+}
