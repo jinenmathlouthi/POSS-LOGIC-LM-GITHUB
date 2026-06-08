@@ -59,7 +59,7 @@ POSS-LOGIC-LM-GITHUB/
 │
 ├── Figures/
 │   ├── Figure4/
-│   └── Figures5/
+│   └── Figure4/
 │
 ├── analysis_outputs/
 │   └── final_figures/
